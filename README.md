@@ -6,6 +6,6 @@ font:
 
 
 Icon
-!(icon)(https://github.com/winkyt/LocationSpoofing/blob/master/img/Icon.png)
+![icon](https://github.com/winkyt/LocationSpoofing/blob/master/img/Icon.png)
 
 Video 
