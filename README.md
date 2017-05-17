@@ -21,7 +21,7 @@ please view the /video
 
 
 
-##Yuanyuan's Documendation:
+## Yuanyuan's Documendation:
 
 2017.05.16 initial storymap
 
