@@ -1,4 +1,5 @@
-# Location-Spoofing-
+# Location-Spoofing
+
 Color: 
 
 https://coolors.co/67b8e0-006080-b51e1e-606020-5e5e5e
@@ -22,6 +23,8 @@ please view the /video
 
 
 ## Yuanyuan's Documendation:
+
+**Stortymap: [Standing #Rock](https://cdn.rawgit.com/winkyt/LocationSpoofing/d5333d67/LocationSpoofing_index.html)**
 
 2017.05.16 initial storymap
 
