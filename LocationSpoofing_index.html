@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="css/fish_style.css">
+    <link rel="stylesheet" type="text/css" href="css/storymap.css">
     <link rel="stylesheet" href="css/control-minimap.css" />
     <link rel="stylesheet" href="css/ekko-lightbox.css"/>        
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,69 +26,43 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/leaflet.ajax.min.js"></script>
-    <script src="js/storymap_fixed.js"></script>
+    <script src="js/storymap.js"></script>
 	<script src="js/ekko-lightbox.js"></script>
 	<script src="js/control-minimap.js" type="text/javascript"></script>
 	
 </head>
 <body>
-<!--<div class="navbar navbar-inverse navbar-fixed-top navbar-toggleable-md" role="navigation">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">StandingRock</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="javascript:window.scrollBy(0, $('section[data-scene=map_intro]').offset().top - $(window).scrollTop() - 40);">Background</a>
-                </li>
+
+
+
+<div class="navbar navbar-inverse navbar-fixed-top navbar-toggleable-md" role="navigation">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+
+			<a class="navbar-brand" href="#">Hello, World!</a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a href="javascript:window.scrollBy(0, $('section[data-scene=map_pipeline]').offset().top - $(window).scrollTop() - 40);">Pipeline</a>
+					<a href="javascript:window.scrollBy(0, $('section[data-scene=scene1]').offset().top - $(window).scrollTop() - 40);">Scene 1</a>
 				</li>
 				<li>
-					<a href="javascript:window.scrollBy(0, $('section[data-scene=map_camp]').offset().top - $(window).scrollTop() - 40);">Protest</a>
+					<a href="javascript:window.scrollBy(0, $('section[data-scene=scene2]').offset().top - $(window).scrollTop() - 40);">Scene 2</a>
 				</li>
-                <li>
-                    <a href="javascript:window.scrollBy(0, $('section[data-scene=support]').offset().top - $(window).scrollTop() - 40);">Check-in</a>
-                </li>
-                <li>
-                    <a href="javascript:window.scrollBy(0, $('section[data-scene=map_curve]').offset().top - $(window).scrollTop() - 40);">Facebook</a>
-                </li>
-                <li>
-                    <a href="javascript:window.scrollBy(0, $('section[data-scene=map_chart]').offset().top - $(window).scrollTop() - 40);">Data</a>
-                </li>
-                <li>
-                    <a href="javascript:window.scrollBy(0, $('section[data-scene=chinook]').offset().top - $(window).scrollTop() - 40);">Chinook</a>
-                </li>
-                <li>
-                    <a href="javascript:window.scrollBy(0, $('section[data-scene=coho]').offset().top - $(window).scrollTop() - 40);">Coho</a>
-                </li>
-                <li>
-                    <a href="javascript:window.scrollBy(0, $('section[data-scene=chum]').offset().top - $(window).scrollTop() - 40);">Chum</a>
-                </li>
-                <li>
-                    <a href="javascript:window.scrollBy(0, $('section[data-scene=sockeye]').offset().top - $(window).scrollTop() - 40);">Sockeye</a>
-                </li>
-                <li>
-                    <a href="javascript:window.scrollBy(0, $('section[data-scene=lamprey]').offset().top - $(window).scrollTop() - 40);">Lamprey</a>
-                </li>
-                <li>
-                    <a href="javascript:window.scrollBy(0, $('section[data-scene=sturgeon]').offset().top - $(window).scrollTop() - 40);">Sturgeon</a>
-                </li>
-                <li>
-                    <a href="javascript:window.scrollBy(0, $('section[data-scene=hatcheries]').offset().top - $(window).scrollTop() - 40);">Hatcheries</a>
-                </li>
-                <li>
-                    <a href="javascript:window.scrollBy(0, $('section[data-scene=end]').offset().top - $(window).scrollTop() - 40);">End</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-     /.container 
-</div>-->
+				<li>
+					<a href="javascript:window.scrollBy(0, $('section[data-scene=scene3]').offset().top - $(window).scrollTop() - 40);">Scene 3</a>
+				</li>
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container -->
+</div>
+
+
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-6 col-md-4 main"  style="background-color:#EDEDED" >
@@ -274,7 +248,7 @@
                 	<p2>Drinking water statistics and information: Oregon DEQ, Oregon Health Authority, Portland Water Bureau</p2>
                 </div>
                 <div class="modal-footer">
-                    <p2>Created with Leaflet</p>
+                    <p2>Created with Leaflet</p2>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
