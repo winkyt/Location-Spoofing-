@@ -194,7 +194,8 @@ h4{
     background: url(end_fish.jpg) no-repeat center center fixed;
 }
 .overview-background-img {
-    background: url(overview_pin.jpg) no-repeat center center fixed;
+    background: url(overview_people.jpg) no-repeat center center fixed;
+    opacity: 1;
 }
 .checkin-background-img {
     background: url(checkin_background.jpg) no-repeat center center fixed;

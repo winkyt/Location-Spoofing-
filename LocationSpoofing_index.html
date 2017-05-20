@@ -30,6 +30,8 @@
 	<script src="js/ekko-lightbox.js"></script>
 	<script src="js/control-minimap.js" type="text/javascript"></script>
 	<script src="https://cdn.bootcss.com/chroma-js/1.3.3/chroma.min.js"></script>
+	<script src="https://cdn.rawgit.com/teastman/Leaflet.pattern/44c56780/dist/leaflet.pattern-src.js"></script>
+	<script src="https://teastman.github.io/Leaflet.pattern/leaflet.pattern.js"></script>
 
 	
 </head>
@@ -38,7 +40,16 @@
 
 
 <div class="navbar navbar-inverse navbar-fixed-top navbar-toggleable-md" role="navigation">
-	<div class="container">
+	<div class="container-fluid">
+
+
+		<!--<a class="navbar-brand" href="#"></a>-->
+		<a class="navbar-brand" href="#">
+			<img src="img/font.PNG" class="align-top" height="20px" align="left"> &nbsp; 3D Storymap
+		</a>
+
+
+
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 
@@ -48,7 +59,7 @@
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a href="javascript:window.scrollBy(0,$('section[data-scene=map_intro]').offset().top-$(window).scrollTop()-40);">Background</a>
+					<a href="javascript:window.scrollBy(0,$('section[data-scene=map_intro]').offset().top-$(window).scrollTop()-40);">StandingRock</a>
 				</li>
 				<li>
 					<a href="javascript:window.scrollBy(0,$('section[data-scene=map_pipeline]').offset().top-$(window).scrollTop()-40);">Pipeline</a>
@@ -57,10 +68,10 @@
 					<a href="javascript:window.scrollBy(0,$('section[data-scene=map_camp]').offset().top-$(window).scrollTop()-40);">Protest</a>
 				</li>
 				<li>
-					<a href="javascript:window.scrollBy(0,$('section[data-scene=support]').offset().top-$(window).scrollTop()-40);">Check-in</a>
+					<a href="javascript:window.scrollBy(0,$('section[data-scene=support]').offset().top-$(window).scrollTop()-40);">Facebook</a>
 				</li>
 				<li>
-					<a href="javascript:window.scrollBy(0,$('section[data-scene=map_curve]').offset().top-$(window).scrollTop()-40);">Facebook</a>
+					<a href="javascript:window.scrollBy(0,$('section[data-scene=map_curve]').offset().top-$(window).scrollTop()-40);">Check-in</a>
 				</li>
 				<li>
 					<a href="javascript:window.scrollBy(0,$('section[data-scene=map_chart]').offset().top-$(window).scrollTop()-40);">Data</a>
@@ -84,13 +95,13 @@
         
             <section data-scene="overview">
 				 	<div class= "overview-background-img background-fullscreen-setting text-responsive">
-						<h4 class="text-center" style="font-size:120px; color:#5E5E5E;text-shadow: #5E5E5E 0.1em 0.1em 0.2em; position:absolute; left: 3%; top: 1px;">Standing #Rock</h4>
+						<h4 class="text-center" style="font-size:120px; color:white;text-shadow: #5E5E5E 0.1em 0.1em 0.2em; position:fixed;  left: 16%;bottom: 70%;">Standing #Rock</h4>
 						<br>
-						<h4 class ="text-center" style="font-size:30px; color: #5E5E5E; margin-left: 12%; text-align:justify; position:absolute; left: 10px; top: 180px;">
+						<!--<h4 class ="text-center" style="font-size:30px; color: #5E5E5E; margin-left: 12%; text-align:justify; position:absolute; left: 10px; top: 180px;">
 							'Water is life'   'Mni wiconi'  'No DAPL'
-						</h4>
+						</h4>-->
 						<br/><br/>
-						<p class ="text-center" style="font-size:18px; margin-top:0px; color: black; text-shadow: white 0.1em 0.1em 0.2em;display:block; position:absolute; right: 1%; bottom: 1%;">
+						<p class ="text-center" style="font-size:18px; margin-top:0px; color: white; display:block; position:absolute; right: 1%; bottom: 1%;">
 							Created by Yuanyuan Tian, Yingqi Tang, Majid @ Oregon State University
 						</p>
 					</div>
@@ -256,17 +267,17 @@
                     <h2 class="modal-title">About</h2>
                 </div>
                 <div class="modal-body">
-                    <p2>Cover photo by Sam Beebe/Ecotrust - retrieved from Wikimedia Commons</p2><br>                    
-                    <p2>End photo retrieved from Wikimedia Commons</p2><br>
-                    <p2 style="font-size:20px">Geographic Data</p2><br>
-                    <p2>Surface Source Areas: <a href = "http://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7BBD6FD933-A183-4A4C-8314-AF1FC4613CB7%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p2><br>
-                	<p2>Groundwater Source Areas: <a href = "http://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7B6A1EC8DD-8B68-4483-8CC5-01C57B6A2C27%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p2><br>
-                	<p2>Potential Contaminant Sources: <a href = "https://www.oregon.gov/deq/wq/programs/Pages/DWP-Maps.aspx" target="_blank">Oregon Department of Environmental Quality</a></p2><br>
-                	<p2 style="font-size:20px">Text Data</p2><br>
-                	<p2>Drinking water statistics and information: Oregon DEQ, Oregon Health Authority, Portland Water Bureau</p2>
+                    <p>Cover photo by Sam Beebe/Ecotrust - retrieved from Wikimedia Commons</p><br>
+                    <p>End photo retrieved from Wikimedia Commons</p><br>
+                    <p style="font-size:20px">Geographic Data</p><br>
+                    <p>Surface Source Areas: <a href = "http://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7BBD6FD933-A183-4A4C-8314-AF1FC4613CB7%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p><br>
+                	<p>Groundwater Source Areas: <a href = "http://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7B6A1EC8DD-8B68-4483-8CC5-01C57B6A2C27%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p><br>
+                	<p>Potential Contaminant Sources: <a href = "https://www.oregon.gov/deq/wq/programs/Pages/DWP-Maps.aspx" target="_blank">Oregon Department of Environmental Quality</a></p><br>
+                	<p style="font-size:20px">Text Data</p><br>
+                	<p>Drinking water statistics and information: Oregon DEQ, Oregon Health Authority, Portland Water Bureau</p>
                 </div>
                 <div class="modal-footer">
-                    <p2>Created with Leaflet</p>
+                    <p>Created with Leaflet</p>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -294,6 +305,22 @@
         }
     });
 
+        var stripes = new L.StripePattern({
+            patternContentUnits: 'objectBoundingBox',
+            patternUnits: 'objectBoundingBox',
+            weight: 0.01,
+            spaceWeight: 0.01,
+            height: 0.03,
+            angle: 45,
+            color:'red',
+        });
+
+    /*var Indianpattern = new L.PatternPath({
+        d: 'img/font.png',
+        fill: true
+    });
+    var pattern = new L.Pattern({width:50, height:50});
+    pattern.addShape(shape);*/
 
 
 //	
@@ -323,12 +350,15 @@
 			'camp': [ L.geoJson.ajax('asset/camp.geojson',  {
 				color: '#006080',
 				weight: 3000,
-				opacity: 1}),
+				opacity: 1,
+                /*fillPattern: pattern,
+                fillOpacity: 1.0*/
+			}),
 			],
 			'countyND': [ L.geoJson.ajax('asset/countyND.geojson',  {
 				color: '#5E5E5E',
 				weight: 1,
-				opacity: 0.2}),
+				opacity: 0.2})
 			],
 			'pipeline': [ L.geoJson.ajax('asset/pipeline.geojson',  {
 				color: '#B51E1E',
@@ -341,9 +371,12 @@
 				opacity: 0.5}),
 			],
 			'standingrock': [ L.geoJson.ajax('asset/standingrock.geojson',  {
-				color: '#606020',
-				weight: 3,
-				opacity: 0.5}),
+				/*color: '#606020',
+				weight: 3,*/
+                fillPattern: stripes,
+                stroke: false,
+				opacity: 1,
+                fillOpacity: 0.6}),
 			],
           /*'map_curve' : [L.tileLayer.wms('http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/wms', {
               layers: 'baldricg_atlas:rainbow_redband',
@@ -370,7 +403,7 @@
 				ext: 'png'
 			})],
 ////////////////////////////////////////////////////////
-            'map_chart' : [L.tileLayer.wms('http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/wms', {
+            /*'map_chart' : [L.tileLayer.wms('http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/wms', {
               layers: 'baldricg_atlas:bulltrout',
               tiled: true,
               format: 'image/png',
@@ -413,7 +446,7 @@
 				transparent: true,
 				maxZoom: 14,
 				minZoom: 6,
-				continuousWorld: true
+				continuousWorld: true,
 			})],
             'hatcheries' : [L.geoJson.ajax('http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=baldricg_atlas:hatcheries&maxFeatures=1000&outputFormat=application%2Fjson', {
             	pointToLayer: function (feature, latlng) {
@@ -427,7 +460,7 @@
     				}
     					).bindTooltip(feature.properties.NAME, {className: 'label_tooltip'});
     				}
-				})],
+				})],*/
     		
     };
 
@@ -442,7 +475,12 @@
         	map_chart: {lat: 44.1347254, lng:-122.7411479,lat: 46.45, lng:-100.71, zoom: 7, name: 'Data&Chart', layers:['map_chart']},
             end: {lat: 46.45, lng:-100.71, zoom: 7, name: 'End', position:'fullpage'}
     };
-    
+
+
+
+
+
+
     
 
     $('.main').storymap({
@@ -453,85 +491,10 @@
         //navbar: false, 前面重新写了navbar
         createMap: function () {
             // create a map in the "map" div, set the view to a given place and zoom
-                var map = L.map('map',{zoomControl:false, scrollWheelZoom:false}).setView([44.1347254, -122.7411479], 7);
+            var map = L.map('map',{zoomControl:false, scrollWheelZoom:false}).setView([44.1347254, -122.7411479], 7);
             // add an basemap, which can be either OSM, mapbox, tilelayer, wmslayer or those designed by yourself.
-           		/*L.tileLayer.wms("http://localhost:8080/geoserver/basemap/wms", {
-        			layers: 'basemap:basemap_dark',
-       				format: 'image/png',
-       				minZoom: 6,
-        			maxZoom: 15,
-        			transparent: true,
-        		attribution: "Created by Gareth Baldrica-Franklin"
-    			}).addTo(map);
-    			
-    			L.tileLayer.wms("http://localhost:8080/geoserver/basemap/wms", {
-        			layers: 'basemap:basemap_dark_labels',
-        			format: 'image/png',
-        			minZoom: 6,
-        			maxZoom: 15,
-        			transparent: true,
-        			tiled: true, 
-        			tilesorigin: [-180, 90]
-    			}).addTo(map);
-    			*/
 
-    			L.tileLayer.wms("http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_basemap/wms", {
-        			layers: 'baldricg_basemap:or_relief',
-        			format: 'image/png',
-        			minZoom: 6,
-        			maxZoom: 10,
-        			opacity:0.2,
-        			transparent: true,
-    			}).addTo(map);
-    			
-    			L.tileLayer.wms("http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/wms", {
-        			layers: 'baldricg_atlas:water_counties_2',
-        			format: 'image/png',
-        			minZoom: 6,
-        			maxZoom: 10,
-        			opacity:0.2,
-        			transparent: true,
-    			}).addTo(map);
-    			
-    			var oregonWater = L.tileLayer.wms("http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_basemap/wms", {
-        			layers: 'baldricg_basemap:oregon_water',
-        			format: 'image/png',
-        			minZoom: 6,
-        			maxZoom: 15,
-        			transparent: true,
-    			}).addTo(map);
-    			
-    			oregonWater.setOpacity(0.3);
-    			
-    			L.tileLayer.wms("http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_basemap/wms", {
-        			layers: 'baldricg_basemap:states_light',
-        			format: 'image/png',
-        			minZoom: 6,
-        			maxZoom: 10,
-        			opacity:0.5,
-        			transparent: true,
-    			}).addTo(map);
-    			
-    			var CartoDB_PositronOnlyLabels = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
-					attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-					subdomains: 'abcd',
-					minZoom: 6,
-        			maxZoom: 15,
-					}).addTo(map);
-					
-				CartoDB_PositronOnlyLabels.setOpacity(0.6);
-    			
-    			var oregonCover = L.tileLayer.wms("http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/wms", {
-        			layers: 'baldricg_atlas:oregon_cover_white',
-        			format: 'image/png',
-        			minZoom: 6,
-        			maxZoom: 15,
-        			transparent: true,
-    			}).addTo(map);
-    			
-    			oregonCover.setOpacity(0.4);
-			
- 				
+
  				var mini = new L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
 					attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
 					subdomains: 'abcd',
@@ -550,6 +513,13 @@
 				/*if (scene == 'portland'){
 				miniMap;
 				}*/
+
+            	stripes.addTo(map);
+
+            	//pattern.addShape(shape);
+            	//pattern.addTo(map);
+
+
 
             return map;
         }
