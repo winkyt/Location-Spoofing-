@@ -396,6 +396,8 @@
 				opacity: 1,
                 fillOpacity: 0.6}),
 			],
+
+
           /*'map_curve' : [L.tileLayer.wms('http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/wms', {
               layers: 'baldricg_atlas:rainbow_redband',
               tiled: true,
@@ -488,16 +490,39 @@
         	map_intro: {lat: 46.45, lng:-100.71, zoom: 10, name: 'Background', layers:['Esri_NatGeoWorldMap','Stamen_TonerHybrid','aquifer', 'biglake', 'countyND', 'smalllake','standingrock']},
 			map_pipeline: {lat: 46.45, lng:-100.71, zoom: 11, name: 'Pipeline', layers:['Esri_NatGeoWorldMap','Stamen_TonerHybrid','aquifer', 'biglake', 'countyND', 'pipeline', 'smalllake','standingrock']},
 			map_camp: {lat: 46.45, lng:-100.71,  zoom: 12, name: 'Camp', layers:['Esri_NatGeoWorldMap','Stamen_TonerHybrid','aquifer', 'camp_symbol', 'countyND', 'pipeline', 'smalllake','standingrock']},
-        	support: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Support', layers:['support']},
-        	map_curve: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Facebook', layers:['map_curve']},
-        	map_chart: {lat: 44.1347254, lng:-122.7411479,lat: 46.45, lng:-100.71, zoom: 7, name: 'Data&Chart', layers:['map_chart']},
+        	support: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Support', layers:['Esri_NatGeoWorldMap','photomap']},
+        	map_curve: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Facebook', layers:['Esri_NatGeoWorldMap']},
+        	map_chart: {lat: 44.1347254, lng:-122.7411479,lat: 46.45, lng:-100.71, zoom: 7, name: 'Data&Chart', layers:['Esri_NatGeoWorldMap']},
             end: {lat: 46.45, lng:-100.71, zoom: 7, name: 'End', position:'fullpage'}
     };
 
+   /* var photos = [{
+        "lat": 34.04555452,
+        "lng": -118.3001509,
+        "thumbnail": "https://cdn4.iconfinder.com/data/icons/american-indian-tribe/500/American_Indian_tribe_native_clan_2-512.png",
+        "url": "https://cdn4.iconfinder.com/data/icons/american-indian-tribe/500/American_Indian_tribe_native_clan_2-512.png",
+        "name": "My First Photo"
+    }, {
+        "lat": 34.0522683,
+        "lng": -118.2698607,
+        "thumbnail": "https://cdn4.iconfinder.com/data/icons/american-indian-tribe/500/American_Indian_tribe_native_clan_2-512.png",
+        "url": "https://cdn4.iconfinder.com/data/icons/american-indian-tribe/500/American_Indian_tribe_native_clan_2-512.png",
+        "name": "My Second Photo"
+    }, {
+        "lat": 34.06281904,
+        "lng": -118.2809651,
+        "thumbnail": "https://cdn4.iconfinder.com/data/icons/american-indian-tribe/500/American_Indian_tribe_native_clan_2-512.png",
+        "url": "https://cdn4.iconfinder.com/data/icons/american-indian-tribe/500/American_Indian_tribe_native_clan_2-512.png",
+        "name": "My Third Photo"
+    }];*/
 
 
-
-
+        /*var template = '<img src="{url}" /></a><p>{name}</p>';*/
+        var photomap = L.geoJson.ajax('asset/camp.geojson',  {
+            onEachFeature: function (feature, layer) {
+                layer.bindPopup(feature.properties.camp_nam );
+            }
+        });
 
 
 
