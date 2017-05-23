@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata" />
 	<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.css" rel='stylesheet' />
   
-	<link rel="shortcut icon" href="img/Indian_icon.ico" type="icon/Icon">
+	<link rel="shortcut icon" href="img/symbol.png" type="icon/Icon">
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
@@ -47,7 +47,7 @@
 
 		<!--<a class="navbar-brand" href="#"></a>-->
 		<a class="navbar-brand" href="#">
-			<img src="img/Indian_symbol1.png" class="align-top" height="20px" align="left"> &nbsp;
+			<img src="img/symbol.png" class="align-top" height="20px" align="left"> &nbsp;
 		</a>
 
 		<!-- Brand and toggle get grouped for better mobile display -->
@@ -518,11 +518,7 @@
 
 
         /*var template = '<img src="{url}" /></a><p>{name}</p>';*/
-        var photomap = L.geoJson.ajax('asset/camp.geojson',  {
-            onEachFeature: function (feature, layer) {
-                layer.bindPopup(feature.properties.camp_nam );
-            }
-        });
+
 
 
 
