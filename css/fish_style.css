@@ -493,3 +493,9 @@ font-family: 'La Belle Aurore', cursive;
 
 
 
+.my_polyline {
+    stroke: #B51E1E;
+    fill: none;
+    stroke-dasharray: 10,10;
+    stroke-width: 5;
+}

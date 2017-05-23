@@ -26,7 +26,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/leaflet.ajax.min.js"></script>
-    <script src="js/storymap_fixed.js"></script>
+	<script src="js/storymap.js"></script>
 	<script src="js/ekko-lightbox.js"></script>
 	<script src="js/control-minimap.js" type="text/javascript"></script>
 	<script src="https://cdn.bootcss.com/chroma-js/1.3.3/chroma.min.js"></script>
@@ -40,15 +40,13 @@
 
 
 <div class="navbar navbar-inverse navbar-fixed-top navbar-toggleable-md" role="navigation" style="background-color: #B51E1E">
-	<div class="container-fluid">
+	<div class="container-fluid" style="background-color: #B51E1E">
 
 
 		<!--<a class="navbar-brand" href="#"></a>-->
 		<a class="navbar-brand" href="#">
 			<img src="img/Indian_symbol1.png" class="align-top" height="20px" align="left"> &nbsp;
 		</a>
-
-
 
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -80,23 +78,18 @@
 					<a href="javascript:window.scrollBy(0,$('section[data-scene=end]').offset().top-$(window).scrollTop()-40);">End</a>
 				</li>
 
-<!--
-四个小图标有问题
--->
-
 				<li>
-					<i class="fa fa-info-circle social" style="right:70px;" data-toggle="modal" data-target="#info-modal"></i>
+					<a class="fa fa-info-circle social" style="padding-left:3px; padding-right:0px !important;" data-toggle="modal" data-target="#info-modal"></a>
 				</li>
 				<li>
-					<a class="fa fa-facebook-square social2" style="right:55px;" href="https://facebook.com/sharer.php?u=https://cdn.rawgit.com/winkyt/LocationSpoofing/2b2f9c82/LocationSpoofing_index.html" target="_blank"></a>
+					<a class="fa fa-facebook-square social2" style="padding-left:3px; padding-right:0px !important;"href="https://facebook.com/sharer.php?u=https://cdn.rawgit.com/winkyt/LocationSpoofing/2b2f9c82/LocationSpoofing_index.html" target="_blank"></a>
 				</li>
 				<li>
-					<a class="fa fa-twitter-square social3" style="right:40px;" href="https://twitter.com/home?status=Location's%20Spoofing%0Ahttp%3A//cdn.rawgit.com/winkyt/LocationSpoofing/2b2f9c82/LocationSpoofing_index.html" target="_blank"></a>
+					<a class="fa fa-twitter-square social3" style="padding-left:3px; padding-right:0px !important;" href="https://twitter.com/home?status=Location's%20Spoofing%0Ahttp%3A//cdn.rawgit.com/winkyt/LocationSpoofing/2b2f9c82/LocationSpoofing_index.html" target="_blank"></a>
 				</li>
 				<li>
-					<a class="fa fa-github-square social3" style="right:25px;" href="https://github.com/winkyt/LocationSpoofing" target="_blank"></a>
-			</li>
-
+					<a class="fa fa-github-square social3" style="padding-left:3px; padding-right:8px !important;" href="https://github.com/winkyt/LocationSpoofing" target="_blank"></a>
+				</li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->
@@ -118,8 +111,11 @@
 							'Water is life'   'Mni wiconi'  'No DAPL'
 						</h4>-->
 						<br/><br/>
-						<p class ="text-center" style="font-size:18px; margin-top:0px; color: white; display:block; position:absolute; right: 1%; bottom: 1%;">
+						<p class ="text-center" style="font-size:18px; margin-top:0px; color: white; display:block; position:absolute; right: 1%; bottom: 0%; align-content: right">
+							<img src="img/grouplogo.png" alt="Protest Camping" align="right" height="30" width="94.3" style="bottom:1%" >
+<!--
 							Created by Yuanyuan Tian, Yingqi Tang, Majid @ Oregon State University
+-->
 						</p>
 					</div>
                 	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>                 
@@ -128,9 +124,12 @@
 			<section data-scene="checkin">
 				<div class= "checkin-background-img background-fullscreen-setting text-responsive">
 					<h4 class ="text-left" style="font-size:30px; color: white; text-align:justify; margin-top: 1%;position:absolute; left: 10px; top: 20px; " >
-						From xxxx-xxxx, over xxxx(A million) people 'check in' at Standing Rock on Facebook.
+						From xxxx-xxxx, over xxxx(A million) people 'check in' at Standing Rock on Facebook.</br>
+						<i class="fa fa-map-marker" aria-hidden="true"></i>Standing Rock, ND
+						<i class="fa fa-users" aria-hidden="true"></i>33,000
+						<i class="fa fa-facebook-square" aria-hidden="true"></i>
+						<i class="fa fa-check-square-o" aria-hidden="true"></i>Check-in
 					</h4>
-					<img src="img/StanddingRockFB.png" alt="Protest Camping" style="margin-top: 6%;margin-left: 2%;">
 				</div>
 				<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 			</section>
@@ -165,6 +164,11 @@
 					<i style="background: #006080; opacity: 0.8; margin-right: 8px;"></i><p>Lakes</p><br/><br/>
 					<i style="background: #606020; opacity: 0.8; margin-right: 8px;"></i><p>Sacred Site</p><br/><br/>
 					<i style="background: #B51E1E; opacity: 1; margin-right: 8px;"></i><p>Pipeline</p><br/>
+<!--不晓得怎么画虚线，用illustrator代替
+					<i style="background: #B51E1E;" class="my_polyline"><svg height="16" width="16">  </svg></i><p><b>Tower</b></p>;
+-->
+
+
 				</div>
 				<br/><br/><br/>
 			</section>
@@ -278,17 +282,17 @@
                     <h2 class="modal-title">About</h2>
                 </div>
                 <div class="modal-body">
-                    <p2>Cover photo by Sam Beebe/Ecotrust - retrieved from Wikimedia Commons</p2><br>
-                    <p2>End photo retrieved from Wikimedia Commons</p2><br>
-                    <p2 style="font-size:20px">Geographic Data</p2><br>
-                    <p2>Surface Source Areas: <a href = "http://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7BBD6FD933-A183-4A4C-8314-AF1FC4613CB7%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p2><br>
-                	<p2>Groundwater Source Areas: <a href = "http://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7B6A1EC8DD-8B68-4483-8CC5-01C57B6A2C27%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p2><br>
-                	<p2>Potential Contaminant Sources: <a href = "https://www.oregon.gov/deq/wq/programs/Pages/DWP-Maps.aspx" target="_blank">Oregon Department of Environmental Quality</a></p2><br>
-                	<p2 style="font-size:20px">Text Data</p2><br>
-                	<p2>Drinking water statistics and information: Oregon DEQ, Oregon Health Authority, Portland Water Bureau</p2>
+                    <p>Cover photo by Sam Beebe/Ecotrust - retrieved from Wikimedia Commons</p><br>
+                    <p>End photo retrieved from Wikimedia Commons</p><br>
+                    <p style="font-size:20px">Geographic Data</p><br>
+                    <p>Surface Source Areas: <a href = "http://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7BBD6FD933-A183-4A4C-8314-AF1FC4613CB7%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p><br>
+                	<p>Groundwater Source Areas: <a href = "http://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7B6A1EC8DD-8B68-4483-8CC5-01C57B6A2C27%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p><br>
+                	<p>Potential Contaminant Sources: <a href = "https://www.oregon.gov/deq/wq/programs/Pages/DWP-Maps.aspx" target="_blank">Oregon Department of Environmental Quality</a></p><br>
+                	<p style="font-size:20px">Text Data</p><br>
+                	<p>Drinking water statistics and information: Oregon DEQ, Oregon Health Authority, Portland Water Bureau</p>
                 </div>
                 <div class="modal-footer">
-                    <p2>Created with Leaflet</p>
+                    <p>Created with Leaflet</p>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -326,17 +330,18 @@
             color:'red',
         });
 
-		var shape = new L.PatternPath({
+		/*var shape = new L.PatternPath({
 			d:'img/Indian_symbol1',
 			fill: true,
             fillOpacity: 0.8,
             color: "#fff",
             weight: 5,
             opacity: 0.8
-		});
+		});*/
+    var shape = new L.PatternCircle({ x: 12, y: 12, radius: 10, fill: true, color:'red',opacity:'0.5'});
+    var pattern = new L.Pattern({stroke:true});
 
-
-//	
+    //
 //<p style="text-align:left; font-weight:bold">Hover for source</p>'
 
     var layers = {
@@ -371,9 +376,10 @@
 				opacity: 0.2}),
 			],
 			'pipeline': [ L.geoJson.ajax('asset/pipeline.geojson',  {
-				color: '#B51E1E',
 				weight: 3,
-				opacity: 1}),
+				opacity: 1,
+                className: 'my_polyline',
+				}),
 			],
 			'smalllake': [ L.geoJson.ajax('asset/smalllake.geojson',  {
 				color: '#006080',
@@ -383,7 +389,7 @@
 			'standingrock': [ L.geoJson.ajax('asset/standingrock.geojson',  {
 				/*color: '#606020',
 				weight: 3,*/
-                fillPattern: shape,
+                fillPattern: pattern,
                 stroke: false,
 				opacity: 1,
                 fillOpacity: 0.6}),
@@ -501,30 +507,40 @@
         //navbar: false, 前面重新写了navbar
         createMap: function () {
             // create a map in the "map" div, set the view to a given place and zoom
-            var map = L.map('map',{zoomControl:false, scrollWheelZoom:false}).setView([44.1347254, -122.7411479], 7);
+            var map = L.map('map', {zoomControl: false, scrollWheelZoom: false}).setView([44.1347254, -122.7411479], 7);
             // add an basemap, which can be either OSM, mapbox, tilelayer, wmslayer or those designed by yourself.
 
 
- 				var mini = new L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-					attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-					subdomains: 'abcd',
-					maxZoom: 9,
-					minZoom: 4
-				});
+            var minibsemap = new L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+                subdomains: 'abcd',
+                maxZoom: 9,
+                minZoom: 4
+            });
+
+            var pipeline = L.geoJson.ajax('asset/pipeline.geojson', {
+                color: '#B51E1E',
+                weight: 3,
+                opacity: 1
+            });
+
+            var minigroup = L.layerGroup([pipeline, minibsemap]);
+
 			    var currentZoom = 0;
 
-				var miniMap = new L.Control.MiniMap(mini, { toggleDisplay: false});
+				var miniMap = new L.Control.MiniMap(minigroup, { toggleDisplay: false});
 
 				miniMap.addTo(map);
 
-			
 				new L.Control.Zoom({ position: 'bottomright'}).addTo(map);
 
 				/*if (scene == 'portland'){
 				miniMap;
 				}*/
 
-            	stripes.addTo(map);
+            	/*stripes.addTo(map);*/
+            pattern.addShape(shape);
+            pattern.addTo(map);
 
 
 
