@@ -23,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/js/storymap_fixed.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+              <caret line="67" column="15" lean-forward="false" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -34,16 +34,17 @@
       <file leaf-file-name="LocationSpoofing_index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LocationSpoofing_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="340" column="100" lean-forward="false" selection-start-line="340" selection-start-column="100" selection-end-line="340" selection-end-column="100" />
+            <state relative-caret-position="75">
+              <caret line="513" column="0" lean-forward="true" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#2317#2323#0" expanded="true" />
+                <element signature="e#2604#2610#0" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -62,48 +63,48 @@
                 <element signature="n#style#0;n#i#4;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1495513801815" expanded="true" signature="16592:17155" ph="{...}" />
-                <marker date="1495513801815" expanded="true" signature="16643:16981" ph="{...}" />
-                <marker date="1495513801815" expanded="true" signature="17032:17149" ph="{...}" />
-                <marker date="1495513801815" expanded="true" signature="17201:17444" ph="{&quot;patternContentUnits&quot;: 'objectBoundingBox'...}" />
-                <marker date="1495513801815" expanded="true" signature="17450:17638" ph="/*...*/" />
-                <marker date="1495513801815" expanded="true" signature="17797:17802" ph="//..." />
-                <marker date="1495513801815" expanded="true" signature="17887:20102" ph="{...}" />
-                <marker date="1495513801815" expanded="true" signature="17892:18054" ph="/*...*/" />
-                <marker date="1495513801815" expanded="true" signature="18196:18302" ph="[...]" />
-                <marker date="1495513801815" expanded="true" signature="18239:18295" ph="{&quot;color&quot;: '##67B8E0'...}" />
-                <marker date="1495513801815" expanded="true" signature="18318:18424" ph="[...]" />
-                <marker date="1495513801815" expanded="true" signature="18361:18417" ph="{&quot;color&quot;: '##006080'...}" />
-                <marker date="1495513801815" expanded="true" signature="18437:18542" ph="[...]" />
-                <marker date="1495513801815" expanded="true" signature="18477:18535" ph="{&quot;color&quot;: '##006080'...}" />
-                <marker date="1495513801815" expanded="true" signature="18559:18666" ph="[...]" />
-                <marker date="1495513801815" expanded="true" signature="18603:18659" ph="{&quot;color&quot;: '##5E5E5E'...}" />
-                <marker date="1495513801815" expanded="true" signature="18683:18814" ph="[...]" />
-                <marker date="1495513801815" expanded="true" signature="18727:18807" ph="{&quot;className&quot;: 'my_polyline'...}" />
-                <marker date="1495513801815" expanded="true" signature="18832:18940" ph="[...]" />
-                <marker date="1495513801815" expanded="true" signature="18877:18933" ph="{&quot;color&quot;: '##006080'...}" />
-                <marker date="1495513801815" expanded="true" signature="18961:19177" ph="[...]" />
-                <marker date="1495513801815" expanded="true" signature="19009:19170" ph="{&quot;fillPattern&quot;: pattern...}" />
-                <marker date="1495513801815" expanded="true" signature="19015:19051" ph="/*...*/" />
-                <marker date="1495513801815" expanded="true" signature="19189:19553" ph="/*...*/" />
-                <marker date="1495513801815" expanded="true" signature="19563:19608" ph="//..." />
-                <marker date="1495513801815" expanded="true" signature="19636:19924" ph="[...]" />
-                <marker date="1495513801815" expanded="true" signature="19748:19922" ph="{&quot;attribution&quot;: 'Tiles &amp;copy; Esri &amp;mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC'...}" />
-                <marker date="1495513801815" expanded="true" signature="19981:20102" ph="[...]" />
-                <marker date="1495513801815" expanded="true" signature="20069:20102" ph="{&quot;attribution&quot;: 'Map tiles by ...}" />
-                <marker date="1495513801815" expanded="true" signature="20216:20223" ph="—" />
-                <marker date="1495513801815" expanded="true" signature="20233:20239" ph="©" />
-                <marker date="1495513801815" expanded="true" signature="20458:22700" ph="/*...*/" />
-                <marker date="1495513801815" expanded="true" signature="22733:23918" ph="{...}" />
-                <marker date="1495513801815" expanded="true" signature="23952:24585" ph="{&quot;scenes&quot;: scenes...}" />
-                <marker date="1495513801815" expanded="true" signature="24114:24585" ph="{...}" />
-                <marker date="1495513801815" expanded="true" signature="24546:24585" ph="{&quot;attribution&quot;: '&amp;copy; ...}" />
-                <marker date="1495513801815" expanded="true" signature="24578:24584" ph="©" />
-                <marker date="1495513801815" expanded="true" signature="24652:24658" ph="©" />
-                <marker date="1495513801815" expanded="true" signature="24891:24994" ph="{&quot;color&quot;: '##B51E1E'...}" />
-                <marker date="1495513801815" expanded="true" signature="25265:25313" ph="/*...*/" />
-                <marker date="1495513801815" expanded="true" signature="25328:25351" ph="/*...*/" />
-                <marker date="1495513801815" expanded="true" signature="25649:25710" ph="{...}" />
+                <marker date="1495574659375" expanded="true" signature="16879:17442" ph="{...}" />
+                <marker date="1495574659375" expanded="true" signature="16930:17268" ph="{...}" />
+                <marker date="1495574659375" expanded="true" signature="17319:17436" ph="{...}" />
+                <marker date="1495574659375" expanded="true" signature="17488:17731" ph="{&quot;patternContentUnits&quot;: 'objectBoundingBox'...}" />
+                <marker date="1495574659375" expanded="true" signature="17739:17922" ph="/*...*/" />
+                <marker date="1495574659375" expanded="true" signature="18083:18088" ph="//..." />
+                <marker date="1495574659375" expanded="true" signature="18173:20388" ph="{...}" />
+                <marker date="1495574659375" expanded="true" signature="18178:18340" ph="/*...*/" />
+                <marker date="1495574659375" expanded="true" signature="18482:18588" ph="[...]" />
+                <marker date="1495574659375" expanded="true" signature="18525:18581" ph="{&quot;color&quot;: '##67B8E0'...}" />
+                <marker date="1495574659375" expanded="true" signature="18604:18710" ph="[...]" />
+                <marker date="1495574659375" expanded="true" signature="18647:18703" ph="{&quot;color&quot;: '##006080'...}" />
+                <marker date="1495574659375" expanded="true" signature="18723:18828" ph="[...]" />
+                <marker date="1495574659375" expanded="true" signature="18763:18821" ph="{&quot;color&quot;: '##006080'...}" />
+                <marker date="1495574659375" expanded="true" signature="18845:18952" ph="[...]" />
+                <marker date="1495574659375" expanded="true" signature="18889:18945" ph="{&quot;color&quot;: '##5E5E5E'...}" />
+                <marker date="1495574659375" expanded="true" signature="18969:19100" ph="[...]" />
+                <marker date="1495574659375" expanded="true" signature="19013:19093" ph="{&quot;className&quot;: 'my_polyline'...}" />
+                <marker date="1495574659375" expanded="true" signature="19118:19226" ph="[...]" />
+                <marker date="1495574659375" expanded="true" signature="19163:19219" ph="{&quot;color&quot;: '##006080'...}" />
+                <marker date="1495574659375" expanded="true" signature="19247:19463" ph="[...]" />
+                <marker date="1495574659375" expanded="true" signature="19295:19456" ph="{&quot;fillPattern&quot;: pattern...}" />
+                <marker date="1495574659375" expanded="true" signature="19301:19337" ph="/*...*/" />
+                <marker date="1495574659375" expanded="true" signature="19475:19839" ph="/*...*/" />
+                <marker date="1495574659375" expanded="true" signature="19849:19894" ph="//..." />
+                <marker date="1495574659375" expanded="true" signature="19922:20210" ph="[...]" />
+                <marker date="1495574659375" expanded="true" signature="20034:20208" ph="{&quot;attribution&quot;: 'Tiles &amp;copy; Esri &amp;mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC'...}" />
+                <marker date="1495574659375" expanded="true" signature="20267:20388" ph="[...]" />
+                <marker date="1495574659375" expanded="true" signature="20355:20388" ph="{&quot;attribution&quot;: 'Map tiles by ...}" />
+                <marker date="1495574659375" expanded="true" signature="20502:20509" ph="—" />
+                <marker date="1495574659375" expanded="true" signature="20519:20525" ph="©" />
+                <marker date="1495574659375" expanded="true" signature="20744:22986" ph="/*...*/" />
+                <marker date="1495574659375" expanded="true" signature="23019:24204" ph="{...}" />
+                <marker date="1495574659375" expanded="true" signature="24238:24873" ph="{&quot;scenes&quot;: scenes...}" />
+                <marker date="1495574659375" expanded="true" signature="24400:24873" ph="{...}" />
+                <marker date="1495574659375" expanded="true" signature="24834:24873" ph="{&quot;attribution&quot;: '&amp;copy; ...}" />
+                <marker date="1495574659375" expanded="true" signature="24866:24872" ph="©" />
+                <marker date="1495574659375" expanded="true" signature="24940:24946" ph="©" />
+                <marker date="1495574659375" expanded="true" signature="25505:25608" ph="{&quot;color&quot;: '##B51E1E'...}" />
+                <marker date="1495574659375" expanded="true" signature="25879:25927" ph="/*...*/" />
+                <marker date="1495574659375" expanded="true" signature="25942:25965" ph="/*...*/" />
+                <marker date="1495574659375" expanded="true" signature="26263:26324" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -113,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/testTYY.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="634">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <marker date="1495248873047" expanded="true" signature="659:665" ph="©" />
               </folding>
@@ -146,8 +147,8 @@
       <file leaf-file-name="fish_style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/fish_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="495" column="12" lean-forward="false" selection-start-line="495" selection-start-column="1" selection-end-line="495" selection-end-column="12" />
+            <state relative-caret-position="396">
+              <caret line="95" column="21" lean-forward="false" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -164,9 +165,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>overv</find>
       <find>strip</find>
-      <find>pattern</find>
       <find>mini</find>
       <find>background-img</find>
       <find>back</find>
@@ -174,7 +173,6 @@
       <find>viewing</find>
       <find>.section-opacity</find>
       <find>section</find>
-      <find>icon</find>
       <find>fa</find>
       <find>facebook</find>
       <find>fa-info-circle</find>
@@ -186,7 +184,6 @@
       <find>container-fluid</find>
       <find>container-flui</find>
       <find>row</find>
-      <find>progress-line</find>
       <find>navbar-inverse</find>
       <find>fix</find>
       <find>p2</find>
@@ -194,6 +191,10 @@
       <find>SHAPE</find>
       <find>nav</find>
       <find>my_polyline</find>
+      <find>icon</find>
+      <find>pattern</find>
+      <find>line</find>
+      <find>progress-line</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,7 +219,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
+    <option name="x" value="-75" />
+    <option name="y" value="74" />
     <option name="width" value="1921" />
     <option name="height" value="1038" />
   </component>
@@ -399,15 +401,15 @@
       <updated>1495130702185</updated>
       <workItem from="1495130712264" duration="3539000" />
       <workItem from="1495134317123" duration="858000" />
-      <workItem from="1495135639850" duration="44217000" />
+      <workItem from="1495135639850" duration="46925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48614000" />
+    <option name="totallyTimeSpent" value="51322000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="0" width="1921" height="1038" extended-state="0" />
+    <frame x="-75" y="74" width="1921" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16168623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -461,11 +463,12 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2317#2323#0" expanded="true" />
+            <element signature="e#2604#2610#0" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -484,48 +487,48 @@
             <element signature="n#style#0;n#i#4;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1495513801815" expanded="true" signature="16592:17155" ph="{...}" />
-            <marker date="1495513801815" expanded="true" signature="16643:16981" ph="{...}" />
-            <marker date="1495513801815" expanded="true" signature="17032:17149" ph="{...}" />
-            <marker date="1495513801815" expanded="true" signature="17201:17444" ph="{&quot;patternContentUnits&quot;: 'objectBoundingBox'...}" />
-            <marker date="1495513801815" expanded="true" signature="17450:17638" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="17797:17802" ph="//..." />
-            <marker date="1495513801815" expanded="true" signature="17887:20102" ph="{...}" />
-            <marker date="1495513801815" expanded="true" signature="17892:18054" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="18196:18302" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="18239:18295" ph="{&quot;color&quot;: '##67B8E0'...}" />
-            <marker date="1495513801815" expanded="true" signature="18318:18424" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="18361:18417" ph="{&quot;color&quot;: '##006080'...}" />
-            <marker date="1495513801815" expanded="true" signature="18437:18542" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="18477:18535" ph="{&quot;color&quot;: '##006080'...}" />
-            <marker date="1495513801815" expanded="true" signature="18559:18666" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="18603:18659" ph="{&quot;color&quot;: '##5E5E5E'...}" />
-            <marker date="1495513801815" expanded="true" signature="18683:18814" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="18727:18807" ph="{&quot;className&quot;: 'my_polyline'...}" />
-            <marker date="1495513801815" expanded="true" signature="18832:18940" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="18877:18933" ph="{&quot;color&quot;: '##006080'...}" />
-            <marker date="1495513801815" expanded="true" signature="18961:19177" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="19009:19170" ph="{&quot;fillPattern&quot;: pattern...}" />
-            <marker date="1495513801815" expanded="true" signature="19015:19051" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="19189:19553" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="19563:19608" ph="//..." />
-            <marker date="1495513801815" expanded="true" signature="19636:19924" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="19748:19922" ph="{&quot;attribution&quot;: 'Tiles &amp;copy; Esri &amp;mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC'...}" />
-            <marker date="1495513801815" expanded="true" signature="19981:20102" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="20069:20102" ph="{&quot;attribution&quot;: 'Map tiles by ...}" />
-            <marker date="1495513801815" expanded="true" signature="20216:20223" ph="—" />
-            <marker date="1495513801815" expanded="true" signature="20233:20239" ph="©" />
-            <marker date="1495513801815" expanded="true" signature="20458:22700" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="22733:23918" ph="{...}" />
-            <marker date="1495513801815" expanded="true" signature="23952:24585" ph="{&quot;scenes&quot;: scenes...}" />
-            <marker date="1495513801815" expanded="true" signature="24114:24585" ph="{...}" />
-            <marker date="1495513801815" expanded="true" signature="24546:24585" ph="{&quot;attribution&quot;: '&amp;copy; ...}" />
-            <marker date="1495513801815" expanded="true" signature="24578:24584" ph="©" />
-            <marker date="1495513801815" expanded="true" signature="24652:24658" ph="©" />
-            <marker date="1495513801815" expanded="true" signature="24891:24994" ph="{&quot;color&quot;: '##B51E1E'...}" />
-            <marker date="1495513801815" expanded="true" signature="25265:25313" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="25328:25351" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="25649:25710" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="16879:17442" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="16930:17268" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="17319:17436" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="17488:17731" ph="{&quot;patternContentUnits&quot;: 'objectBoundingBox'...}" />
+            <marker date="1495574659375" expanded="true" signature="17739:17922" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="18083:18088" ph="//..." />
+            <marker date="1495574659375" expanded="true" signature="18173:20388" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="18178:18340" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="18482:18588" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="18525:18581" ph="{&quot;color&quot;: '##67B8E0'...}" />
+            <marker date="1495574659375" expanded="true" signature="18604:18710" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="18647:18703" ph="{&quot;color&quot;: '##006080'...}" />
+            <marker date="1495574659375" expanded="true" signature="18723:18828" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="18763:18821" ph="{&quot;color&quot;: '##006080'...}" />
+            <marker date="1495574659375" expanded="true" signature="18845:18952" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="18889:18945" ph="{&quot;color&quot;: '##5E5E5E'...}" />
+            <marker date="1495574659375" expanded="true" signature="18969:19100" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="19013:19093" ph="{&quot;className&quot;: 'my_polyline'...}" />
+            <marker date="1495574659375" expanded="true" signature="19118:19226" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="19163:19219" ph="{&quot;color&quot;: '##006080'...}" />
+            <marker date="1495574659375" expanded="true" signature="19247:19463" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="19295:19456" ph="{&quot;fillPattern&quot;: pattern...}" />
+            <marker date="1495574659375" expanded="true" signature="19301:19337" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="19475:19839" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="19849:19894" ph="//..." />
+            <marker date="1495574659375" expanded="true" signature="19922:20210" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="20034:20208" ph="{&quot;attribution&quot;: 'Tiles &amp;copy; Esri &amp;mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC'...}" />
+            <marker date="1495574659375" expanded="true" signature="20267:20388" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="20355:20388" ph="{&quot;attribution&quot;: 'Map tiles by ...}" />
+            <marker date="1495574659375" expanded="true" signature="20502:20509" ph="—" />
+            <marker date="1495574659375" expanded="true" signature="20519:20525" ph="©" />
+            <marker date="1495574659375" expanded="true" signature="20744:22986" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="23019:24204" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="24238:24873" ph="{&quot;scenes&quot;: scenes...}" />
+            <marker date="1495574659375" expanded="true" signature="24400:24873" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="24834:24873" ph="{&quot;attribution&quot;: '&amp;copy; ...}" />
+            <marker date="1495574659375" expanded="true" signature="24866:24872" ph="©" />
+            <marker date="1495574659375" expanded="true" signature="24940:24946" ph="©" />
+            <marker date="1495574659375" expanded="true" signature="25505:25608" ph="{&quot;color&quot;: '##B51E1E'...}" />
+            <marker date="1495574659375" expanded="true" signature="25879:25927" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="25942:25965" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="26263:26324" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -597,7 +600,7 @@
     <entry file="file://$PROJECT_DIR$/testTYY.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="634">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <marker date="1495248873047" expanded="true" signature="659:665" ph="©" />
           </folding>
@@ -607,7 +610,7 @@
     <entry file="file://$PROJECT_DIR$/js/storymap_fixed.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+          <caret line="67" column="15" lean-forward="false" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -624,24 +627,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/fish_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="495" column="12" lean-forward="false" selection-start-line="495" selection-start-column="1" selection-end-line="495" selection-end-column="12" />
+        <state relative-caret-position="396">
+          <caret line="95" column="21" lean-forward="false" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LocationSpoofing_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="340" column="100" lean-forward="false" selection-start-line="340" selection-start-column="100" selection-end-line="340" selection-end-column="100" />
+        <state relative-caret-position="75">
+          <caret line="513" column="0" lean-forward="true" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2317#2323#0" expanded="true" />
+            <element signature="e#2604#2610#0" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -660,48 +664,48 @@
             <element signature="n#style#0;n#i#4;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1495513801815" expanded="true" signature="16592:17155" ph="{...}" />
-            <marker date="1495513801815" expanded="true" signature="16643:16981" ph="{...}" />
-            <marker date="1495513801815" expanded="true" signature="17032:17149" ph="{...}" />
-            <marker date="1495513801815" expanded="true" signature="17201:17444" ph="{&quot;patternContentUnits&quot;: 'objectBoundingBox'...}" />
-            <marker date="1495513801815" expanded="true" signature="17450:17638" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="17797:17802" ph="//..." />
-            <marker date="1495513801815" expanded="true" signature="17887:20102" ph="{...}" />
-            <marker date="1495513801815" expanded="true" signature="17892:18054" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="18196:18302" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="18239:18295" ph="{&quot;color&quot;: '##67B8E0'...}" />
-            <marker date="1495513801815" expanded="true" signature="18318:18424" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="18361:18417" ph="{&quot;color&quot;: '##006080'...}" />
-            <marker date="1495513801815" expanded="true" signature="18437:18542" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="18477:18535" ph="{&quot;color&quot;: '##006080'...}" />
-            <marker date="1495513801815" expanded="true" signature="18559:18666" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="18603:18659" ph="{&quot;color&quot;: '##5E5E5E'...}" />
-            <marker date="1495513801815" expanded="true" signature="18683:18814" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="18727:18807" ph="{&quot;className&quot;: 'my_polyline'...}" />
-            <marker date="1495513801815" expanded="true" signature="18832:18940" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="18877:18933" ph="{&quot;color&quot;: '##006080'...}" />
-            <marker date="1495513801815" expanded="true" signature="18961:19177" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="19009:19170" ph="{&quot;fillPattern&quot;: pattern...}" />
-            <marker date="1495513801815" expanded="true" signature="19015:19051" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="19189:19553" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="19563:19608" ph="//..." />
-            <marker date="1495513801815" expanded="true" signature="19636:19924" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="19748:19922" ph="{&quot;attribution&quot;: 'Tiles &amp;copy; Esri &amp;mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC'...}" />
-            <marker date="1495513801815" expanded="true" signature="19981:20102" ph="[...]" />
-            <marker date="1495513801815" expanded="true" signature="20069:20102" ph="{&quot;attribution&quot;: 'Map tiles by ...}" />
-            <marker date="1495513801815" expanded="true" signature="20216:20223" ph="—" />
-            <marker date="1495513801815" expanded="true" signature="20233:20239" ph="©" />
-            <marker date="1495513801815" expanded="true" signature="20458:22700" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="22733:23918" ph="{...}" />
-            <marker date="1495513801815" expanded="true" signature="23952:24585" ph="{&quot;scenes&quot;: scenes...}" />
-            <marker date="1495513801815" expanded="true" signature="24114:24585" ph="{...}" />
-            <marker date="1495513801815" expanded="true" signature="24546:24585" ph="{&quot;attribution&quot;: '&amp;copy; ...}" />
-            <marker date="1495513801815" expanded="true" signature="24578:24584" ph="©" />
-            <marker date="1495513801815" expanded="true" signature="24652:24658" ph="©" />
-            <marker date="1495513801815" expanded="true" signature="24891:24994" ph="{&quot;color&quot;: '##B51E1E'...}" />
-            <marker date="1495513801815" expanded="true" signature="25265:25313" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="25328:25351" ph="/*...*/" />
-            <marker date="1495513801815" expanded="true" signature="25649:25710" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="16879:17442" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="16930:17268" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="17319:17436" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="17488:17731" ph="{&quot;patternContentUnits&quot;: 'objectBoundingBox'...}" />
+            <marker date="1495574659375" expanded="true" signature="17739:17922" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="18083:18088" ph="//..." />
+            <marker date="1495574659375" expanded="true" signature="18173:20388" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="18178:18340" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="18482:18588" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="18525:18581" ph="{&quot;color&quot;: '##67B8E0'...}" />
+            <marker date="1495574659375" expanded="true" signature="18604:18710" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="18647:18703" ph="{&quot;color&quot;: '##006080'...}" />
+            <marker date="1495574659375" expanded="true" signature="18723:18828" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="18763:18821" ph="{&quot;color&quot;: '##006080'...}" />
+            <marker date="1495574659375" expanded="true" signature="18845:18952" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="18889:18945" ph="{&quot;color&quot;: '##5E5E5E'...}" />
+            <marker date="1495574659375" expanded="true" signature="18969:19100" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="19013:19093" ph="{&quot;className&quot;: 'my_polyline'...}" />
+            <marker date="1495574659375" expanded="true" signature="19118:19226" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="19163:19219" ph="{&quot;color&quot;: '##006080'...}" />
+            <marker date="1495574659375" expanded="true" signature="19247:19463" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="19295:19456" ph="{&quot;fillPattern&quot;: pattern...}" />
+            <marker date="1495574659375" expanded="true" signature="19301:19337" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="19475:19839" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="19849:19894" ph="//..." />
+            <marker date="1495574659375" expanded="true" signature="19922:20210" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="20034:20208" ph="{&quot;attribution&quot;: 'Tiles &amp;copy; Esri &amp;mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC'...}" />
+            <marker date="1495574659375" expanded="true" signature="20267:20388" ph="[...]" />
+            <marker date="1495574659375" expanded="true" signature="20355:20388" ph="{&quot;attribution&quot;: 'Map tiles by ...}" />
+            <marker date="1495574659375" expanded="true" signature="20502:20509" ph="—" />
+            <marker date="1495574659375" expanded="true" signature="20519:20525" ph="©" />
+            <marker date="1495574659375" expanded="true" signature="20744:22986" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="23019:24204" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="24238:24873" ph="{&quot;scenes&quot;: scenes...}" />
+            <marker date="1495574659375" expanded="true" signature="24400:24873" ph="{...}" />
+            <marker date="1495574659375" expanded="true" signature="24834:24873" ph="{&quot;attribution&quot;: '&amp;copy; ...}" />
+            <marker date="1495574659375" expanded="true" signature="24866:24872" ph="©" />
+            <marker date="1495574659375" expanded="true" signature="24940:24946" ph="©" />
+            <marker date="1495574659375" expanded="true" signature="25505:25608" ph="{&quot;color&quot;: '##B51E1E'...}" />
+            <marker date="1495574659375" expanded="true" signature="25879:25927" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="25942:25965" ph="/*...*/" />
+            <marker date="1495574659375" expanded="true" signature="26263:26324" ph="{...}" />
           </folding>
         </state>
       </provider>
