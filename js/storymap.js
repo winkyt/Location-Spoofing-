@@ -204,10 +204,14 @@
                     }
                 }
                 map.setView([scene.lat, scene.lng], scene.zoom, 1);
+
             }
 
             sections.on('viewing', function () {
 
+
+                // $(".loading-screen").fadeTo(0,1);
+                $(".loader").fadeTo(0,1);
 
                 $(this).addClass('viewing');
                 $(".arrow-down").css("left", "2%");
@@ -222,13 +226,7 @@
 
                     $(".arrow-down").css("left", "50%");
 
-                    //smooth transation.
-                    $(".main").fadeTo(0, 0);
-                    $("#loading").show();
-                    $('.viewing').ready(function(){
-                        $(".main").fadeTo(3000, 1);
-                        $("#loading").hide();
-                    })
+
                 } else {
                     console.log("no position parameter.")
                 }
@@ -252,7 +250,12 @@
 
                 showMapView($(this).data('scene'));
 
+
+                // $(".loading-screen").fadeTo(3000,0);
+                $(".loader").fadeTo(500,0);
+
             });
+
 
             sections.on('notviewing', function () {
                 $(this).removeClass('viewing');
@@ -269,7 +272,15 @@
 
             $('.arrow-down').click(function () {
                 if ($(".arrow-down")[0].className.includes("menu")) {
-                    window.scrollBy(0, $(".viewing").offset().top -$(window).scrollTop() + $('.viewing').height());
+
+                    if ($(".navbar").length !== 0) {
+
+                        window.scrollBy(0, $(".viewing").offset().top -$(window).scrollTop() - $('.navbar').height() + $('.viewing').height() - 10);
+                    } else {
+                        window.scrollBy(0, $(".viewing").offset().top -$(window).scrollTop() + $('.viewing').height() - 10);
+                    }
+
+
                 } else if ($(".arrow-down")[0].className.includes("home")) {
                     window.scrollTo(0, 0);
                 }

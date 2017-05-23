@@ -87,7 +87,15 @@
 */
 
 
-
+.progress-line {
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 1030;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 0%;
+}
 
 
 
@@ -191,7 +199,7 @@ h4{
     -khtml-opacity: 1;
 }
 .end-background-img {
-    background: url(end_fish.jpg) no-repeat center center fixed;
+    background: url(end_background.jpg) no-repeat center center fixed;
 }
 .overview-background-img {
     background: url(overview_people.jpg) no-repeat center center fixed;
@@ -201,6 +209,8 @@ h4{
     background: url(checkin_background.jpg) no-repeat center center fixed;
     opacity: 0.6;
 }
+
+
 
 
 
