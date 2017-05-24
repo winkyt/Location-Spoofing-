@@ -30,8 +30,8 @@
       <file leaf-file-name="LocationSpoofing_index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LocationSpoofing_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="515" column="7" lean-forward="true" selection-start-line="515" selection-start-column="7" selection-end-line="515" selection-end-column="7" />
+            <state relative-caret-position="216">
+              <caret line="508" column="4" lean-forward="true" selection-start-line="508" selection-start-column="4" selection-end-line="508" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -361,15 +361,15 @@
       <workItem from="1495135639850" duration="54922000" />
       <workItem from="1495583380884" duration="3246000" />
       <workItem from="1495591337977" duration="1413000" />
-      <workItem from="1495662970498" duration="1041000" />
+      <workItem from="1495662970498" duration="1235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65019000" />
+    <option name="totallyTimeSpent" value="65213000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1883" height="1038" extended-state="0" />
+    <frame x="-8" y="0" width="1883" height="1038" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16122004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -811,8 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LocationSpoofing_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="515" column="7" lean-forward="true" selection-start-line="515" selection-start-column="7" selection-end-line="515" selection-end-column="7" />
+        <state relative-caret-position="216">
+          <caret line="508" column="4" lean-forward="true" selection-start-line="508" selection-start-column="4" selection-end-line="508" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
