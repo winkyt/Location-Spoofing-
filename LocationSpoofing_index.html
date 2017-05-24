@@ -4,7 +4,6 @@
     <title>StandingRock</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
     <meta property="og:title" content="StandingRock" />
     <meta property="og:url" content="https://cdn.rawgit.com/winkyt/LocationSpoofing/8fe91c25/LocationSpoofing_index.html" />
     <meta property="og:description" content="Using Facebook posts about Standing Rock to study the location spoofing issue." />
@@ -17,11 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata" />
 	<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.css" rel='stylesheet' />
-  
 	<link rel="shortcut icon" href="img/symbol.png" type="icon/Icon">
-	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
 
     <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -35,7 +31,6 @@
 	<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.js"></script>
 	<script src="http://rawgit.com/mapbox/mapbox-gl-leaflet/master/leaflet-mapbox-gl.js"></script>
 
-	
 </head>
 <body>
 
@@ -43,7 +38,6 @@
 
 <div class="navbar navbar-inverse navbar-fixed-top navbar-toggleable-md" role="navigation" style="background-color: #B51E1E">
 	<div class="container-fluid" style="background-color: #B51E1E">
-
 
 		<!--<a class="navbar-brand" href="#"></a>-->
 		<a class="navbar-brand" href="#">
@@ -114,10 +108,10 @@
 						</h4>-->
 						<br/><br/>
 						<p class ="text-center" style="font-size:18px; margin-top:0px; color: white; display:block; position:absolute; right: 1%; bottom: 0%; align-content: right">
-							<img src="img/grouplogo.png" alt="Protest Camping" align="right" height="30" width="94.3" style="bottom:1%" >
 <!--
-							Created by Yuanyuan Tian, Yingqi Tang, Majid @ Oregon State University
+							<img src="img/grouplogo.png" alt="Protest Camping" align="right" height="30" width="94.3" style="bottom:1%" >
 -->
+							Created by Yuanyuan Tian, Yingqi Tang, Majid @ Oregon State University
 						</p>
 					</div>
                 	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>                 
@@ -136,7 +130,6 @@
 				<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 			</section>
 
-
 			<section data-scene="map_intro" >
                 <h3>Standing Rock</h3>
 				<h5>Background</h5>
@@ -148,7 +141,7 @@
 					<!--<p style ="font-weight: bold;">Legend</p>-->
 				<br/>
 					<i style="background: #67B8E0; opacity: 0.8; margin-right: 8px;"></i><p>Aquifer</p><br/><br/>
-					<i style="background: #006080; opacity: 0.8; margin-right: 8px;"></i><p>Lakes</p><br/><br/>
+					<i style="background: #006080; opacity: 0.8; margin-right: 8px;"></i><p>Surface Water</p><br/><br/>
 					<i style="background: #606020; opacity: 0.8; margin-right: 8px;"></i><p>Sacred Site</p><br/>
 				</div>
 				<br/><br/><br/>
@@ -163,14 +156,9 @@
 				<br/><br/>
 				<div class="leg">
 					<i style="background: #67B8E0; opacity: 0.8; margin-right: 8px;"></i><p>Aquifer</p><br/><br/>
-					<i style="background: #006080; opacity: 0.8; margin-right: 8px;"></i><p>Lakes</p><br/><br/>
+					<i style="background: #006080; opacity: 0.8; margin-right: 8px;"></i><p>Surface Water</p><br/><br/>
 					<i style="background: #606020; opacity: 0.8; margin-right: 8px;"></i><p>Sacred Site</p><br/><br/>
 					<i style="background: #B51E1E; opacity: 1; margin-right: 8px;"></i><p>Pipeline</p><br/>
-<!--不晓得怎么画虚线，用illustrator代替
-					<i style="background: #B51E1E;" class="my_polyline"><svg height="16" width="16">  </svg></i><p><b>Tower</b></p>;
--->
-
-
 				</div>
 				<br/><br/><br/>
 			</section>
@@ -184,7 +172,7 @@
 				<br/><br/>
 				<div class="leg">
 					<i style="background: #67B8E0; opacity: 0.8; margin-right: 8px;"></i><p>Aquifer</p><br/><br/>
-					<i style="background: #006080; opacity: 0.8; margin-right: 8px;"></i><p>Lakes</p><br/><br/>
+					<i style="background: #006080; opacity: 0.8; margin-right: 8px;"></i><p>Surface Water</p><br/><br/>
 					<i style="background: #606020; opacity: 0.8; margin-right: 8px;"></i><p>Sacred Site</p><br/><br/>
 					<i style="background: #B51E1E; opacity: 1; margin-right: 8px;"></i><p>Pipeline</p><br/><br/>
 					<i class="glyphicon glyphicon-tent mark-icon" style="color: orangered; font-size: 35px; text-shadow: 0 0 3px #ffffff;"></i><p>Camp</p>
@@ -244,7 +232,7 @@
 
 			<section data-scene="end">
 				<div class= "end-background-img background-fullscreen-setting text-responsive">
-					<h4 style="font-size:120px; color:#5E5E5E;text-shadow: #5E5E5E 0.1em 0.1em 0.2em;
+					<h4 style="font-size:120px; color:white;text-shadow: #5E5E5E 0.1em 0.1em 0.2em;
 					margin-left: 5%; margin-right: 60%; margin-top: 1%;text-align:justify; position:absolute; left: 1px; top: 2px; ">
 						Conclusion
 					</h4>
@@ -263,7 +251,6 @@
 				</div>
 				<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 			</section>
-
         	
         	<i class="animated zoomIn infinite glyphicon glyphicon-menu-down arrow-down"></i>
 
@@ -271,7 +258,6 @@
         <div id="map" class="col-sm-6 col-md-8 sidebar"></div>
     </div>
 
-	<!--add a progress line!!!!!!!!!!!!!!!不起作用-->
 	<div class="progress-line"></div>
 
    <ul class="navwidget text-center"></ul>
@@ -396,19 +382,22 @@
 				opacity: 1,
                 fillOpacity: 0.6}),
 			],
+			'fb': [ L.geoJson.ajax('geofbposts.geojson',  {
+				color: 'red',
+				weight: 3000,
+				opacity: 1,}),
+			],
+//mapbox basemap
+        'basemapmapbox' :[ L.mapboxGL({
+            accessToken: 'pk.eyJ1IjoidGlhbnkiLCJhIjoiY2oyOGFyemhzMDBlZjJ3cWtydjBpMHZzdSJ9.KB4Qs2my3g97OeJSPLIHOw',
+            style: 'asset/basemap/style.json',
+            subdomains: 'abcd',
+            maxZoom: 9,
+            minZoom: 4
+        })],
 
 
-          /*'map_curve' : [L.tileLayer.wms('http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/wms', {
-              layers: 'baldricg_atlas:rainbow_redband',
-              tiled: true,
-              format: 'image/png',
-              transparent: true,
-              maxZoom: 14,
-              minZoom: 6,
-              continuousWorld: true
-              })],*/
-
-        //在leaflet上面找的底图
+        //在leaflet basemap
 		// https: also suppported.
 			'Esri_NatGeoWorldMap' : [L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
 			    attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
@@ -422,76 +411,17 @@
 				maxZoom: 20,
 				ext: 'png'
 			})],
-////////////////////////////////////////////////////////
-            /*'map_chart' : [L.tileLayer.wms('http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/wms', {
-              layers: 'baldricg_atlas:bulltrout',
-              tiled: true,
-              format: 'image/png',
-              transparent: true,
-              maxZoom: 14,
-              minZoom: 6,
-              continuousWorld: true
-              })],
-            'support' : [L.tileLayer.wms('http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/wms', {
-              layers: 'baldricg_atlas:steelhead',
-              tiled: true,
-              format: 'image/png',
-              transparent: true,
-              maxZoom: 14,
-              minZoom: 6,
-              continuousWorld: true
-              })],
-            'map_intro' : [L.tileLayer.wms('http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/wms', {
-              layers: 'baldricg_atlas:fish_barriers',
-              tiled: true,
-              format: 'image/png',
-              transparent: true,
-              maxZoom: 14,
-              minZoom: 6,
-              continuousWorld: true
-              })],
-			'map_pipeline' : [L.tileLayer.wms('http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/wms', {
-				layers: 'baldricg_atlas:fish_barriers',
-				tiled: true,
-				format: 'image/png',
-				transparent: true,
-				maxZoom: 14,
-				minZoom: 6,
-				continuousWorld: true
-			})],
-			'map_camp' : [L.tileLayer.wms('http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/wms', {
-				layers: 'baldricg_atlas:fish_barriers',
-				tiled: true,
-				format: 'image/png',
-				transparent: true,
-				maxZoom: 14,
-				minZoom: 6,
-				continuousWorld: true,
-			})],
-            'hatcheries' : [L.geoJson.ajax('http://mapious.ceoas.oregonstate.edu/geoserver/baldricg_atlas/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=baldricg_atlas:hatcheries&maxFeatures=1000&outputFormat=application%2Fjson', {
-            	pointToLayer: function (feature, latlng) {
-    			return L.circleMarker(latlng, {
-    				color: '#ffffff',
-    				fillColor: '#00b093',
-    				radius: 4,
-    				opacity: 1,
-    				weight: 1,
-    				fillOpacity: 1
-    				}
-    					).bindTooltip(feature.properties.NAME, {className: 'label_tooltip'});
-    				}
-				})],*/
-    		
+
     };
 
     var scenes = {
             overview: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Overview',position: 'fullpage'},
         	checkin: {lat: 46.45, lng:-100.71, zoom: 7, name: 'CheckIn',position: 'fullpage'},
-        	map_intro: {lat: 46.45, lng:-100.71, zoom: 10, name: 'Background', layers:['Esri_NatGeoWorldMap','Stamen_TonerHybrid','aquifer', 'biglake', 'countyND', 'smalllake','standingrock']},
-			map_pipeline: {lat: 46.45, lng:-100.71, zoom: 11, name: 'Pipeline', layers:['Esri_NatGeoWorldMap','Stamen_TonerHybrid','aquifer', 'biglake', 'countyND', 'pipeline', 'smalllake','standingrock']},
-			map_camp: {lat: 46.45, lng:-100.71,  zoom: 12, name: 'Camp', layers:['Esri_NatGeoWorldMap','Stamen_TonerHybrid','aquifer', 'camp_symbol', 'countyND', 'pipeline', 'smalllake','standingrock']},
+        	map_intro: {lat: 46.45, lng:-100.71, zoom: 10, name: 'Background', layers:['basemapmapbox','aquifer',  'countyND', 'standingrock']},
+			map_pipeline: {lat: 46.45, lng:-100.71, zoom: 11, name: 'Pipeline', layers:['basemapmapbox','aquifer',  'countyND', 'pipeline', 'standingrock']},
+			map_camp: {lat: 46.45, lng:-100.71,  zoom: 12, name: 'Camp', layers:['basemapmapbox','aquifer', 'camp_symbol', 'countyND', 'pipeline','standingrock']},
         	support: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Support', layers:['Esri_NatGeoWorldMap','photomap']},
-        	map_curve: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Facebook', layers:['Esri_NatGeoWorldMap']},
+        	map_curve: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Facebook', layers:['Esri_NatGeoWorldMap','fb']},
         	map_chart: {lat: 44.1347254, lng:-122.7411479,lat: 46.45, lng:-100.71, zoom: 7, name: 'Data&Chart', layers:['Esri_NatGeoWorldMap']},
             end: {lat: 46.45, lng:-100.71, zoom: 7, name: 'End', position:'fullpage'}
     };
@@ -533,7 +463,6 @@
             var map = L.map('map', {zoomControl: false, scrollWheelZoom: false}).setView([44.1347254, -122.7411479], 7);
             // add an basemap, which can be either OSM, mapbox, tilelayer, wmslayer or those designed by yourself.
 
-
       /*      var minibsemap = new L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
                 subdomains: 'abcd',
@@ -573,9 +502,6 @@
             	/*stripes.addTo(map);*/
             pattern.addShape(shape);
             pattern.addTo(map);
-
-
-
 
             return map;
         }
