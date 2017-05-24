@@ -273,8 +273,8 @@
                     <p>Cover photo by Sam Beebe/Ecotrust - retrieved from Wikimedia Commons</p><br>
                     <p>End photo retrieved from Wikimedia Commons</p><br>
                     <p style="font-size:20px">Geographic Data</p><br>
-                    <p>Surface Source Areas: <a href = "http://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7BBD6FD933-A183-4A4C-8314-AF1FC4613CB7%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p><br>
-                	<p>Groundwater Source Areas: <a href = "http://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7B6A1EC8DD-8B68-4483-8CC5-01C57B6A2C27%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p><br>
+                    <p>Surface Source Areas: <a href = "https://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7BBD6FD933-A183-4A4C-8314-AF1FC4613CB7%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p><br>
+                	<p>Groundwater Source Areas: <a href = "https://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7B6A1EC8DD-8B68-4483-8CC5-01C57B6A2C27%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p><br>
                 	<p>Potential Contaminant Sources: <a href = "https://www.oregon.gov/deq/wq/programs/Pages/DWP-Maps.aspx" target="_blank">Oregon Department of Environmental Quality</a></p><br>
                 	<p style="font-size:20px">Text Data</p><br>
                 	<p>Drinking water statistics and information: Oregon DEQ, Oregon Health Authority, Portland Water Bureau</p>
@@ -399,13 +399,13 @@
 
         //在leaflet basemap
 		// https: also suppported.
-			'Esri_NatGeoWorldMap' : [L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+			'Esri_NatGeoWorldMap' : [L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
 			    attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
 				maxZoom: 16
 				})],
 		// https: also suppported.
-			'Stamen_TonerHybrid' : [L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-hybrid/{z}/{x}/{y}.{ext}', {
-				attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+			'Stamen_TonerHybrid' : [L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-hybrid/{z}/{x}/{y}.{ext}', {
+				attribution: 'Map tiles by <a href="https://stamen.com">Stamen Design</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 				subdomains: 'abcd',
 				minZoom: 0,
 				maxZoom: 20,
@@ -463,8 +463,8 @@
             var map = L.map('map', {zoomControl: false, scrollWheelZoom: false}).setView([44.1347254, -122.7411479], 7);
             // add an basemap, which can be either OSM, mapbox, tilelayer, wmslayer or those designed by yourself.
 
-      /*      var minibsemap = new L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+      /*      var minibsemap = new L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://cartodb.com/attributions">CartoDB</a>',
                 subdomains: 'abcd',
                 maxZoom: 9,
                 minZoom: 4

@@ -32,8 +32,8 @@
       <file leaf-file-name="LocationSpoofing_index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LocationSpoofing_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="486">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -61,10 +61,10 @@
                 <element signature="n#style#0;n#p#0;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1495664716458" expanded="true" signature="17534:17717" ph="/*...*/" />
-                <marker date="1495664716458" expanded="true" signature="17878:17883" ph="//..." />
-                <marker date="1495664716458" expanded="true" signature="20348:20355" ph="—" />
-                <marker date="1495664716458" expanded="true" signature="20365:20371" ph="©" />
+                <marker date="1495665778380" expanded="true" signature="17536:17719" ph="/*...*/" />
+                <marker date="1495665778380" expanded="true" signature="17880:17885" ph="//..." />
+                <marker date="1495665778380" expanded="true" signature="20354:20361" ph="—" />
+                <marker date="1495665778380" expanded="true" signature="20371:20377" ph="©" />
               </folding>
             </state>
           </provider>
@@ -125,7 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>back</find>
       <find>trans</find>
       <find>viewing</find>
       <find>.section-opacity</find>
@@ -155,6 +154,7 @@
       <find>nav</find>
       <find>progress-line</find>
       <find>pk</find>
+      <find>http</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -363,12 +363,12 @@
       <workItem from="1495135639850" duration="54922000" />
       <workItem from="1495583380884" duration="3246000" />
       <workItem from="1495591337977" duration="1413000" />
-      <workItem from="1495662970498" duration="1756000" />
+      <workItem from="1495662970498" duration="2412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65734000" />
+    <option name="totallyTimeSpent" value="66390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1883" height="1038" extended-state="0" />
@@ -480,10 +480,10 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1495664716458" expanded="true" signature="17534:17717" ph="/*...*/" />
-            <marker date="1495664716458" expanded="true" signature="17878:17883" ph="//..." />
-            <marker date="1495664716458" expanded="true" signature="20348:20355" ph="—" />
-            <marker date="1495664716458" expanded="true" signature="20365:20371" ph="©" />
+            <marker date="1495665778380" expanded="true" signature="17536:17719" ph="/*...*/" />
+            <marker date="1495665778380" expanded="true" signature="17880:17885" ph="//..." />
+            <marker date="1495665778380" expanded="true" signature="20354:20361" ph="—" />
+            <marker date="1495665778380" expanded="true" signature="20371:20377" ph="©" />
           </folding>
         </state>
       </provider>
@@ -565,10 +565,10 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1495664716458" expanded="true" signature="17534:17717" ph="/*...*/" />
-            <marker date="1495664716458" expanded="true" signature="17878:17883" ph="//..." />
-            <marker date="1495664716458" expanded="true" signature="20348:20355" ph="—" />
-            <marker date="1495664716458" expanded="true" signature="20365:20371" ph="©" />
+            <marker date="1495665778380" expanded="true" signature="17536:17719" ph="/*...*/" />
+            <marker date="1495665778380" expanded="true" signature="17880:17885" ph="//..." />
+            <marker date="1495665778380" expanded="true" signature="20354:20361" ph="—" />
+            <marker date="1495665778380" expanded="true" signature="20371:20377" ph="©" />
           </folding>
         </state>
       </provider>
@@ -650,10 +650,10 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1495664716458" expanded="true" signature="17534:17717" ph="/*...*/" />
-            <marker date="1495664716458" expanded="true" signature="17878:17883" ph="//..." />
-            <marker date="1495664716458" expanded="true" signature="20348:20355" ph="—" />
-            <marker date="1495664716458" expanded="true" signature="20365:20371" ph="©" />
+            <marker date="1495665778380" expanded="true" signature="17536:17719" ph="/*...*/" />
+            <marker date="1495665778380" expanded="true" signature="17880:17885" ph="//..." />
+            <marker date="1495665778380" expanded="true" signature="20354:20361" ph="—" />
+            <marker date="1495665778380" expanded="true" signature="20371:20377" ph="©" />
           </folding>
         </state>
       </provider>
@@ -704,10 +704,10 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1495664716458" expanded="true" signature="17534:17717" ph="/*...*/" />
-            <marker date="1495664716458" expanded="true" signature="17878:17883" ph="//..." />
-            <marker date="1495664716458" expanded="true" signature="20348:20355" ph="—" />
-            <marker date="1495664716458" expanded="true" signature="20365:20371" ph="©" />
+            <marker date="1495665778380" expanded="true" signature="17536:17719" ph="/*...*/" />
+            <marker date="1495665778380" expanded="true" signature="17880:17885" ph="//..." />
+            <marker date="1495665778380" expanded="true" signature="20354:20361" ph="—" />
+            <marker date="1495665778380" expanded="true" signature="20371:20377" ph="©" />
           </folding>
         </state>
       </provider>
@@ -813,8 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LocationSpoofing_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="486">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -842,10 +842,10 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1495664716458" expanded="true" signature="17534:17717" ph="/*...*/" />
-            <marker date="1495664716458" expanded="true" signature="17878:17883" ph="//..." />
-            <marker date="1495664716458" expanded="true" signature="20348:20355" ph="—" />
-            <marker date="1495664716458" expanded="true" signature="20365:20371" ph="©" />
+            <marker date="1495665778380" expanded="true" signature="17536:17719" ph="/*...*/" />
+            <marker date="1495665778380" expanded="true" signature="17880:17885" ph="//..." />
+            <marker date="1495665778380" expanded="true" signature="20354:20361" ph="—" />
+            <marker date="1495665778380" expanded="true" signature="20371:20377" ph="©" />
           </folding>
         </state>
       </provider>
