@@ -24,7 +24,7 @@ please view the /video
 
 ## Yuanyuan's Documendation:
 
-**Stortymap: [Standing #Rock](https://cdn.rawgit.com/winkyt/LocationSpoofing/fbe41be1/LocationSpoofing_index.html)**
+**Stortymap: [Standing #Rock](https://cdn.rawgit.com/winkyt/LocationSpoofing/49aff190/LocationSpoofing_index.html)**
 
 2017.05.16 initial storymap
 
