@@ -5,24 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:title" content="StandingRock" />
-    <meta property="og:url" content="https://cdn.rawgit.com/winkyt/LocationSpoofing/8fe91c25/LocationSpoofing_index.html" />
+    <meta property="og:url" content="https://cdn.rawgit.com/winkyt/LocationSpoofing/4436ce49/LocationSpoofing_index.html" />
     <meta property="og:description" content="Using Facebook posts about Standing Rock to study the location spoofing issue." />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="css/fish_style.css">
-    <link rel="stylesheet" href="css/control-minimap.css" />
-    <link rel="stylesheet" href="css/ekko-lightbox.css"/>        
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+	<link rel="stylesheet" type="text/css" href="css/fish_style.css">
+	<link rel="stylesheet" href="css/control-minimap.css" />
+	<link rel="stylesheet" href="css/ekko-lightbox.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata" />
 	<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.css" rel='stylesheet' />
-	<link rel="shortcut icon" href="img/symbol.png" type="icon/Icon">
+	<link rel="shortcut icon" href="img/symbol2.png" type="icon/Icon">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/leaflet.ajax.min.js"></script>
+	<link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+	<link rel="stylesheet" href="lib/cluster/MarkerCluster.css" />
+	<link rel="stylesheet" href="css/Leaflet.Photo.css" />
+
+
+	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/leaflet.ajax.min.js"></script>
 	<script src="js/storymap.js"></script>
 	<script src="js/ekko-lightbox.js"></script>
 	<script src="js/control-minimap.js" type="text/javascript"></script>
@@ -30,6 +35,14 @@
 	<script src="https://cdn.rawgit.com/teastman/Leaflet.pattern/44c56780/dist/leaflet.pattern-src.js"></script>
 	<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.js"></script>
 	<script src="https://rawgit.com/mapbox/mapbox-gl-leaflet/master/leaflet-mapbox-gl.js"></script>
+
+
+	<script src="js/leaflet.markercluster-src.js"></script>
+	<script src="js/Leaflet.Photo.js"></script>
+
+
+
+
 
 </head>
 <body>
@@ -41,13 +54,13 @@
 
 		<!--<a class="navbar-brand" href="#"></a>-->
 		<a class="navbar-brand" href="#">
-			<img src="img/symbol.png" class="align-top" height="20px" align="left"> &nbsp;
+			<img src="img/symbol2.png" class="align-top" height="20px" align="left"> &nbsp;
 		</a>
 
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 
-			<a class="navbar-brand" href="#">Standing #Rock</a>
+			<a class="navbar-brand" href="#" style="font-family: Droid Serif">Standing #Rock</a>
 		</div>
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse">
@@ -78,10 +91,10 @@
 					<a class="fa fa-info-circle social" style="padding-left:3px; padding-right:0px !important;" data-toggle="modal" data-target="#info-modal"></a>
 				</li>
 				<li>
-					<a class="fa fa-facebook-square social2" style="padding-left:3px; padding-right:0px !important;"href="https://facebook.com/sharer.php?u=https://cdn.rawgit.com/winkyt/LocationSpoofing/2b2f9c82/LocationSpoofing_index.html" target="_blank"></a>
+					<a class="fa fa-facebook-square social2" style="padding-left:3px; padding-right:0px !important;"href="https://facebook.com/sharer.php?u=https://cdn.rawgit.com/winkyt/LocationSpoofing/4436ce49/LocationSpoofing_index.html" target="_blank"></a>
 				</li>
 				<li>
-					<a class="fa fa-twitter-square social3" style="padding-left:3px; padding-right:0px !important;" href="https://twitter.com/home?status=Location's%20Spoofing%0Ahttp%3A//cdn.rawgit.com/winkyt/LocationSpoofing/2b2f9c82/LocationSpoofing_index.html" target="_blank"></a>
+					<a class="fa fa-twitter-square social3" style="padding-left:3px; padding-right:0px !important;" href="https://twitter.com/home?status=Location's%20Spoofing%0Ahttp%3A//cdn.rawgit.com/winkyt/LocationSpoofing/4436ce49/LocationSpoofing_index.html" target="_blank"></a>
 				</li>
 				<li>
 					<a class="fa fa-github-square social3" style="padding-left:3px; padding-right:8px !important;" href="https://github.com/winkyt/LocationSpoofing" target="_blank"></a>
@@ -94,14 +107,13 @@
 </div>
 
 
-
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-6 col-md-4 main"  style="background-color:#EDEDED; background-color: transparent;" >
         
             <section data-scene="overview">
 				 	<div class= "overview-background-img background-fullscreen-setting text-responsive">
-						<h4 class="text-center" style="font-size:120px; color:white;text-shadow: #5E5E5E 0.1em 0.1em 0.2em; position:fixed;  left: 16%;bottom: 70%;">Standing #Rock</h4>
+						<h4 class="text-center" style="position:fixed;  left: 16%;bottom: 70%;">Standing #Rock</h4>
 						<br>
 						<!--<h4 class ="text-center" style="font-size:30px; color: #5E5E5E; margin-left: 12%; text-align:justify; position:absolute; left: 10px; top: 180px;">
 							'Water is life'   'Mni wiconi'  'No DAPL'
@@ -308,15 +320,7 @@
         }
     });
 
-        var stripes = new L.StripePattern({
-            patternContentUnits: 'objectBoundingBox',
-            patternUnits: 'objectBoundingBox',
-            weight: 0.01,
-            spaceWeight: 0.01,
-            height: 0.03,
-            angle: 45,
-            color:'red',
-        });
+
 
 		/*var shape = new L.PatternPath({
 			d:'img/Indian_symbol',
@@ -328,19 +332,78 @@
 		});*/
     var shape = new L.PatternCircle({ x: 12, y: 12, radius: 10, fill: true, color:'red',opacity:'0.5'});
     var pattern = new L.Pattern({stroke:true});
+    var stripes = new L.StripePattern({
+        patternContentUnits: 'objectBoundingBox',
+        patternUnits: 'objectBoundingBox',
+        weight: 0.01,
+        spaceWeight: 0.01,
+        height: 0.03,
+        angle: 45,
+        color:'orange',
+    });
+
+    var photos = [{
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/people6.jpg",
+        "url": "img/people6.jpg",
+        "name": "Protest at Standing Rock"
+    }, {
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/people1.jpg",
+        "url": "img/people1.jpg",
+        "name": "Protest at Standing Rock"
+    }, {
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/people5.jpg",
+        "url": "img/people5.jpg",
+        "name": "Protest at Standing Rock"
+    }, {
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/people9.jpg",
+        "url": "img/people9.jpg",
+        "name": "Protest at Standing Rock"
+    }, {
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/camp1.jpg",
+        "url": "img/camp1.jpg",
+        "name": "Protest at Standing Rock"
+    }, {
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/camp5.jpg",
+        "url": "img/camp5.jpg",
+        "name": "Protest at Standing Rock"
+    }, {
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/people6.jpg",
+        "url": "img/people6.jpg",
+        "name": "Protest at Standing Rock"
+    }];
+    var photoLayer = L.photo.cluster().on('mouseover', function(evt) {
+        var photo = evt.layer.photo;
+        var template = '<img src="{url}" /></a><p>{name}</p>';
+        evt.layer.bindPopup(L.Util.template(template, photo));
+        evt.layer.on('mouseover', function ( e) {
+            this.openPopup();
+        });
+        evt.layer.on('mouseout', function (e ) {
+            this.closePopup();
+        });
+    });
+
+    photoLayer.add(photos);
+
 
     //
 //<p style="text-align:left; font-weight:bold">Hover for source</p>'
 
     var layers = {
-			/*'ChinaBoundary': [ L.geoJson.ajax('assets/ChinaBoundary0508.geojson',  {
-				color: 'white',
-				weight: 3,
-				opacity: 0.5}),
-				ChinaBoundary_legend
-			],*/
-
-        //'aquifer', 'biglake', 'camp', 'countyND', 'pipeline', 'smalllake','standingrock'
 			'camp_symbol' : [camp_symbol],
 
 			'aquifer': [ L.geoJson.ajax('asset/aquifer.geojson',  {
@@ -377,7 +440,7 @@
 			'standingrock': [ L.geoJson.ajax('asset/standingrock.geojson',  {
 				/*color: '#606020',
 				weight: 3,*/
-                fillPattern: pattern,
+                fillPattern: stripes,
                 stroke: false,
 				opacity: 1,
                 fillOpacity: 0.6}),
@@ -387,23 +450,22 @@
 				weight: 3000,
 				opacity: 1,}),
 			],
-//mapbox basemap
+		//mapbox basemap
         'basemapmapbox' :[ L.mapboxGL({
             accessToken: 'pk.eyJ1IjoidGlhbnkiLCJhIjoiY2oyOGFyemhzMDBlZjJ3cWtydjBpMHZzdSJ9.KB4Qs2my3g97OeJSPLIHOw',
             style: 'asset/basemap/style.json',
             subdomains: 'abcd',
             maxZoom: 9,
-            minZoom: 4
+            minZoom: 4,
         })],
 
 
-        //在leaflet basemap
-		// https: also suppported.
+        //leaflet basemap
 			'Esri_NatGeoWorldMap' : [L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
 			    attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+                minZoom: 0,
 				maxZoom: 16
 				})],
-		// https: also suppported.
 			'Stamen_TonerHybrid' : [L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-hybrid/{z}/{x}/{y}.{ext}', {
 				attribution: 'Map tiles by <a href="https://stamen.com">Stamen Design</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 				subdomains: 'abcd',
@@ -411,6 +473,7 @@
 				maxZoom: 20,
 				ext: 'png'
 			})],
+			'photo layers': [photoLayer]
 
     };
 
@@ -420,35 +483,11 @@
         	map_intro: {lat: 46.45, lng:-100.71, zoom: 10, name: 'Background', layers:['basemapmapbox','aquifer',  'countyND', 'standingrock']},
 			map_pipeline: {lat: 46.45, lng:-100.71, zoom: 11, name: 'Pipeline', layers:['basemapmapbox','aquifer',  'countyND', 'pipeline', 'standingrock']},
 			map_camp: {lat: 46.45, lng:-100.71,  zoom: 12, name: 'Camp', layers:['basemapmapbox','aquifer', 'camp_symbol', 'countyND', 'pipeline','standingrock']},
-        	support: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Support', layers:['Esri_NatGeoWorldMap','photomap']},
+        	support: {lat: 40, lng:-100.71, zoom: 5, maxZoom: 20,name: 'Support', layers:['Esri_NatGeoWorldMap','camp_symbol','pipeline','photo layers']},
         	map_curve: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Facebook', layers:['Esri_NatGeoWorldMap','fb']},
         	map_chart: {lat: 44.1347254, lng:-122.7411479,lat: 46.45, lng:-100.71, zoom: 7, name: 'Data&Chart', layers:['Esri_NatGeoWorldMap']},
             end: {lat: 46.45, lng:-100.71, zoom: 7, name: 'End', position:'fullpage'}
     };
-
-   /* var photos = [{
-        "lat": 34.04555452,
-        "lng": -118.3001509,
-        "thumbnail": "https://cdn4.iconfinder.com/data/icons/american-indian-tribe/500/American_Indian_tribe_native_clan_2-512.png",
-        "url": "https://cdn4.iconfinder.com/data/icons/american-indian-tribe/500/American_Indian_tribe_native_clan_2-512.png",
-        "name": "My First Photo"
-    }, {
-        "lat": 34.0522683,
-        "lng": -118.2698607,
-        "thumbnail": "https://cdn4.iconfinder.com/data/icons/american-indian-tribe/500/American_Indian_tribe_native_clan_2-512.png",
-        "url": "https://cdn4.iconfinder.com/data/icons/american-indian-tribe/500/American_Indian_tribe_native_clan_2-512.png",
-        "name": "My Second Photo"
-    }, {
-        "lat": 34.06281904,
-        "lng": -118.2809651,
-        "thumbnail": "https://cdn4.iconfinder.com/data/icons/american-indian-tribe/500/American_Indian_tribe_native_clan_2-512.png",
-        "url": "https://cdn4.iconfinder.com/data/icons/american-indian-tribe/500/American_Indian_tribe_native_clan_2-512.png",
-        "name": "My Third Photo"
-    }];*/
-
-
-        /*var template = '<img src="{url}" /></a><p>{name}</p>';*/
-
 
 
 
@@ -459,8 +498,9 @@
         scale:false,
         //navbar: false, 前面重新写了navbar
         createMap: function () {
+
             // create a map in the "map" div, set the view to a given place and zoom
-            var map = L.map('map', {zoomControl: false, scrollWheelZoom: false}).setView([44.1347254, -122.7411479], 7);
+            var map = L.map('map', {zoomControl: false, scrollWheelZoom: false,maxZoom: 14}).setView([44.1347254, -122.7411479], 7);
             // add an basemap, which can be either OSM, mapbox, tilelayer, wmslayer or those designed by yourself.
 
       /*      var minibsemap = new L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
@@ -499,9 +539,14 @@
 				miniMap;
 				}*/
 
-            	/*stripes.addTo(map);*/
-            pattern.addShape(shape);
-            pattern.addTo(map);
+          		stripes.addTo(map);
+
+
+           /* pattern.addShape(shape);
+            pattern.addTo(map);*/
+
+
+
 
             return map;
         }

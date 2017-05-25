@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--add font families-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!--add a favicon-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <!-- add icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>GeoVisualization Project</title>
+    <!--add required stylesheets-->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+    <script src="js/leaflet-d3.js"></script>
+    <script src="js/colorbrewer.js"></script>
+    <script src="js/geofbposts.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+<!--map container-->
+<div id="map"></div>
+<script type="text/javascript">
+    // https://github.com/Asymmetrik/leaflet-d3/blob/master/README.md
+    // http://bl.ocks.org/tnightingale/4668062
+    // http://www.delimited.io/blog/2013/12/1/hexbins-with-d3-and-leaflet-maps
+    // http://projects.delimited.io/experiments/hexbins/starbucks.html
+    var map = L.map("map", {zoomControl: false}).setView([40,-100], 5);
+    // construct a base map in light color.
+    L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(map);
+    //    var fbposts =  L.geoJson.ajax('assets/geofbposts.geojson', {
+    //        color: 'black',
+    //        weight: 2,
+    //        opacity: 0.3});
+    // Create the hexlayer
+    //    var options = {
+    //        radius : 2,
+    //        opacity: 0.5,
+    //        duration: 500,
+    //        colorScaleExtent: [ 1, undefined ],
+    //        radiusScaleExtent: [ 1, undefined ],
+    //        colorRange: [ '#ff0016', '#fffc0e' ],
+    //        radiusRange: [ 12, 25 ]
+    //    };
+    // var options;
+    var options = {
+        opacity: 0.8,
+        radiusRange: [ 5, 10 ],
+        duration: 500,
+        colorScaleExtent: [ 1, undefined ],
+        colorRange: colorbrewer["YlOrRd"][5],
+        pointerEvents: 'auto'
+    };
+    var hexLayer = L.hexbinLayer(options).addTo(map);
+    hexLayer.dispatch()
+        .on('mouseover', function(d, i) { console.log("ttt"); })
+        .on('mouseout', function(d, i) { console.log("ttt"); })
+        .on('click', function(d, i) { console.log("ttt"); });
+    function generateData() {
+        var data = [];
+        for(var i = 0; i < fb.features.length; i++) {
+            lng = fb.features[i].geometry.coordinates[1];
+            lat = fb.features[i].geometry.coordinates[0];
+            data.push([ lat, lng ]);
+        }
+        hexLayer.data(data);
+    }
+    generateData();
+</script>
+
+</body>
+</html>

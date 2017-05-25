@@ -1,50 +1,92 @@
-
 <!DOCTYPE html>
-<html lang="en" ng-app="spire">
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Leaflet</title>
-    <link rel="stylesheet" href="leaflet.css" />
-    <script src="leaflet.js"></script>
-    <script src="leaflet.pattern.js"></script>
-    <style>
-        html, body, #map {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-        }
-    </style>
+    <title>Leaflet Picasa Web Albums</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:image" content="route.png" />
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="lib/cluster/MarkerCluster.css" />
+    <link rel="stylesheet" href="../Leaflet.Photo.css" />
+    <link rel="stylesheet" href="css/map.css" />
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="css/fish_style.css">
+    <link rel="stylesheet" href="css/control-minimap.css" />
+    <link rel="stylesheet" href="css/ekko-lightbox.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata" />
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.css" rel='stylesheet' />
+    <link rel="shortcut icon" href="img/symbol2.png" type="icon/Icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/leaflet.ajax.min.js"></script>
+    <script src="js/storymap.js"></script>
+    <script src="js/ekko-lightbox.js"></script>
+    <script src="js/control-minimap.js" type="text/javascript"></script>
+    <script src="https://cdn.bootcss.com/chroma-js/1.3.3/chroma.min.js"></script>
+    <script src="https://cdn.rawgit.com/teastman/Leaflet.pattern/44c56780/dist/leaflet.pattern-src.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.js"></script>
+    <script src="https://rawgit.com/mapbox/mapbox-gl-leaflet/master/leaflet-mapbox-gl.js"></script>
+
+
 </head>
 <body>
 <div id="map"></div>
-<script type="text/javascript">
-    var mapCenter = new L.LatLng(50.68, -120.34);
-
-    var baseLayer = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 18,
-        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+<script src="lib/reqwest.min.js"></script>
+<script src="lib/leaflet/leaflet.js"></script>
+<script src="lib/cluster/leaflet.markercluster.js"></script>
+<script src="../Leaflet.Photo.js"></script>
+<script>
+    var map = L.map('map', {
+        maxZoom: 14
     });
-
-    var _map = new L.Map("map", {
-        center: mapCenter,
-        zoom: 14,
-        layers: [baseLayer]
+    L.tileLayer('http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=norges_grunnkart&zoom={z}&x={x}&y={y}', {
+        attribution: '&copy; <a href="http://kartverket.no/">Kartverket</a>'
+    }).addTo(map);
+    var photoLayer = L.photo.cluster().on('click', function (evt) {
+        var photo = evt.layer.photo,
+            template = '<img src="{url}"/></a><p>{caption}</p>';
+        if (photo.video && (!!document.createElement('video').canPlayType('video/mp4; codecs=avc1.42E01E,mp4a.40.2'))) {
+            template = '<video autoplay controls poster="{url}"><source src="{video}" type="video/mp4"/></video>';
+        };
+        evt.layer.bindPopup(L.Util.template(template, photo), {
+            className: 'leaflet-popup-photo',
+            minWidth: 400
+        }).openPopup();
     });
+    reqwest({
+        url: 'https://picasaweb.google.com/data/feed/api/user/118196887774002693676/albumid/6052628080819524545?alt=json-in-script',
+        type: 'jsonp',
+        success: function (data) {
+            var photos = [];
+            data = data.feed.entry;
+            for (var i = 0; i < data.length; i++) {
+                var photo = data[i];
+                if (photo['georss$where']) {
+                    var pos = photo['georss$where']['gml$Point']['gml$pos']['$t'].split(' ');
+                    photos.push({
+                        lat: pos[0],
+                        lng: pos[1],
+                        url: photo['media$group']['media$content'][0].url,
+                        caption: photo['media$group']['media$description']['$t'],
+                        thumbnail: photo['media$group']['media$thumbnail'][0].url,
+                        video: (photo['media$group']['media$content'][1] ? photo['media$group']['media$content'][1].url : null)
+                    });
+                };
+            }
 
-    var shape = new L.PatternPath({
-        d: 'M10 0 L7 20 L25 20 Z',
-        fill: true
+            photoLayer.add(photos).addTo(map);
+            map.fitBounds(photoLayer.getBounds());
+        }
     });
-
-    var pattern = new L.Pattern({width:50, height:50});
-    pattern.addShape(shape);
-    pattern.addTo(_map);
-
-    var circle = new L.Circle(mapCenter, 400.0, {
-        fillPattern: pattern,
-        fillOpacity: 1.0});
-    circle.addTo(_map);
 </script>
 </body>
 </html>
