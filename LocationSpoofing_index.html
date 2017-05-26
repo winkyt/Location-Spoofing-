@@ -577,9 +577,9 @@
     var scenes = {
         overview: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Overview',position: 'fullpage'},
         checkin: {lat: 46.45, lng:-100.71, zoom: 7, name: 'CheckIn',position: 'fullpage'},
-        map_intro: {lat: 46.45, lng:-100.71, zoom: 10, name: 'Background', layers:['basemapmapbox','aquifer',  'countyND', 'standingrock']},
-        map_pipeline: {lat: 46.45, lng:-100.71, zoom: 11, name: 'Pipeline', layers:['basemapmapbox','aquifer',  'countyND', 'pipeline', 'standingrock']},
-        map_camp: {lat: 46.45, lng:-100.71,  zoom: 12, name: 'Camp', layers:['basemapmapbox','aquifer', 'camp_symbol', 'countyND', 'pipeline','standingrock']},
+        map_intro: {lat: 46.45, lng:-100.71, zoom: 10, name: 'Background', layers:['CartoDB_Positron','aquifer',  'countyND', 'standingrock']},
+        map_pipeline: {lat: 46.45, lng:-100.71, zoom: 11, name: 'Pipeline', layers:['CartoDB_Positron','aquifer',  'countyND', 'pipeline', 'standingrock']},
+        map_camp: {lat: 46.45, lng:-100.71,  zoom: 12, name: 'Camp', layers:['CartoDB_Positron','aquifer', 'camp_symbol', 'countyND', 'pipeline','standingrock']},
         photo: {lat: 46.44, lng:-100.66,  zoom: 13, maxZoom: 20,name: 'Photo', layers:['CartoDB_Positron','camp_symbol','pipeline','PhotoLayers']},
         support: {lat: 40, lng:-100.55, zoom: 4.5, maxZoom: 20,name: 'Support', layers:['CartoDB_Positron','camp_symbol','PhotoLayers2']},
         map_hex: {lat: 46.45, lng:-80, zoom: 2, name: 'Facebook', layers:['CartoDB_Positron','hex']},
@@ -601,13 +601,12 @@
             var map = L.map('map', {zoomControl: false, scrollWheelZoom: false,maxZoom: 14}).setView([44.1347254, -122.7411479], 7);
             // add an basemap, which can be either OSM, mapbox, tilelayer, wmslayer or those designed by yourself.
 
-			/*      var minibsemap = new L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+			var minibsemap = new L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
 			 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://cartodb.com/attributions">CartoDB</a>',
 			 subdomains: 'abcd',
 			 maxZoom: 9,
 			 minZoom: 4
-			 });*/
-
+			 });
 
             var minimapbox = L.mapboxGL({
                 accessToken: 'pk.eyJ1IjoidGlhbnkiLCJhIjoiY2oyOGFyemhzMDBlZjJ3cWtydjBpMHZzdSJ9.KB4Qs2my3g97OeJSPLIHOw',
