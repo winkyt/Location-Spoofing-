@@ -1,36 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <title>StandingRock</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="StandingRock" />
+    <meta property="og:url" content="https://cdn.rawgit.com/winkyt/LocationSpoofing/4436ce49/LocationSpoofing_index.html" />
+    <meta property="og:description" content="Using Facebook posts about Standing Rock to study the location spoofing issue." />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <!--add font families-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-    <!--add a favicon-->
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-
-    <!-- add icons -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="css/fish_style.css">
+    <link rel="stylesheet" href="css/control-minimap.css" />
+    <link rel="stylesheet" href="css/ekko-lightbox.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata" />
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.css" rel='stylesheet' />
+    <link rel="shortcut icon" href="img/symbol2.png" type="icon/Icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-    <title>GeoVisualization Project</title>
-    <!--add required stylesheets-->
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-    <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
-    <script src="js/leaflet-d3.js"></script>
-    <script src="js/colorbrewer.js"></script>
-    <script src="js/geofbposts.js"></script>
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="lib/cluster/MarkerCluster.css" />
+    <link rel="stylesheet" href="css/Leaflet.Photo.css" />
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/leaflet.ajax.min.js"></script>
+    <script src="js/storymap.js"></script>
+    <script src="js/ekko-lightbox.js"></script>
+    <script src="js/control-minimap.js" type="text/javascript"></script>
+    <script src="https://cdn.bootcss.com/chroma-js/1.3.3/chroma.min.js"></script>
+    <script src="https://cdn.rawgit.com/teastman/Leaflet.pattern/44c56780/dist/leaflet.pattern-src.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.js"></script>
+    <script src="https://rawgit.com/mapbox/mapbox-gl-leaflet/master/leaflet-mapbox-gl.js"></script>
 
 
-
-
-
+    <script src="js/leaflet.markercluster-src.js"></script>
+    <script src="js/Leaflet.Photo.js"></script>
 
 
 
@@ -39,55 +47,536 @@
 </head>
 <body>
 
-<!--map container-->
-<div id="map"></div>
-<script type="text/javascript">
-    // https://github.com/Asymmetrik/leaflet-d3/blob/master/README.md
-    // http://bl.ocks.org/tnightingale/4668062
-    // http://www.delimited.io/blog/2013/12/1/hexbins-with-d3-and-leaflet-maps
-    // http://projects.delimited.io/experiments/hexbins/starbucks.html
-    var map = L.map("map", {zoomControl: false}).setView([40,-100], 5);
-    // construct a base map in light color.
-    L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(map);
-    //    var fbposts =  L.geoJson.ajax('assets/geofbposts.geojson', {
-    //        color: 'black',
-    //        weight: 2,
-    //        opacity: 0.3});
-    // Create the hexlayer
-    //    var options = {
-    //        radius : 2,
-    //        opacity: 0.5,
-    //        duration: 500,
-    //        colorScaleExtent: [ 1, undefined ],
-    //        radiusScaleExtent: [ 1, undefined ],
-    //        colorRange: [ '#ff0016', '#fffc0e' ],
-    //        radiusRange: [ 12, 25 ]
-    //    };
-    // var options;
-    var options = {
-        opacity: 0.8,
-        radiusRange: [ 5, 10 ],
-        duration: 500,
-        colorScaleExtent: [ 1, undefined ],
-        colorRange: colorbrewer["YlOrRd"][5],
-        pointerEvents: 'auto'
-    };
-    var hexLayer = L.hexbinLayer(options).addTo(map);
-    hexLayer.dispatch()
-        .on('mouseover', function(d, i) { console.log("ttt"); })
-        .on('mouseout', function(d, i) { console.log("ttt"); })
-        .on('click', function(d, i) { console.log("ttt"); });
-    function generateData() {
-        var data = [];
-        for(var i = 0; i < fb.features.length; i++) {
-            lng = fb.features[i].geometry.coordinates[1];
-            lat = fb.features[i].geometry.coordinates[0];
-            data.push([ lat, lng ]);
-        }
-        hexLayer.data(data);
-    }
-    generateData();
-</script>
 
+
+<div class="navbar navbar-inverse navbar-fixed-top navbar-toggleable-md" role="navigation" style="background-color: #B51E1E">
+    <div class="container-fluid" style="background-color: #B51E1E">
+
+        <!--<a class="navbar-brand" href="#"></a>-->
+        <a class="navbar-brand" href="#">
+            <img src="img/symbol2.png" class="align-top" height="20px" align="left"> &nbsp;
+        </a>
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+            <a class="navbar-brand" href="#" style="font-family: Droid Serif">Standing #Rock</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="javascript:window.scrollBy(0,$('section[data-scene=map_intro]').offset().top-$(window).scrollTop()-40);">StandingRock</a>
+                </li>
+                <li>
+                    <a href="javascript:window.scrollBy(0,$('section[data-scene=map_pipeline]').offset().top-$(window).scrollTop()-40);">Pipeline</a>
+                </li>
+                <li>
+                    <a href="javascript:window.scrollBy(0,$('section[data-scene=map_camp]').offset().top-$(window).scrollTop()-40);">Protest</a>
+                </li>
+                <li>
+                    <a href="javascript:window.scrollBy(0,$('section[data-scene=support]').offset().top-$(window).scrollTop()-40);">Facebook</a>
+                </li>
+                <li>
+                    <a href="javascript:window.scrollBy(0,$('section[data-scene=map_curve]').offset().top-$(window).scrollTop()-40);">Check-in</a>
+                </li>
+                <li>
+                    <a href="javascript:window.scrollBy(0,$('section[data-scene=map_chart]').offset().top-$(window).scrollTop()-40);">Data</a>
+                </li>
+                <li>
+                    <a href="javascript:window.scrollBy(0,$('section[data-scene=end]').offset().top-$(window).scrollTop()-40);">End</a>
+                </li>
+
+                <li>
+                    <a class="fa fa-info-circle social" style="padding-left:3px; padding-right:0px !important;" data-toggle="modal" data-target="#info-modal"></a>
+                </li>
+                <li>
+                    <a class="fa fa-facebook-square social2" style="padding-left:3px; padding-right:0px !important;"href="https://facebook.com/sharer.php?u=https://cdn.rawgit.com/winkyt/LocationSpoofing/4436ce49/LocationSpoofing_index.html" target="_blank"></a>
+                </li>
+                <li>
+                    <a class="fa fa-twitter-square social3" style="padding-left:3px; padding-right:0px !important;" href="https://twitter.com/home?status=Location's%20Spoofing%0Ahttp%3A//cdn.rawgit.com/winkyt/LocationSpoofing/4436ce49/LocationSpoofing_index.html" target="_blank"></a>
+                </li>
+                <li>
+                    <a class="fa fa-github-square social3" style="padding-left:3px; padding-right:8px !important;" href="https://github.com/winkyt/LocationSpoofing" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 main"  style="background-color:#EDEDED; background-color: transparent;" >
+
+            <section data-scene="overview">
+                <div class= "overview-background-img background-fullscreen-setting text-responsive">
+                    <h4 class="text-center" style="position:fixed;  left: 16%;bottom: 70%;">Standing #Rock</h4>
+                    <br/>
+                    <h3 class ="text-center" style="font-size:28px; color: orangered; margin-left: 12%; text-align:justify; position:absolute; left: 10px; top: 180px;">
+                        The Dakota Access Pipeline Protest(#NoDAPL) began in early 2016 in reaction to the approved construction of Energy Transfer Partners' Dakota Access Pipeline in the northern United States. The pipeline pass through the Lake Oahe near the Standing Rock Indian Reservation. Early in October 31 2016, a Facebook post said that the Morton County sheriff’s department was using Facebook check-ins to target people at the protest camp. People answered the call on Facebook to ‘overwhelm and confuse’ law enforcement officials, although police denied tracking activists on social media.
+                    </h3>
+                    <br/><br/>
+                    <p class ="text-center" style="font-size:18px; margin-top:0px; color: white; display:block; position:absolute; right: 1%; bottom: 0%; align-content: right">
+                        <!--
+                                                    <img src="img/grouplogo.png" alt="Protest Camping" align="right" height="30" width="94.3" style="bottom:1%" >
+                        -->
+                        Created by Yuanyuan Tian, Yingqi Tang, Majid @ Oregon State University
+                    </p>
+                </div>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            </section>
+
+            <section data-scene="checkin">
+                <div class= "checkin-background-img background-fullscreen-setting text-responsive">
+                    <h4 class ="text-left" style="font-size:30px; color: white; text-align:justify; margin-top: 1%;position:absolute; left: 10px; top: 20px; " >
+                        From xxxx-xxxx, over xxxx(A million) people 'check in' at Standing Rock on Facebook.</br>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>Standing Rock, ND
+                        <i class="fa fa-users" aria-hidden="true"></i>33,000
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-check-square-o" aria-hidden="true"></i>Check-in
+                    </h4>
+                </div>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            </section>
+
+            <section data-scene="map_intro" >
+                <h3>Standing Rock</h3>
+                <h5>An Indian Reservation located in North and South Dakota in the United States</h5>
+                <p>
+                    Together with the Hunkpapa and Sihasapa bands, the Standing Rock Sioux Tribe is part of what was known as the Great Sioux Nation. In the 1960s, the Army Corps of Engineers and the Bureau of Reclamation built five large dams on the Missouri River, and implemented the Pick–Sloan Missouri Basin Program, forcing Native Americans to relocate from large areas to be flooded behind the dams. These dams were for flood control and hydroelectric power generation in the region. More than 200,000 acres on the Standing Rock Reservation and the Cheyenne River Reservation in South Dakota were flooded by the Oahe Dam alone.
+                    As of 2015, poverty remains a problem for the displaced populations in the Dakotas.(add income source from Jenn) They have sought compensation for their towns submerged under Lake Oahe, and the loss of traditional ways of life.
+                </p>
+                <br/><br/>
+                <div class="leg">
+                    <!--<p style ="font-weight: bold;">Legend</p>-->
+                    <br/>
+                    <i style="background: #67B8E0; opacity: 0.8; margin-right: 8px;"></i><p>Aquifer</p><br/><br/>
+                    <i style="background: #006080; opacity: 0.8; margin-right: 8px;"></i><p>Surface Water</p><br/><br/>
+                    <i style="background: #606020; opacity: 0.8; margin-right: 8px;"></i><p>Sacred Site</p><br/>
+                </div>
+                <br/><br/><br/>
+            </section>
+
+            <section data-scene="map_pipeline">
+                <h3>Standing Rock</h3>
+                <h5>The pipeline ifself(Time)</h5>
+                <p>
+                    The pipeline is to be built by Texas-based Energy Transfer Partners and is designed to transport as many as 570,000 barrels of crude oil daily from North Dakota to Illinois. The pipeline would be a key conduit connecting oil wells in the state's Bakken Shale, where the development of fracking has opened billions of gallons of new oil to recovery, to other valuable consumer markets, including the Gulf Coast, Midwest and East Coast. The nearly $4 billion project was first proposed in 2014 with an anticipated completion of this year.
+                </p>
+                <br/>
+                <p>The Dakota Access Pipeline has drawn parallels to the Keystone XL pipeline. Opposition to that project, which Obama eventually rejected, became a litmus test in the eyes of some activists for public officials to show their commitment to addressing environmental issues. But at the same time significant differences remain. Perhaps most importantly, Keystone crossed into Canada, making it an international issue that gave authority over its final approval to the State Department. The federal government has the authority over the Dakota Access Pipeline because it crosses interstate waterways. Stopping the project would be heavier lift for any administration.</p>
+                <br/><br/>
+                <div class="leg">
+                    <i style="background: #67B8E0; opacity: 0.8; margin-right: 8px;"></i><p>Aquifer</p><br/><br/>
+                    <i style="background: #006080; opacity: 0.8; margin-right: 8px;"></i><p>Surface Water</p><br/><br/>
+                    <i style="background: #606020; opacity: 0.8; margin-right: 8px;"></i><p>Sacred Site</p><br/><br/>
+                    <i style="background: #B51E1E; opacity: 1; margin-right: 8px;"></i><p>Pipeline</p><br/>
+                </div>
+                <br/><br/><br/>
+            </section>
+
+            <section data-scene="map_camp">
+                <h3>Standing Rock</h3>
+                <h5>Protest Camp</h5>
+                <p>The Sacred Stone Camp: it has been protesting the Dakota Access pipeline since April. The location plays an major role of the protect. In August, it grew dramatically in scope.
+                </p>
+                <br/>
+                <p>The Oceti Sakowin Camp: a historic gathering of tribes, allies and people from all walks of life standing in solidarity to halt the Dakota Access Pipeline.
+
+                    The encampment provided the world a stage for environmental awareness and will act as a future indigenous meeting center.</p>
+                <br/>
+                <p>Frontline Camp: Water Protectors Erected New Frontline Camp Directly in Path of Dakota Access Pipeline</p>
+                <br/><br/>
+                <div class="leg">
+                    <i style="background: #67B8E0; opacity: 0.8; margin-right: 8px;"></i><p>Aquifer</p><br/><br/>
+                    <i style="background: #006080; opacity: 0.8; margin-right: 8px;"></i><p>Surface Water</p><br/><br/>
+                    <i style="background: #606020; opacity: 0.8; margin-right: 8px;"></i><p>Sacred Site</p><br/><br/>
+                    <i style="background: #B51E1E; opacity: 1; margin-right: 8px;"></i><p>Pipeline</p><br/><br/>
+                    <i class="glyphicon glyphicon-tent mark-icon" style="color: orangered; font-size: 35px; text-shadow: 0 0 3px #ffffff;"></i><p>Camp</p>
+                    <br/>
+                </div>
+                <div id="body-video-wraper" class="fadeIn">
+                    <video width="320" height="240" autoplay loop controls opa>
+                        <source src="video/drone_cut.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <br/><br/><br/>
+            </section>
+
+            <section data-scene="support">
+                <h3>Check-in for support</h3>
+                <p>Thousands of people had checked in at Standing Rock Indian Reservation on the Facebook.
+                    But many of them weren't anywhere near the location </p>
+                <br/><br/>
+                <!--<p style="font-size:14px; font-weight:bold;">Saltwater</p><p style="font-size:14px; font-weight:bold; display:inline; margin-left:120px;">Freshwater</p>
+                <br/>
+                <img src="img/steelhead_salt.jpg" width="170" height="64" style="display:inline;">
+                <img src="img/steelhead_fresh.jpg" width="170" height="64" style="display:inline;">
+                <br/><br/>
+                <div class="leg">
+                <p style ="font-weight: bold; line-height:20px;">Season</p><br/>
+                <p style = "display:inline; font-size: 13px;  line-height:10px;">Winter&nbsp Summer&nbsp Both</p>
+                <p style ="font-weight: bold; margin-left: 24px;  line-height:25px;">Habitat Extent</p>
+                <br/><i style="background: #72f3de; opacity: 0.8"></i><i style="background: #017461; opacity: 0.8"></i><i style="background: #00caa8; opacity: 0.8; margin-right: 8px;"></i><p>Current</p><br/><i style="background: #ff3333; opacity: 0.8;"></i><i style="background: #ff3333; opacity: 0.8"></i><i style="background: #ff3333; opacity: 0.8; margin-right: 8px;"></i><p>Historical</p><br/>
+                </div>
+                <br/><br/><br/>-->
+            </section>
+
+            <section data-scene="map_curve">
+                <h3>Where are they?</h3>
+                <h5>When people check-in at #Standing rock,ND,<br/>are they really standing THERE?</h5>
+                <p>animation curve map + camps</p>
+                <br/><br/>
+                <!--<div class="leg"><p style ="font-weight: bold;">Habitat Extent</p>
+                <img src="img/redband.jpg" height="98" width="220" style="float: right;"><br/>
+                    <i style="background: #B51E1E; opacity: 0.8; margin-right: 8px;"></i><p>camp</p><br/>
+                    <i style="background: #67B8E0; opacity: 0.8; margin-right: 8px;"></i><p>change location</p><br/>
+                </div>-->
+                <br/><br/><br/>
+            </section>
+
+            <section data-scene="map_chart">
+                <h3>Where are they?</h3>
+                <p>Map: heatmap?<br/>Charts: crossfilter, pi chart
+                </p>
+                <br/><br/>
+                <!--<div class="leg"><p style ="font-weight: bold;">Habitat Extent</p>
+                <img src="img/bulltrout.jpg" height="100" width="220" style="float: right;"><br/><i style="background: #00b093; opacity: 0.8; margin-right: 8px;"></i><p>Current</p><br/><i style="background: #ff3333; opacity: 0.8; margin-right: 8px;"></i><p>Historical</p><br/>
+                </div>-->
+                <br/><br/><br/>
+            </section>
+
+            <section data-scene="end">
+                <div class= "end-background-img background-fullscreen-setting text-responsive">
+                    <h4 style="font-size:120px; color:white;text-shadow: #5E5E5E 0.1em 0.1em 0.2em;
+					margin-left: 5%; margin-right: 60%; margin-top: 1%;text-align:justify; position:absolute; left: 1px; top: 2px; ">
+                        Conclusion
+                    </h4>
+                    <br>
+                    <p class ="text-center" style="font-size:30px; color:orange; margin-left: 4%; margin-right: 20%;text-align:justify; position:absolute; left: 10px; top: 180px;">
+                        Not physically there, <br/>
+                        but using <b>social media</b> as a <b>projection</b> to standing there.<br/>
+                        How people use social media geo-tag to show their support.<br/>
+                        Location is not only where you are, <br/>
+                        but also you can choose where to <b>stand</b>.
+                    </p>
+                    <br/><br/>
+                    <p class ="text-center" style="font-size:18px; margin-top:0px; color: black; text-shadow: white 0.1em 0.1em 0.2em;display:block; position:absolute; right: 1%; bottom: 1%;">
+                        Created by Yuanyuan Tian, Yingqi Tang, Majid @ Oregon State University
+                    </p>
+                </div>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            </section>
+
+            <i class="animated zoomIn infinite glyphicon glyphicon-menu-down arrow-down"></i>
+
+        </div>
+        <div id="map" class="col-sm-6 col-md-8 sidebar"></div>
+    </div>
+
+    <div class="progress-line"></div>
+
+    <ul class="navwidget text-center"></ul>
+
+    <div class="modal fade" id="info-modal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">About</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Cover photo by Sam Beebe/Ecotrust - retrieved from Wikimedia Commons</p><br>
+                    <p>End photo retrieved from Wikimedia Commons</p><br>
+                    <p style="font-size:20px">Geographic Data</p><br>
+                    <p>Surface Source Areas: <a href = "https://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7BBD6FD933-A183-4A4C-8314-AF1FC4613CB7%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p><br>
+                    <p>Groundwater Source Areas: <a href = "https://spatialdata.oregonexplorer.info/geoportal/catalog/search/resource/details.page?uuid=%7B6A1EC8DD-8B68-4483-8CC5-01C57B6A2C27%7D" target="_blank">Oregon Department of Environmental Quality/Oregon Spatial Data Library</a></p><br>
+                    <p>Potential Contaminant Sources: <a href = "https://www.oregon.gov/deq/wq/programs/Pages/DWP-Maps.aspx" target="_blank">Oregon Department of Environmental Quality</a></p><br>
+                    <p style="font-size:20px">Text Data</p><br>
+                    <p>Drinking water statistics and information: Oregon DEQ, Oregon Health Authority, Portland Water Bureau</p>
+                </div>
+                <div class="modal-footer">
+                    <p>Created with Leaflet</p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+
+    $('html > head').append($("<style> .marker-icon { color: orangered; font-size: 30px; text-shadow: 0 0 3px #ffffff;} </style>"));
+    // $('html > head').append($("<style> .marker-icon { color: #0000ff; font-size: 15px; text-shadow:1px 1px 2px #ffffff, 0 0 25px rgba(0,0,255,0.75), 0 0 5px rgba(0,0,139,0.78);} </style>")); // glow effect: https://adventuresinmapping.com/2016/10/17/firefly-cartography/
+
+    var camp_symbol = L.geoJson.ajax('asset/camp.geojson', {
+        pointToLayer: function (feature, latlng) {
+
+            delay = Math.floor((126 + latlng.lng) / 10 * 2000);
+            //delay =Math.floor(Math.random() * 400);
+
+            return L.marker(latlng, {bounceOnAdd: true,  bounceOnAddOptions: {duration: 200, height: window.innerHeight, delay:delay}, icon: L.divIcon({className: 'glyphicon glyphicon-tent marker-icon'})});
+        },
+        onEachFeature: function (feature, layer) {
+            layer.bindTooltip(feature.properties.camp_nam, {sticky: true, className: "feature-tooltip"});
+        }
+    });
+
+
+
+    /*var shape = new L.PatternPath({
+     d:'img/Indian_symbol',
+     fill: true,
+     fillOpacity: 0.8,
+     color: "#fff",
+     weight: 5,
+     opacity: 0.8
+     });*/
+    var shape = new L.PatternCircle({ x: 12, y: 12, radius: 10, fill: true, color:'red',opacity:'0.5'});
+    var pattern = new L.Pattern({stroke:true});
+    var stripes = new L.StripePattern({
+        patternContentUnits: 'objectBoundingBox',
+        patternUnits: 'objectBoundingBox',
+        weight: 0.01,
+        spaceWeight: 0.01,
+        height: 0.03,
+        angle: 45,
+        color:'orange',
+    });
+
+    var photos = [{
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/people6.jpg",
+        "url": "img/people6.jpg",
+        "name": "Protest at Standing Rock"
+    }, {
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/people1.jpg",
+        "url": "img/people1.jpg",
+        "name": "Protest at Standing Rock"
+    }, {
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/people5.jpg",
+        "url": "img/people5.jpg",
+        "name": "Protest at Standing Rock"
+    }, {
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/people9.jpg",
+        "url": "img/people9.jpg",
+        "name": "Protest at Standing Rock"
+    }, {
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/camp1.jpg",
+        "url": "img/camp1.jpg",
+        "name": "Protest at Standing Rock"
+    }, {
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/camp5.jpg",
+        "url": "img/camp5.jpg",
+        "name": "Protest at Standing Rock"
+    }, {
+        "lat": 46.414719,
+        "lng": -100.615682,
+        "thumbnail": "img/people6.jpg",
+        "url": "img/people6.jpg",
+        "name": "Protest at Standing Rock"
+    }];
+    var photoLayer = L.photo.cluster().on('mouseover', function(evt) {
+        var photo = evt.layer.photo;
+        var template = '<img src="{url}" /></a><p>{name}</p>';
+        evt.layer.bindPopup(L.Util.template(template, photo));
+        evt.layer.on('mouseover', function ( e) {
+            this.openPopup();
+        });
+        evt.layer.on('mouseout', function (e ) {
+            this.closePopup();
+        });
+    });
+
+    photoLayer.add(photos);
+
+
+    //
+    //<p style="text-align:left; font-weight:bold">Hover for source</p>'
+
+    var layers = {
+        'camp_symbol' : [camp_symbol],
+
+        'aquifer': [ L.geoJson.ajax('asset/aquifer.geojson',  {
+            color: '#67B8E0',
+            weight: 3,
+            opacity: 0.5}),
+        ],
+        'biglake': [ L.geoJson.ajax('asset/biglake.geojson',  {
+            color: '#006080',
+            weight: 3,
+            opacity: 0.5}),
+        ],
+        'camp': [ L.geoJson.ajax('asset/camp.geojson',  {
+            color: '#006080',
+            weight: 3000,
+            opacity: 1,}),
+        ],
+        'countyND': [ L.geoJson.ajax('asset/countyND.geojson',  {
+            color: '#5E5E5E',
+            weight: 1,
+            opacity: 0.2}),
+        ],
+        'pipeline': [ L.geoJson.ajax('asset/pipeline.geojson',  {
+            weight: 3,
+            opacity: 1,
+            className: 'my_polyline',
+        }),
+        ],
+        'smalllake': [ L.geoJson.ajax('asset/smalllake.geojson',  {
+            color: '#006080',
+            weight: 3,
+            opacity: 0.5}),
+        ],
+        'standingrock': [ L.geoJson.ajax('asset/standingrock.geojson',  {
+            /*color: '#606020',
+             weight: 3,*/
+            fillPattern: stripes,
+            stroke: false,
+            opacity: 1,
+            fillOpacity: 0.6}),
+        ],
+        'fb': [ L.geoJson.ajax('geofbposts.geojson',  {
+            color: 'red',
+            weight: 3000,
+            opacity: 1,}),
+        ],
+        //mapbox basemap
+        'basemapmapbox' :[ L.mapboxGL({
+            accessToken: 'pk.eyJ1IjoidGlhbnkiLCJhIjoiY2oyOGFyemhzMDBlZjJ3cWtydjBpMHZzdSJ9.KB4Qs2my3g97OeJSPLIHOw',
+            style: 'asset/basemap/style.json',
+            subdomains: 'abcd',
+            maxZoom: 9,
+            minZoom: 4,
+        })],
+
+
+        //leaflet basemap
+        'Esri_NatGeoWorldMap' : [L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+            minZoom: 0,
+            maxZoom: 16
+        })],
+        'Stamen_TonerHybrid' : [L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-hybrid/{z}/{x}/{y}.{ext}', {
+            attribution: 'Map tiles by <a href="https://stamen.com">Stamen Design</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            subdomains: 'abcd',
+            minZoom: 0,
+            maxZoom: 20,
+            ext: 'png'
+        })],
+        'photo layers': [photoLayer]
+
+    };
+
+    var scenes = {
+        overview: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Overview',position: 'fullpage'},
+        checkin: {lat: 46.45, lng:-100.71, zoom: 7, name: 'CheckIn',position: 'fullpage'},
+        map_intro: {lat: 46.45, lng:-100.71, zoom: 10, name: 'Background', layers:['basemapmapbox','aquifer',  'countyND', 'standingrock']},
+        map_pipeline: {lat: 46.45, lng:-100.71, zoom: 11, name: 'Pipeline', layers:['basemapmapbox','aquifer',  'countyND', 'pipeline', 'standingrock']},
+        map_camp: {lat: 46.45, lng:-100.71,  zoom: 12, name: 'Camp', layers:['basemapmapbox','aquifer', 'camp_symbol', 'countyND', 'pipeline','standingrock']},
+        support: {lat: 40, lng:-100.71, zoom: 5, maxZoom: 20,name: 'Support', layers:['Esri_NatGeoWorldMap','camp_symbol','pipeline','photo layers']},
+        map_curve: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Facebook', layers:['Esri_NatGeoWorldMap','fb']},
+        map_chart: {lat: 44.1347254, lng:-122.7411479,lat: 46.45, lng:-100.71, zoom: 7, name: 'Data&Chart', layers:['Esri_NatGeoWorldMap']},
+        end: {lat: 46.45, lng:-100.71, zoom: 7, name: 'End', position:'fullpage'}
+    };
+
+
+
+    $('.main').storymap({
+        scenes: scenes,
+        layers:layers,
+        legend: false,
+        scale:false,
+        //navbar: false, 前面重新写了navbar
+        createMap: function () {
+
+            // create a map in the "map" div, set the view to a given place and zoom
+            var map = L.map('map', {zoomControl: false, scrollWheelZoom: false,maxZoom: 14}).setView([44.1347254, -122.7411479], 7);
+            // add an basemap, which can be either OSM, mapbox, tilelayer, wmslayer or those designed by yourself.
+
+            /*      var minibsemap = new L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://cartodb.com/attributions">CartoDB</a>',
+             subdomains: 'abcd',
+             maxZoom: 9,
+             minZoom: 4
+             });*/
+
+
+            var minimapbox = L.mapboxGL({
+                accessToken: 'pk.eyJ1IjoidGlhbnkiLCJhIjoiY2oyOGFyemhzMDBlZjJ3cWtydjBpMHZzdSJ9.KB4Qs2my3g97OeJSPLIHOw',
+                style: 'asset/minimapbox/style.json',
+                subdomains: 'abcd',
+                maxZoom: 9,
+                minZoom: 4
+            });
+
+            var pipeline = L.geoJson.ajax('asset/wholepipeline.geojson', {
+                color: '#B51E1E',
+                weight: 3,
+                opacity: 1
+            });
+
+            var minigroup = L.layerGroup([pipeline, minimapbox]);
+
+            var currentZoom = 0;
+
+            var miniMap = new L.Control.MiniMap(minigroup, { toggleDisplay: false});
+
+            miniMap.addTo(map);
+
+            new L.Control.Zoom({ position: 'bottomright'}).addTo(map);
+
+            /*if (scene == 'portland'){
+             miniMap;
+             }*/
+
+            stripes.addTo(map);
+
+
+            /* pattern.addShape(shape);
+             pattern.addTo(map);*/
+
+
+
+
+            return map;
+        }
+    });
+
+    document.getElementsByClassName("leaflet-control-attribution")[0].style.visibility = "hidden";
+
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+
+</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
