@@ -270,7 +270,7 @@
 						but also you can choose where to <b>stand</b>.
 					</p>
 					<br/><br/>
-					<p class ="text-center" style="font-size:18px; margin-top:0px; color: black; text-shadow: white 0.1em 0.1em 0.2em;display:block; position:absolute; right: 1%; bottom: 1%;">
+					<p class ="text-center" style="font-size:18px; margin-top:0px; color: white; display:block; position:absolute; right: 1%; bottom: 1%;">
 						Created by Yuanyuan Tian, Yingqi Tang, Majid @ Oregon State University
 					</p>
 				</div>
@@ -469,6 +469,7 @@
     photoLayer2.add(photos2);
 
 
+
     //
     //<p style="text-align:left; font-weight:bold">Hover for source</p>'
 
@@ -528,7 +529,6 @@
             minZoom: 4,
         })],
 
-
         //leaflet basemap
         'Esri_NatGeoWorldMap' : [L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
             attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
@@ -568,7 +568,9 @@
 
         'PhotoLayers': [photoLayer],
         'PhotoLayers2': [photoLayer2],
-		'hex':[hexLayer]
+		'hex':[hexLayer],
+
+
 
     };
 
@@ -630,10 +632,6 @@
             miniMap.addTo(map);
 
             new L.Control.Zoom({ position: 'bottomright'}).addTo(map);
-
-			/*if (scene == 'portland'){
-			 miniMap;
-			 }*/
 
             stripes.addTo(map);
 

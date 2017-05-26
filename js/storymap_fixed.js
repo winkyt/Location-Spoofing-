@@ -104,6 +104,7 @@
             });
 
             sections.on('viewing', function () {
+
                 $(this).addClass('viewing');
 
                 $(".arrow-down").css("left", "2%");
