@@ -5,177 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9680569c-4b5a-4a17-a752-ab6df2c1b317" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Video/drone_cut.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/airfield-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/airfield-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/airport-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/airport-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/alcohol-shop-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/alcohol-shop-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/amusement-park-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/amusement-park-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/aquarium-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/aquarium-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/art-gallery-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/art-gallery-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/attraction-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/attraction-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bakery-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bakery-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bank-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bank-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bar-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bar-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/beer-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/beer-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bicycle-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bicycle-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bicycle-share-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bicycle-share-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bus-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bus-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/cafe-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/cafe-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/campsite-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/campsite-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/car-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/car-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/castle-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/castle-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/cemetery-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/cemetery-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/cinema-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/cinema-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/circle-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/circle-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/circle-stroked-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/circle-stroked-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/clothing-store-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/clothing-store-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/college-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/college-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/dentist-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/dentist-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/doctor-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/doctor-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/dog-park-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/dog-park-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/dot-10.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/dot-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/drinking-water-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/drinking-water-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/embassy-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/embassy-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/entrance-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/entrance-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/fast-food-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/fast-food-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/ferry-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/ferry-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/fire-station-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/fire-station-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/fuel-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/fuel-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/garden-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/garden-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/golf-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/golf-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/grocery-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/grocery-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/harbor-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/harbor-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/heliport-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/heliport-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/hospital-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/hospital-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/ice-cream-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/ice-cream-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/information-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/information-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/laundry-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/laundry-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/library-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/library-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/lodging-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/lodging-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/marker-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/marker-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/monument-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/monument-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/mountain-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/mountain-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/museum-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/museum-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/music-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/music-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/park-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/park-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/pharmacy-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/pharmacy-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/picnic-site-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/picnic-site-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/place-of-worship-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/place-of-worship-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/playground-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/playground-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/police-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/police-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/post-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/post-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/prison-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/prison-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rail-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rail-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rail-light-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rail-light-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rail-metro-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rail-metro-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/religious-christian-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/religious-christian-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/religious-jewish-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/religious-jewish-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/religious-muslim-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/religious-muslim-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/restaurant-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/restaurant-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rocket-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rocket-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/school-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/school-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/shop-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/shop-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/square-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/square-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/square-stroked-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/square-stroked-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/stadium-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/stadium-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/star-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/star-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/star-stroked-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/star-stroked-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/suitcase-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/suitcase-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/swimming-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/swimming-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/theatre-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/theatre-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/toilet-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/toilet-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/town-hall-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/town-hall-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/triangle-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/triangle-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/triangle-stroked-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/triangle-stroked-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/veterinary-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/veterinary-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/volcano-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/volcano-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/zoo-11.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/zoo-15.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/style.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fish_style.css" afterPath="$PROJECT_DIR$/css/fish_style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
@@ -194,31 +23,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="grouplogo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/grouplogo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="141" column="30" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
+            <state relative-caret-position="349">
+              <caret line="22" column="74" lean-forward="true" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#2815#2821#0" expanded="true" />
+                <element signature="e#2891#2897#0" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -237,20 +49,28 @@
                 <element signature="n#style#0;n#h4#0;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#17607#17614#1" expanded="true" />
+                <element signature="e#17483#17490#1" expanded="true" />
                 <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1495834537000" expanded="true" signature="26536:26543" ph="—" />
-                <marker date="1495834537000" expanded="true" signature="26553:26559" ph="©" />
-                <marker date="1495834537000" expanded="true" signature="26994:27001" ph="—" />
-                <marker date="1495834537000" expanded="true" signature="27011:27017" ph="©" />
-                <marker date="1495834537000" expanded="true" signature="27798:27804" ph="©" />
-                <marker date="1495834537000" expanded="true" signature="27873:27879" ph="©" />
-                <marker date="1495834537000" expanded="true" signature="28138:28144" ph="©" />
-                <marker date="1495834537000" expanded="true" signature="28212:28218" ph="©" />
-                <marker date="1495834537000" expanded="true" signature="30334:30340" ph="©" />
-                <marker date="1495834537000" expanded="true" signature="30409:30415" ph="©" />
+                <marker date="1495837130000" expanded="true" signature="26336:26343" ph="—" />
+                <marker date="1495837130000" expanded="true" signature="26353:26359" ph="©" />
+                <marker date="1495837130000" expanded="true" signature="26794:26801" ph="—" />
+                <marker date="1495837130000" expanded="true" signature="26811:26817" ph="©" />
+                <marker date="1495837130000" expanded="true" signature="27598:27604" ph="©" />
+                <marker date="1495837130000" expanded="true" signature="27673:27679" ph="©" />
+                <marker date="1495837130000" expanded="true" signature="27938:27944" ph="©" />
+                <marker date="1495837130000" expanded="true" signature="28012:28018" ph="©" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -258,52 +78,10 @@
       <file leaf-file-name="fish_style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/fish_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="182" column="15" lean-forward="true" selection-start-line="182" selection-start-column="15" selection-end-line="182" selection-end-column="15" />
+            <state relative-caret-position="1056">
+              <caret line="488" column="0" lean-forward="true" selection-start-line="388" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="symbol3.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/symbol3.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font.PNG" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/font.PNG">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="facebook3_thumb.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/facebook3_thumb.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="camp_symbol.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/camp_symbol.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="camp5.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/camp5.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="camp1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/camp1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -318,8 +96,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>symbol.png</find>
-      <find>nav</find>
       <find>progress-line</find>
       <find>pk</find>
       <find>http</find>
@@ -348,6 +124,8 @@
       <find>asset</find>
       <find>end</find>
       <find>end_</find>
+      <find>drone</find>
+      <find>geof</find>
     </findStrings>
     <replaceStrings>
       <replace>assets</replace>
@@ -366,9 +144,9 @@
         <option value="$PROJECT_DIR$/test2.html" />
         <option value="$PROJECT_DIR$/js/storymap_fixed.js" />
         <option value="$PROJECT_DIR$/LocationSpoofing_index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/fish_style.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -593,7 +371,7 @@
       <workItem from="1495769343317" duration="3786000" />
       <workItem from="1495818965286" duration="2010000" />
       <workItem from="1495831854482" duration="99000" />
-      <workItem from="1495832189660" duration="2529000" />
+      <workItem from="1495832189660" duration="4816000" />
     </task>
     <task id="LOCAL-00001" summary="0.0.2">
       <created>1495833358708</created>
@@ -602,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495833358708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0.0.3">
+      <created>1495834790186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1495834790186</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104678000" />
+    <option name="totallyTimeSpent" value="106965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1367" extended-state="6" />
@@ -638,7 +423,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.2" />
+    <MESSAGE value="0.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -903,14 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/storymap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="339" column="11" lean-forward="false" selection-start-line="339" selection-start-column="11" selection-end-line="339" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/Leaflet.Photo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -930,13 +708,6 @@
         <state relative-caret-position="573">
           <caret line="78" column="4" lean-forward="false" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/storymap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="280" column="13" lean-forward="false" selection-start-line="280" selection-start-column="13" selection-end-line="280" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1054,7 +825,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1138,29 +909,31 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/css/storymap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state relative-caret-position="752">
+          <caret line="280" column="13" lean-forward="false" selection-start-line="280" selection-start-column="13" selection-end-line="280" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/fish_style.css">
+    <entry file="file://$PROJECT_DIR$/js/storymap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="182" column="15" lean-forward="true" selection-start-line="182" selection-start-column="15" selection-end-line="182" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="-1153">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1495662954000" expanded="true" signature="12026:12040" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="141" column="30" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
+        <state relative-caret-position="349">
+          <caret line="22" column="74" lean-forward="true" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2815#2821#0" expanded="true" />
+            <element signature="e#2891#2897#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1179,20 +952,34 @@
             <element signature="n#style#0;n#h4#0;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#17607#17614#1" expanded="true" />
+            <element signature="e#17483#17490#1" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1495834537000" expanded="true" signature="26536:26543" ph="—" />
-            <marker date="1495834537000" expanded="true" signature="26553:26559" ph="©" />
-            <marker date="1495834537000" expanded="true" signature="26994:27001" ph="—" />
-            <marker date="1495834537000" expanded="true" signature="27011:27017" ph="©" />
-            <marker date="1495834537000" expanded="true" signature="27798:27804" ph="©" />
-            <marker date="1495834537000" expanded="true" signature="27873:27879" ph="©" />
-            <marker date="1495834537000" expanded="true" signature="28138:28144" ph="©" />
-            <marker date="1495834537000" expanded="true" signature="28212:28218" ph="©" />
-            <marker date="1495834537000" expanded="true" signature="30334:30340" ph="©" />
-            <marker date="1495834537000" expanded="true" signature="30409:30415" ph="©" />
+            <marker date="1495837130000" expanded="true" signature="26336:26343" ph="—" />
+            <marker date="1495837130000" expanded="true" signature="26353:26359" ph="©" />
+            <marker date="1495837130000" expanded="true" signature="26794:26801" ph="—" />
+            <marker date="1495837130000" expanded="true" signature="26811:26817" ph="©" />
+            <marker date="1495837130000" expanded="true" signature="27598:27604" ph="©" />
+            <marker date="1495837130000" expanded="true" signature="27673:27679" ph="©" />
+            <marker date="1495837130000" expanded="true" signature="27938:27944" ph="©" />
+            <marker date="1495837130000" expanded="true" signature="28012:28018" ph="©" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fish_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="488" column="0" lean-forward="true" selection-start-line="388" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

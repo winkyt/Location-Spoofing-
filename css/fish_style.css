@@ -189,11 +189,11 @@ h4{
     background: url(../img/camp5.jpg) no-repeat center center fixed;
 }
 .overview-background-img {
-    background: url(overview_people.jpg) no-repeat center center fixed;
+    background: url(../img/camp5.jpg) no-repeat center center fixed;
     opacity: 1;
 }
 .checkin-background-img {
-    background: url(checkin_background.jpg) no-repeat center center fixed;
+    background: url(../img/camp5.jpg) no-repeat center center fixed;
     opacity: 0.6;
 }
 
@@ -386,9 +386,13 @@ div.leg p {
     margin: 0;
 }
 
+
 .leaflet-container {
     background-color:#ffffff;
 }
+
+
+
 body {
 	background-color:#545966;
 	color: #000000;
