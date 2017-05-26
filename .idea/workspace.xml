@@ -5,644 +5,181 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9680569c-4b5a-4a17-a752-ab6df2c1b317" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backup/LocationSpoofing_index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content_index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/3-col-portfolio.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/checkin_background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/control-minimap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/control-minimap2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/drinking_style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/ekko-lightbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/end.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/end2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/end_background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/end_dam.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/end_fish.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/end_gw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/end_pin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/end_precip.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/end_surface.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/end_use.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fish_style_stable20170518.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/flood_style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/groundwater_style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/infrastructure_style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/lightbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/map.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/overview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/overview2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/overview_dam.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/overview_fish.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/overview_gw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/overview_people.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/overview_precip.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/overview_surface.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/overview_use.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/precip_style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/surface_style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/water_use_style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/geofbposts.geojson" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/control-minimap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/ekko-lightbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-3.1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/leaflet.markercluster-src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/storymap_fixed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cluster/MarkerCluster.Default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cluster/leaflet.markercluster-src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet/leaflet-src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet/leaflet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/leaflet/leaflet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/reqwest.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testTYY.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tyy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/desktop.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/video/drone_cut.mp4" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Location Sproofing Sketch.pdf" afterPath="$PROJECT_DIR$/backup/Location Sproofing Sketch.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LocationSpoofing_index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LocationSpoofing_index_old.html" afterPath="$PROJECT_DIR$/backup/LocationSpoofing_index_old.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Video/drone_cut.mp4" afterPath="$PROJECT_DIR$/assets/drone_cut.mp4" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/Whole_Pipeline/Whole_Pipeline.cpg" afterPath="$PROJECT_DIR$/assets/Whole_Pipeline/Whole_Pipeline.cpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/Whole_Pipeline/Whole_Pipeline.dbf" afterPath="$PROJECT_DIR$/assets/Whole_Pipeline/Whole_Pipeline.dbf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/Whole_Pipeline/Whole_Pipeline.prj" afterPath="$PROJECT_DIR$/assets/Whole_Pipeline/Whole_Pipeline.prj" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/Whole_Pipeline/Whole_Pipeline.sbn" afterPath="$PROJECT_DIR$/assets/Whole_Pipeline/Whole_Pipeline.sbn" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/Whole_Pipeline/Whole_Pipeline.sbx" afterPath="$PROJECT_DIR$/assets/Whole_Pipeline/Whole_Pipeline.sbx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/Whole_Pipeline/Whole_Pipeline.shp" afterPath="$PROJECT_DIR$/assets/Whole_Pipeline/Whole_Pipeline.shp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/Whole_Pipeline/Whole_Pipeline.shp.xml" afterPath="$PROJECT_DIR$/assets/Whole_Pipeline/Whole_Pipeline.shp.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/Whole_Pipeline/Whole_Pipeline.shx" afterPath="$PROJECT_DIR$/assets/Whole_Pipeline/Whole_Pipeline.shx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/aquifer.geojson" afterPath="$PROJECT_DIR$/assets/aquifer.geojson" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/airfield-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/airfield-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/airfield-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/airfield-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/airport-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/airport-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/airport-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/airport-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/alcohol-shop-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/alcohol-shop-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/alcohol-shop-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/alcohol-shop-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/amusement-park-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/amusement-park-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/amusement-park-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/amusement-park-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/aquarium-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/aquarium-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/aquarium-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/aquarium-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/art-gallery-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/art-gallery-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/art-gallery-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/art-gallery-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/at-expressway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/at-expressway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/at-expressway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/at-expressway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/at-motorway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/at-motorway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/at-motorway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/at-motorway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/at-state-b-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/at-state-b-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/at-state-b-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/at-state-b-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/at-state-b-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/at-state-b-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/attraction-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/attraction-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/attraction-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/attraction-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bakery-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bakery-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bakery-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bakery-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bank-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bank-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bank-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bank-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bar-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bar-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bar-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bar-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/barcelona-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/barcelona-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/beer-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/beer-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/beer-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/beer-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bg-motorway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bg-motorway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bg-national-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bg-national-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bicycle-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bicycle-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bicycle-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bicycle-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bicycle-share-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bicycle-share-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bicycle-share-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bicycle-share-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/boston-t.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/boston-t.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/br-federal-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/br-federal-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/br-state-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/br-state-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/br-state-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/br-state-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bus-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bus-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/bus-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/bus-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/cafe-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/cafe-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/cafe-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/cafe-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/campsite-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/campsite-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/campsite-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/campsite-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/car-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/car-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/car-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/car-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/castle-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/castle-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/castle-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/castle-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/cemetery-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/cemetery-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/cemetery-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/cemetery-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ch-main-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ch-main-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ch-main-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ch-main-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ch-motorway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ch-motorway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ch-motorway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ch-motorway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ch-motorway-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ch-motorway-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/chongqing-rail-transit.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/chongqing-rail-transit.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/cinema-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/cinema-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/cinema-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/cinema-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/circle-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/circle-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/circle-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/circle-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/circle-stroked-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/circle-stroked-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/circle-stroked-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/circle-stroked-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/cliff.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/cliff.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/clothing-store-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/clothing-store-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/clothing-store-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/clothing-store-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/college-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/college-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/college-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/college-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/cz-expressway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/cz-expressway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/cz-expressway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/cz-expressway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/cz-motorway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/cz-motorway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/cz-road-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/cz-road-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/cz-road-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/cz-road-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/de-federal-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/de-federal-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/de-federal-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/de-federal-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/de-federal-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/de-federal-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/de-motorway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/de-motorway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/de-motorway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/de-motorway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/de-s-bahn.de-u-bahn.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/de-s-bahn.de-u-bahn.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/de-s-bahn.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/de-s-bahn.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/de-u-bahn.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/de-u-bahn.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/default-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/default-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/default-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/default-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/default-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/default-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/default-5.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/default-5.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/default-6.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/default-6.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/delhi-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/delhi-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/dentist-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/dentist-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/dentist-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/dentist-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/dk-primary-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/dk-primary-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/dk-secondary-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/dk-secondary-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/dk-secondary-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/dk-secondary-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/doctor-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/doctor-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/doctor-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/doctor-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/dog-park-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/dog-park-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/dog-park-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/dog-park-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/dot-10.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/dot-10.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/dot-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/dot-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/dot-9.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/dot-9.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/drinking-water-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/drinking-water-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/drinking-water-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/drinking-water-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/e-road-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/e-road-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/e-road-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/e-road-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/e-road-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/e-road-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/embassy-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/embassy-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/embassy-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/embassy-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/entrance-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/entrance-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/entrance-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/entrance-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/entrance.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/entrance.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/fast-food-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/fast-food-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/fast-food-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/fast-food-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ferry-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ferry-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ferry-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ferry-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/fi-main-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/fi-main-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/fi-regional-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/fi-regional-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/fi-trunk-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/fi-trunk-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/fire-station-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/fire-station-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/fire-station-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/fire-station-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/fuel-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/fuel-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/fuel-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/fuel-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/garden-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/garden-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/garden-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/garden-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gb-national-rail.london-dlr.london-overground.london-tfl-rail.london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gb-national-rail.london-dlr.london-overground.london-tfl-rail.london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gb-national-rail.london-dlr.london-overground.london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gb-national-rail.london-dlr.london-overground.london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gb-national-rail.london-dlr.london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gb-national-rail.london-dlr.london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gb-national-rail.london-dlr.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gb-national-rail.london-dlr.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gb-national-rail.london-overground.london-tfl-rail.london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gb-national-rail.london-overground.london-tfl-rail.london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gb-national-rail.london-overground.london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gb-national-rail.london-overground.london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gb-national-rail.london-overground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gb-national-rail.london-overground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gb-national-rail.london-tfl-rail.london-overground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gb-national-rail.london-tfl-rail.london-overground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gb-national-rail.london-tfl-rail.london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gb-national-rail.london-tfl-rail.london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gb-national-rail.london-tfl-rail.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gb-national-rail.london-tfl-rail.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gb-national-rail.london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gb-national-rail.london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gb-national-rail.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gb-national-rail.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/golf-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/golf-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/golf-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/golf-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gr-motorway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gr-motorway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gr-motorway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gr-motorway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gr-motorway-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gr-motorway-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gr-national-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gr-national-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gr-national-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gr-national-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/gr-national-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/gr-national-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/grocery-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/grocery-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/grocery-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/grocery-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/harbor-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/harbor-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/harbor-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/harbor-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/heliport-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/heliport-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/heliport-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/heliport-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hong-kong-mtr.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hong-kong-mtr.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hospital-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hospital-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hospital-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hospital-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hr-county-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hr-county-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hr-motorway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hr-motorway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hr-motorway-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hr-motorway-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hr-state-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hr-state-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hr-state-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hr-state-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hu-main-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hu-main-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hu-main-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hu-main-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hu-main-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hu-main-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hu-main-5.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hu-main-5.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hu-motorway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hu-motorway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/hu-motorway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/hu-motorway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ice-cream-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ice-cream-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ice-cream-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ice-cream-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/in-national-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/in-national-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/in-national-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/in-national-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/in-national-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/in-national-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/in-state-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/in-state-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/in-state-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/in-state-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/information-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/information-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/information-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/information-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/kiev-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/kiev-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/laundry-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/laundry-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/laundry-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/laundry-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/level-crossing.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/level-crossing.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/library-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/library-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/library-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/library-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/lodging-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/lodging-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/lodging-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/lodging-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/london-dlr.london-tfl-rail.london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/london-dlr.london-tfl-rail.london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/london-dlr.london-tfl-rail.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/london-dlr.london-tfl-rail.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/london-dlr.london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/london-dlr.london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/london-dlr.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/london-dlr.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/london-overground.london-tfl-rail.london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/london-overground.london-tfl-rail.london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/london-overground.london-tfl-rail.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/london-overground.london-tfl-rail.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/london-overground.london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/london-overground.london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/london-overground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/london-overground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/london-tfl-rail.london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/london-tfl-rail.london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/london-tfl-rail.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/london-tfl-rail.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/london-underground.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/london-underground.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/madrid-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/madrid-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/marker-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/marker-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/marker-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/marker-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/mexico-city-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/mexico-city-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/milan-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/milan-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/monument-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/monument-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/monument-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/monument-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/moscow-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/moscow-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/motorway-exit-1.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/motorway-exit-1.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/motorway-exit-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/motorway-exit-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/motorway-exit-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/motorway-exit-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/motorway-exit-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/motorway-exit-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/motorway-exit-5.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/motorway-exit-5.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/motorway-exit-6.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/motorway-exit-6.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/motorway-exit-7.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/motorway-exit-7.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/motorway-exit-8.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/motorway-exit-8.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/motorway-exit-9.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/motorway-exit-9.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/mountain-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/mountain-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/mountain-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/mountain-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/museum-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/museum-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/museum-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/museum-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/music-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/music-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/music-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/music-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/mx-federal-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/mx-federal-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/mx-federal-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/mx-federal-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/mx-federal-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/mx-federal-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/mx-state-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/mx-state-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/mx-state-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/mx-state-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/mx-state-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/mx-state-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/new-york-subway.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/new-york-subway.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/nz-state-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/nz-state-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/nz-state-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/nz-state-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/oneway-large.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/oneway-large.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/oneway-small.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/oneway-small.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/oneway-white-large.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/oneway-white-large.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/oneway-white-small.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/oneway-white-small.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/osaka-subway.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/osaka-subway.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/oslo-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/oslo-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/paris-metro.paris-rer.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/paris-metro.paris-rer.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/paris-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/paris-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/paris-rer.paris-transilien.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/paris-rer.paris-transilien.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/paris-rer.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/paris-rer.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/paris-transilien.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/paris-transilien.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/park-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/park-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/park-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/park-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pe-national-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pe-national-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pe-national-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pe-national-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pe-regional-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pe-regional-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pe-regional-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pe-regional-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pedestrian-polygon.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pedestrian-polygon.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pharmacy-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pharmacy-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pharmacy-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pharmacy-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/philadelphia-septa.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/philadelphia-septa.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/picnic-site-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/picnic-site-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/picnic-site-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/picnic-site-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pl-expressway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pl-expressway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pl-expressway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pl-expressway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pl-motorway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pl-motorway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pl-motorway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pl-motorway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pl-national-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pl-national-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/pl-voivodeship-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/pl-voivodeship-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/place-of-worship-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/place-of-worship-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/place-of-worship-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/place-of-worship-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/playground-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/playground-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/playground-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/playground-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/police-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/police-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/police-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/police-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/post-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/post-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/post-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/post-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/prison-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/prison-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/prison-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/prison-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rail-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rail-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rail-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rail-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rail-light-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rail-light-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rail-light-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rail-light-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rail-light.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rail-light.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rail-metro-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rail-metro-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rail-metro-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rail-metro-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rail-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rail-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rail.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rail.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/religious-christian-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/religious-christian-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/religious-christian-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/religious-christian-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/religious-jewish-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/religious-jewish-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/religious-jewish-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/religious-jewish-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/religious-muslim-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/religious-muslim-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/religious-muslim-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/religious-muslim-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/restaurant-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/restaurant-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/restaurant-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/restaurant-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ro-communal-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ro-communal-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ro-communal-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ro-communal-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ro-communal-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ro-communal-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ro-communal-5.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ro-communal-5.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ro-communal-6.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ro-communal-6.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ro-county-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ro-county-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ro-county-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ro-county-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ro-motorway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ro-motorway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ro-motorway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ro-motorway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ro-national-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ro-national-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/ro-national-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/ro-national-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rocket-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rocket-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rocket-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rocket-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rs-motorway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rs-motorway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rs-state-1b-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rs-state-1b-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rs-state-2a-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rs-state-2a-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/rs-state-2b-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/rs-state-2b-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/san-francisco-bart.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/san-francisco-bart.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/school-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/school-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/school-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/school-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/se-main-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/se-main-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/se-main-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/se-main-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/shop-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/shop-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/shop-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/shop-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/si-expressway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/si-expressway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/si-main-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/si-main-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/si-main-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/si-main-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/si-motorway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/si-motorway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/singapore-mrt.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/singapore-mrt.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/sk-highway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/sk-highway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/sk-road-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/sk-road-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/sk-road-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/sk-road-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/sk-road-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/sk-road-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/sk-road-5.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/sk-road-5.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/square-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/square-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/square-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/square-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/square-stroked-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/square-stroked-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/square-stroked-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/square-stroked-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/stadium-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/stadium-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/stadium-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/stadium-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/star-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/star-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/star-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/star-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/star-stroked-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/star-stroked-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/star-stroked-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/star-stroked-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/stockholm-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/stockholm-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/suitcase-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/suitcase-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/suitcase-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/suitcase-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/swimming-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/swimming-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/swimming-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/swimming-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/taipei-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/taipei-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/theatre-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/theatre-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/theatre-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/theatre-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/toilet-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/toilet-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/toilet-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/toilet-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/tokyo-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/tokyo-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/town-hall-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/town-hall-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/town-hall-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/town-hall-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/triangle-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/triangle-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/triangle-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/triangle-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/triangle-stroked-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/triangle-stroked-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/triangle-stroked-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/triangle-stroked-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-alternate-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-alternate-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-alternate-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-alternate-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-business-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-business-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-business-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-business-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-bypass-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-bypass-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-bypass-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-bypass-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-duplex-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-duplex-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-duplex-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-duplex-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-duplex-5.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-duplex-5.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-truck-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-truck-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-highway-truck-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-highway-truck-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-interstate-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-interstate-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-interstate-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-interstate-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-interstate-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-interstate-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-interstate-business-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-interstate-business-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-interstate-business-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-interstate-business-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-interstate-duplex-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-interstate-duplex-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-interstate-duplex-5.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-interstate-duplex-5.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-interstate-truck-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-interstate-truck-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-interstate-truck-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-interstate-truck-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-state-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-state-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-state-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-state-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/us-state-4.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/us-state-4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/veterinary-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/veterinary-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/veterinary-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/veterinary-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/vienna-u-bahn.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/vienna-u-bahn.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/volcano-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/volcano-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/volcano-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/volcano-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/washington-metro.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/washington-metro.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/wetland.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/wetland.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/za-metropolitan-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/za-metropolitan-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/za-national-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/za-national-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/za-national-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/za-national-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/za-provincial-2.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/za-provincial-2.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/za-regional-3.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/za-regional-3.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/zoo-11.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/zoo-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/icons/zoo-15.svg" afterPath="$PROJECT_DIR$/assets/basemap/icons/zoo-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/license.txt" afterPath="$PROJECT_DIR$/assets/basemap/license.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/basemap/style.json" afterPath="$PROJECT_DIR$/assets/basemap/style.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/biglake.geojson" afterPath="$PROJECT_DIR$/assets/biglake.geojson" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/camp.geojson" afterPath="$PROJECT_DIR$/assets/camp.geojson" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/countyND.geojson" afterPath="$PROJECT_DIR$/assets/countyND.geojson" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/geofbposts.js" afterPath="$PROJECT_DIR$/assets/geofbposts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/airfield-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/airfield-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/airfield-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/airfield-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/airport-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/airport-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/airport-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/airport-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/alcohol-shop-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/alcohol-shop-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/alcohol-shop-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/alcohol-shop-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/amusement-park-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/amusement-park-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/amusement-park-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/amusement-park-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/aquarium-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/aquarium-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/aquarium-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/aquarium-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/art-gallery-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/art-gallery-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/art-gallery-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/art-gallery-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/attraction-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/attraction-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/attraction-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/attraction-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/bakery-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/bakery-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/bakery-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/bakery-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/bank-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/bank-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/bank-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/bank-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/bar-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/bar-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/bar-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/bar-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/beer-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/beer-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/beer-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/beer-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/bicycle-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/bicycle-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/bicycle-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/bicycle-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/bicycle-share-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/bicycle-share-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/bicycle-share-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/bicycle-share-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/bus-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/bus-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/bus-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/bus-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/cafe-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/cafe-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/cafe-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/cafe-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/campsite-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/campsite-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/campsite-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/campsite-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/car-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/car-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/car-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/car-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/castle-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/castle-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/castle-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/castle-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/cemetery-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/cemetery-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/cemetery-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/cemetery-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/cinema-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/cinema-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/cinema-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/cinema-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/circle-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/circle-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/circle-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/circle-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/circle-stroked-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/circle-stroked-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/circle-stroked-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/circle-stroked-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/clothing-store-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/clothing-store-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/clothing-store-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/clothing-store-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/college-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/college-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/college-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/college-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/dentist-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/dentist-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/dentist-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/dentist-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/doctor-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/doctor-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/doctor-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/doctor-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/dog-park-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/dog-park-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/dog-park-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/dog-park-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/dot-10.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/dot-10.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/dot-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/dot-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/drinking-water-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/drinking-water-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/drinking-water-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/drinking-water-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/embassy-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/embassy-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/embassy-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/embassy-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/entrance-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/entrance-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/entrance-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/entrance-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/fast-food-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/fast-food-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/fast-food-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/fast-food-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/ferry-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/ferry-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/ferry-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/ferry-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/fire-station-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/fire-station-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/fire-station-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/fire-station-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/fuel-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/fuel-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/fuel-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/fuel-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/garden-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/garden-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/garden-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/garden-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/golf-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/golf-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/golf-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/golf-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/grocery-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/grocery-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/grocery-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/grocery-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/harbor-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/harbor-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/harbor-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/harbor-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/heliport-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/heliport-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/heliport-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/heliport-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/hospital-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/hospital-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/hospital-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/hospital-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/ice-cream-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/ice-cream-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/ice-cream-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/ice-cream-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/information-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/information-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/information-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/information-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/laundry-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/laundry-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/laundry-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/laundry-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/library-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/library-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/library-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/library-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/lodging-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/lodging-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/lodging-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/lodging-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/marker-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/marker-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/marker-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/marker-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/monument-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/monument-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/monument-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/monument-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/mountain-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/mountain-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/mountain-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/mountain-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/museum-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/museum-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/museum-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/museum-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/music-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/music-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/music-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/music-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/park-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/park-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/park-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/park-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/pharmacy-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/pharmacy-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/pharmacy-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/pharmacy-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/picnic-site-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/picnic-site-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/picnic-site-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/picnic-site-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/place-of-worship-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/place-of-worship-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/place-of-worship-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/place-of-worship-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/playground-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/playground-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/playground-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/playground-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/police-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/police-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/police-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/police-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/post-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/post-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/post-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/post-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/prison-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/prison-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/prison-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/prison-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/rail-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/rail-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/rail-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/rail-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/rail-light-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/rail-light-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/rail-light-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/rail-light-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/rail-metro-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/rail-metro-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/rail-metro-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/rail-metro-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/religious-christian-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/religious-christian-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/religious-christian-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/religious-christian-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/religious-jewish-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/religious-jewish-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/religious-jewish-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/religious-jewish-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/religious-muslim-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/religious-muslim-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/religious-muslim-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/religious-muslim-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/restaurant-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/restaurant-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/restaurant-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/restaurant-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/rocket-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/rocket-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/rocket-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/rocket-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/school-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/school-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/school-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/school-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/shop-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/shop-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/shop-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/shop-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/square-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/square-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/square-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/square-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/square-stroked-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/square-stroked-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/square-stroked-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/square-stroked-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/stadium-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/stadium-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/stadium-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/stadium-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/star-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/star-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/star-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/star-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/star-stroked-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/star-stroked-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/star-stroked-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/star-stroked-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/suitcase-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/suitcase-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/suitcase-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/suitcase-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/swimming-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/swimming-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/swimming-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/swimming-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/theatre-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/theatre-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/theatre-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/theatre-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/toilet-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/toilet-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/toilet-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/toilet-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/town-hall-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/town-hall-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/town-hall-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/town-hall-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/triangle-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/triangle-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/triangle-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/triangle-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/triangle-stroked-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/triangle-stroked-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/triangle-stroked-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/triangle-stroked-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/veterinary-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/veterinary-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/veterinary-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/veterinary-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/volcano-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/volcano-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/volcano-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/volcano-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/zoo-11.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/zoo-11.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/icons/zoo-15.svg" afterPath="$PROJECT_DIR$/assets/minimapbox/icons/zoo-15.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/license.txt" afterPath="$PROJECT_DIR$/assets/minimapbox/license.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/minimapbox/style.json" afterPath="$PROJECT_DIR$/assets/minimapbox/style.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/pipeline.geojson" afterPath="$PROJECT_DIR$/assets/pipeline.geojson" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/smalllake.geojson" afterPath="$PROJECT_DIR$/assets/smalllake.geojson" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/standingrock.geojson" afterPath="$PROJECT_DIR$/assets/standingrock.geojson" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/asset/wholepipeline.geojson" afterPath="$PROJECT_DIR$/assets/wholepipeline.geojson" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/facebook.posts.csv" afterPath="$PROJECT_DIR$/backup/facebook.posts.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/font.html" afterPath="$PROJECT_DIR$/backup/font.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/cluster/MarkerCluster.css" afterPath="$PROJECT_DIR$/css/MarkerCluster.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/cluster/leaflet.markercluster.js" afterPath="$PROJECT_DIR$/js/leaflet.markercluster.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spatial data.zip" afterPath="$PROJECT_DIR$/backup/spatial data.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/symbol.png" afterPath="$PROJECT_DIR$/backup/symbol.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Video/drone_cut.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/airfield-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/airfield-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/airport-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/airport-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/alcohol-shop-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/alcohol-shop-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/amusement-park-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/amusement-park-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/aquarium-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/aquarium-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/art-gallery-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/art-gallery-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/attraction-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/attraction-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bakery-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bakery-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bank-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bank-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bar-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bar-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/beer-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/beer-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bicycle-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bicycle-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bicycle-share-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bicycle-share-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bus-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/bus-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/cafe-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/cafe-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/campsite-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/campsite-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/car-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/car-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/castle-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/castle-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/cemetery-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/cemetery-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/cinema-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/cinema-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/circle-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/circle-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/circle-stroked-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/circle-stroked-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/clothing-store-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/clothing-store-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/college-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/college-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/dentist-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/dentist-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/doctor-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/doctor-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/dog-park-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/dog-park-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/dot-10.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/dot-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/drinking-water-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/drinking-water-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/embassy-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/embassy-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/entrance-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/entrance-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/fast-food-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/fast-food-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/ferry-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/ferry-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/fire-station-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/fire-station-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/fuel-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/fuel-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/garden-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/garden-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/golf-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/golf-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/grocery-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/grocery-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/harbor-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/harbor-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/heliport-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/heliport-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/hospital-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/hospital-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/ice-cream-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/ice-cream-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/information-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/information-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/laundry-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/laundry-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/library-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/library-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/lodging-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/lodging-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/marker-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/marker-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/monument-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/monument-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/mountain-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/mountain-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/museum-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/museum-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/music-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/music-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/park-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/park-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/pharmacy-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/pharmacy-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/picnic-site-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/picnic-site-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/place-of-worship-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/place-of-worship-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/playground-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/playground-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/police-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/police-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/post-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/post-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/prison-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/prison-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rail-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rail-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rail-light-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rail-light-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rail-metro-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rail-metro-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/religious-christian-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/religious-christian-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/religious-jewish-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/religious-jewish-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/religious-muslim-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/religious-muslim-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/restaurant-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/restaurant-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rocket-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/rocket-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/school-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/school-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/shop-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/shop-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/square-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/square-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/square-stroked-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/square-stroked-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/stadium-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/stadium-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/star-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/star-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/star-stroked-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/star-stroked-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/suitcase-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/suitcase-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/swimming-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/swimming-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/theatre-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/theatre-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/toilet-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/toilet-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/town-hall-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/town-hall-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/triangle-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/triangle-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/triangle-stroked-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/triangle-stroked-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/veterinary-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/veterinary-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/volcano-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/volcano-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/zoo-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/icons/zoo-15.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/minimapbox/style.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fish_style.css" afterPath="$PROJECT_DIR$/css/fish_style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -657,68 +194,8 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-              <folding>
-                <marker date="1495833317000" expanded="true" signature="26882:26889" ph="—" />
-                <marker date="1495833317000" expanded="true" signature="26899:26905" ph="©" />
-                <marker date="1495833317000" expanded="true" signature="27340:27347" ph="—" />
-                <marker date="1495833317000" expanded="true" signature="27357:27363" ph="©" />
-                <marker date="1495833317000" expanded="true" signature="28144:28150" ph="©" />
-                <marker date="1495833317000" expanded="true" signature="28219:28225" ph="©" />
-                <marker date="1495833317000" expanded="true" signature="28484:28490" ph="©" />
-                <marker date="1495833317000" expanded="true" signature="28558:28564" ph="©" />
-                <marker date="1495833317000" expanded="true" signature="30680:30686" ph="©" />
-                <marker date="1495833317000" expanded="true" signature="30755:30761" ph="©" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leaflet.markercluster.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/leaflet.markercluster.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="facebook.posts.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backup/facebook.posts.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backup/font.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="symbol.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backup/symbol.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="symbol2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/symbol2.png">
+      <file leaf-file-name="grouplogo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/grouplogo.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -727,9 +204,53 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="646">
+              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="141" column="30" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2815#2821#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#2;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#1;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#2;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#3;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#1;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#2;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#3;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#4;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#17607#17614#1" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1495834537000" expanded="true" signature="26536:26543" ph="—" />
+                <marker date="1495834537000" expanded="true" signature="26553:26559" ph="©" />
+                <marker date="1495834537000" expanded="true" signature="26994:27001" ph="—" />
+                <marker date="1495834537000" expanded="true" signature="27011:27017" ph="©" />
+                <marker date="1495834537000" expanded="true" signature="27798:27804" ph="©" />
+                <marker date="1495834537000" expanded="true" signature="27873:27879" ph="©" />
+                <marker date="1495834537000" expanded="true" signature="28138:28144" ph="©" />
+                <marker date="1495834537000" expanded="true" signature="28212:28218" ph="©" />
+                <marker date="1495834537000" expanded="true" signature="30334:30340" ph="©" />
+                <marker date="1495834537000" expanded="true" signature="30409:30415" ph="©" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -737,10 +258,52 @@
       <file leaf-file-name="fish_style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/fish_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="275">
+              <caret line="182" column="15" lean-forward="true" selection-start-line="182" selection-start-column="15" selection-end-line="182" selection-end-column="15" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="symbol3.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/symbol3.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font.PNG" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/font.PNG">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facebook3_thumb.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/facebook3_thumb.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="camp_symbol.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/camp_symbol.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="camp5.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/camp5.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="camp1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/camp1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -755,10 +318,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>icon</find>
-      <find>pattern</find>
-      <find>line</find>
-      <find>img</find>
       <find>symbol.png</find>
       <find>nav</find>
       <find>progress-line</find>
@@ -785,7 +344,14 @@
       <find>map_curve</find>
       <find>leaflet-d3</find>
       <find>mini</find>
+      <find>social</find>
+      <find>asset</find>
+      <find>end</find>
+      <find>end_</find>
     </findStrings>
+    <replaceStrings>
+      <replace>assets</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -796,13 +362,13 @@
         <option value="$PROJECT_DIR$/LocationSpoofing_indexNew.html" />
         <option value="$PROJECT_DIR$/js/storymap.js" />
         <option value="$PROJECT_DIR$/testTYY.html" />
-        <option value="$PROJECT_DIR$/css/fish_style.css" />
         <option value="$PROJECT_DIR$/tyy.html" />
         <option value="$PROJECT_DIR$/test2.html" />
         <option value="$PROJECT_DIR$/js/storymap_fixed.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/LocationSpoofing_index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/fish_style.css" />
       </list>
     </option>
   </component>
@@ -913,6 +479,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/LocationSpoofing_index.html" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/bo/Workspace/LocationSpoofing/index.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -941,8 +508,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.LocationSpoofing_index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="LocationSpoofing_index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LocationSpoofing/backup/LocationSpoofing_index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LocationSpoofing/index.html">
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
@@ -993,12 +563,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.LocationSpoofing_index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.LocationSpoofing_index.html" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.LocationSpoofing_index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -1021,17 +593,26 @@
       <workItem from="1495769343317" duration="3786000" />
       <workItem from="1495818965286" duration="2010000" />
       <workItem from="1495831854482" duration="99000" />
-      <workItem from="1495832189660" duration="1102000" />
+      <workItem from="1495832189660" duration="2529000" />
     </task>
+    <task id="LOCAL-00001" summary="0.0.2">
+      <created>1495833358708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495833358708</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103251000" />
+    <option name="totallyTimeSpent" value="104678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1367" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10870422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10870422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1056,159 +637,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="0.0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testTYY.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fish_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13500">
-          <caret line="500" column="0" lean-forward="false" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backup/LocationSpoofing_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2855#2861#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#2;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#1;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#2;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#3;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#1;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#2;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#3;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#4;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#18002#18009#1" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1495833249000" expanded="true" signature="26922:26929" ph="—" />
-            <marker date="1495833249000" expanded="true" signature="26939:26945" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="27380:27387" ph="—" />
-            <marker date="1495833249000" expanded="true" signature="27397:27403" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="28184:28190" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="28259:28265" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="28524:28530" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="28598:28604" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="30720:30726" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="30795:30801" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/storymap_fixed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="67" column="15" lean-forward="false" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testTYY.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/storymap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7560">
-          <caret line="280" column="13" lean-forward="false" selection-start-line="280" selection-start-column="13" selection-end-line="280" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/storymap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9099">
-          <caret line="339" column="11" lean-forward="false" selection-start-line="339" selection-start-column="11" selection-end-line="339" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fish_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13500">
-          <caret line="500" column="1" lean-forward="false" selection-start-line="500" selection-start-column="1" selection-end-line="500" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backup/LocationSpoofing_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7182">
-          <caret line="267" column="37" lean-forward="false" selection-start-line="267" selection-start-column="31" selection-end-line="267" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2855#2861#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#2;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#1;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#2;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#3;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#1;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#2;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#3;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#4;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#18002#18009#1" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1495833249000" expanded="true" signature="26922:26929" ph="—" />
-            <marker date="1495833249000" expanded="true" signature="26939:26945" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="27380:27387" ph="—" />
-            <marker date="1495833249000" expanded="true" signature="27397:27403" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="28184:28190" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="28259:28265" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="28524:28530" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="28598:28604" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="30720:30726" ph="©" />
-            <marker date="1495833249000" expanded="true" signature="30795:30801" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/storymap_fixed.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
@@ -1541,27 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/fish_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/symbol2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backup/LocationSpoofing_index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1610,14 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup/facebook.posts.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content_index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1642,19 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup/font.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backup/symbol.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/leaflet.markercluster.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1673,21 +1067,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backup/facebook.posts.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/font.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/symbol.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/StanddingRockFB.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/symbol.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/symbol2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/symbol3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/font.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/facebook3_thumb.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/camp_symbol.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/camp1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/camp5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/grouplogo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fish_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="182" column="15" lean-forward="true" selection-start-line="182" selection-start-column="15" selection-end-line="182" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="88">
+          <caret line="141" column="30" lean-forward="true" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
           <folding>
-            <marker date="1495833317000" expanded="true" signature="26882:26889" ph="—" />
-            <marker date="1495833317000" expanded="true" signature="26899:26905" ph="©" />
-            <marker date="1495833317000" expanded="true" signature="27340:27347" ph="—" />
-            <marker date="1495833317000" expanded="true" signature="27357:27363" ph="©" />
-            <marker date="1495833317000" expanded="true" signature="28144:28150" ph="©" />
-            <marker date="1495833317000" expanded="true" signature="28219:28225" ph="©" />
-            <marker date="1495833317000" expanded="true" signature="28484:28490" ph="©" />
-            <marker date="1495833317000" expanded="true" signature="28558:28564" ph="©" />
-            <marker date="1495833317000" expanded="true" signature="30680:30686" ph="©" />
-            <marker date="1495833317000" expanded="true" signature="30755:30761" ph="©" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2815#2821#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#2;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#1;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#2;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#3;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#1;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#2;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#3;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#4;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#section#9;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#17607#17614#1" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1495834537000" expanded="true" signature="26536:26543" ph="—" />
+            <marker date="1495834537000" expanded="true" signature="26553:26559" ph="©" />
+            <marker date="1495834537000" expanded="true" signature="26994:27001" ph="—" />
+            <marker date="1495834537000" expanded="true" signature="27011:27017" ph="©" />
+            <marker date="1495834537000" expanded="true" signature="27798:27804" ph="©" />
+            <marker date="1495834537000" expanded="true" signature="27873:27879" ph="©" />
+            <marker date="1495834537000" expanded="true" signature="28138:28144" ph="©" />
+            <marker date="1495834537000" expanded="true" signature="28212:28218" ph="©" />
+            <marker date="1495834537000" expanded="true" signature="30334:30340" ph="©" />
+            <marker date="1495834537000" expanded="true" signature="30409:30415" ph="©" />
           </folding>
         </state>
       </provider>

@@ -186,7 +186,7 @@ h4{
     -khtml-opacity: 1;
 }
 .end-background-img {
-    background: url(end_background.jpg) no-repeat center center fixed;
+    background: url(../img/camp5.jpg) no-repeat center center fixed;
 }
 .overview-background-img {
     background: url(overview_people.jpg) no-repeat center center fixed;
@@ -437,27 +437,7 @@ h5{
 	border:4px solid #ffffff;	
 	}
 
-.social,.social2,.social3 {
-    position:fixed;
-    cursor: pointer;
-    font-size:24px;
-    color:black;
-    z-index:1003;
-	font-family: "Verdana", Geneva, sans-serif;
-    top: 2%;
-}
-.social:hover {
-    color: gray;
-    text-decoration: none;
-}
-.social2:hover {
-    color: #3b5998;
-    text-decoration: none;
-}
-.social3:hover {
-    color: #0084b4;
-    text-decoration: none;
-}	
+
 .label_tooltip {
   background-color: rgba(255,255,255,1);
 	font-family: "Inconsolata", sans-serif;
@@ -465,14 +445,17 @@ h5{
   border: 2px solid rgba(255,255,255,1);
   box-shadow: 2px 2px rgba(0,0,0,0.5);
 }
+
 .leaflet-tooltip-left.label_tooltip::before {
   border-left-color: white;
   opacity: 1;
 }
+
 .leaflet-tooltip-right.label_tooltip::before {
   border-right-color: white;
   opacity: 1;
 }
+
 .label_tooltip2 {
   background-color: rgba(255,255,255,1);
 	font-family: "Inconsolata", sans-serif;
@@ -481,6 +464,7 @@ h5{
   box-shadow: 2px 2px rgba(0,0,0,0.5);
   white-space: pre-wrap;
 }
+
 .circle {
       -webkit-border-radius: 25px;
       -moz-border-radius: 25px;

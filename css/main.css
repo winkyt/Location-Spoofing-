@@ -8,3 +8,33 @@
 . cnavbar {
     background-color: #B51E1E
 }
+
+.social {
+
+    padding-left:0px; padding-right:0px !important;
+
+}
+
+
+.social:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+h3 {
+
+    font-size:28px;
+    color: rgba(240, 255, 239, 0.76);
+    margin-left: 12%;
+    text-align:justify;
+    position:absolute;
+    left: 10px;
+    top: 180px;
+}
+
+h4 {
+
+    position:fixed;
+    left: 16%;
+    bottom: 70%;
+}
