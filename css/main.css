@@ -26,7 +26,6 @@
 
 .arrow-down-custom{
     color: black
-
 }
 
 .viewing {
@@ -35,6 +34,29 @@
 }
 
 
+.legend-custom {
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    font-size: 20px !important;
+    color: transparent;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Titillium Web', serif;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.legend-custom p {
+
+    font-size: 18px;
+}
+
+.legend-custom i {
+    width: 16px;
+    height: 16px;
+    float: left;
+    opacity: 0.9;
+}
 
 body {
 

@@ -150,12 +150,22 @@
 					As of 2015, poverty remains a problem for the displaced populations in the Dakotas.(add income source from Jenn) They have sought compensation for their towns submerged under Lake Oahe, and the loss of traditional ways of life.
 				</p>
 				<br/><br/>
-				<div class="leg">
+				<div class="legend legend-custom">
 					<!--<p style ="font-weight: bold;">Legend</p>-->
 					<br/>
-					<i style="background: #67B8E0; opacity: 0.8; margin-right: 8px;"></i><p>Aquifer</p><br/><br/>
-					<i style="background: #006080; opacity: 0.8; margin-right: 8px;"></i><p>Surface Water</p><br/><br/>
-					<i style="background: #606020; opacity: 0.8; margin-right: 8px;"></i><p>Sacred Site</p><br/>
+					<i style="background: #67B8E0; opacity: 0.8; "></i><p>Aquifer</p><br/><br/>
+					<i style="background: #006080; opacity: 0.8; "></i><p>Surface Water</p><br/><br/>
+					<i style="background: #606020; opacity: 0.8; "></i><p>Sacred Site</p><br/>
+
+					<i><svg width="16" height="16" data-reactid=".0.1.1.0.0.1:$=11:$1.0.0.$masked.0">
+						<pattern id="diagonalHatch" patternUnits="userSpaceOnUse" width="4" height="4">
+							<path d="M-1,1 l2,-2
+           M0,4 l4,-4
+           M3,5 l2,-2" style="stroke:orange; stroke-width:0.5" />
+						</pattern>
+						<rect x="0" y="0" width="100%" height="100%" fill="url(#diagonalHatch)"/>
+
+					</svg></i> <p> StandingRock </p>
 				</div>
 				<br/><br/><br/>
 			</section>
@@ -360,10 +370,10 @@
     var stripes = new L.StripePattern({
         patternContentUnits: 'objectBoundingBox',
         patternUnits: 'objectBoundingBox',
-        weight: 0.01,
-        spaceWeight: 0.01,
+        weight: 0.5,
+        spaceWeight: 0.5,
         height: 0.03,
-        angle: 45,
+        angle: -45,
         color:'orange',
     });
     var photos = [{
