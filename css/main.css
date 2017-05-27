@@ -33,30 +33,41 @@
     background-color: transparent;
 }
 
+.notviewing {
+    display: inline;
+
+    background-color: transparent;
+}
+
 
 .legend-custom {
     position: relative;
     background-color: transparent;
     width: 100%;
-    font-size: 20px !important;
+    font-size: 18px !important;
     color: transparent;
-    color: rgba(0, 0, 0, 1);
     font-family: 'Titillium Web', serif;
     box-shadow: none;
     border-radius: 0;
 }
 
 .legend-custom p {
-
+    line-height:30px;
     font-size: 18px;
 }
 
 .legend-custom i {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     float: left;
     opacity: 0.9;
+    margin-top: 5px}
+
+section p {
+
+    height: 18px;
 }
+
 
 body {
 
@@ -88,15 +99,16 @@ h2{
 
 
 h3{
-    font-size: 50px;
-    font-weight:bold;
-    color: rgba(0, 0, 0, 0.95);
-}
-h4{
     font-weight:bold;
     color: #000000;
+    font-family: 'Titillium Web', serif;
     font-size:30px;
+    margin-bottom: 20px;
     color: rgba(0, 0, 0, 0.95);
+    text-shadow: 0 0 1px rgba(255, 255, 255, 1);
+}
+h4{
+
 }
 
 h5{
@@ -155,10 +167,20 @@ p{
     stroke-width: 5;
 }
 
+.point-legend {
 
+    font-size: 20px;
+
+}
 
 .hexbin-hexagon {
     stroke: rgba(0, 0, 0, 0);
     stroke-width: .5px;
 }
 
+.embeded-photo {
+
+    max-width: 600px;
+    max-height:400px;
+
+}
