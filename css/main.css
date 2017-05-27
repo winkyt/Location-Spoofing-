@@ -25,16 +25,10 @@
 }
 
 
-.back-trans{
-    background: rgba(25, 25, 25, .5);
-
-
-}
-
 body {
-    font-family: 'Droid Serif', serif;
-    background-color:#545966;
+
     color: #000000;
+    font-family: 'Titillium Web', serif;
 
 }
 
@@ -42,17 +36,21 @@ h1{
     font-size: 80px;
     font-weight:bold;
     color: rgba(255, 255, 255, 0.95);
-    padding-top: 50px;
+    margin-top: 250px;
     text-shadow: 0 0 2px rgba(0, 0, 0,.5);
+    font-family: 'Fira Sans Condensed', serif;
 }
 
 h2{
     font-size:25px;
-    padding-top: 1px;
+    margin-top: 50px;
     padding-left: 17%;
     padding-right: 17%;
     color: rgba(255, 255, 255, 0.95);
     text-shadow: 0 0 2px rgba(0,0,0,.95);
+    font-family: 'Titillium Web', serif;
+
+
 }
 
 
