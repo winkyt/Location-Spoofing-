@@ -189,23 +189,20 @@
 					<i class="glyphicon glyphicon-tent mark-icon point-legend" style="color: orangered"></i><p>Camp</p>
 					<br/>
 				</div>
+				<div class="embeded-photo img-responsive"></div>
 			</section>
 
-			<section data-scene="photo">
-				<h4>Photo in Standing Rock</h4>
+
+
+			<section data-scene="support" >
+				<h3>Check-in for support</h3>
 				<p>Thousands of people had checked in at Standing Rock Indian Reservation on the Facebook.
 					But many of them weren't anywhere near the location </p>
 				<div class="embeded-photo img-responsive"></div>
 			</section>
 
-			<section data-scene="support" >
-				<h4>Check-in for support</h4>
-				<p>Thousands of people had checked in at Standing Rock Indian Reservation on the Facebook.
-					But many of them weren't anywhere near the location </p>
-			</section>
-
 			<section data-scene="map_hex">
-				<h4>Where are they?</h4>
+				<h3>Where are they?</h3>
 				<h5>When people check-in at #Standing rock,ND,<br/>are they really standing THERE?</h5>
 				<br/><br/>
 				<!--<div class="leg"><p style ="font-weight: bold;">Habitat Extent</p>
@@ -216,7 +213,7 @@
 				<br/><br/>
 			</section>
 			<section data-scene="map_hex_case1">
-				<h4>Case 1</h4>
+				<h3>Case 1</h3>
 				<p>When people check-in at #Standing rock,ND,<br/>are they really standing THERE?</p>
 				<br/><br/>
 				<!--<div class="leg"><p style ="font-weight: bold;">Habitat Extent</p>
@@ -241,9 +238,6 @@
 				<p>Map: heatmap?<br/>Charts: crossfilter, pi chart
 				</p>
 				<br/><br/>
-				<!--<div class="leg"><p style ="font-weight: bold;">Habitat Extent</p>
-                <img src="img/bulltrout.jpg" height="100" width="220" style="float: right;"><br/><i style="background: #00b093; opacity: 0.8; margin-right: 8px;"></i><p>Current</p><br/><i style="background: #ff3333; opacity: 0.8; margin-right: 8px;"></i><p>Historical</p><br/>
-                </div>-->
 				<br/><br/><br/>
 			</section>
 
@@ -383,6 +377,16 @@
        caption: "Protest at Standing Rock"
     }];
 
+    var photos2 = [{
+        lat: 31,
+        lng: -85,
+        thumbnail: "img/facebook3_thumb.png",
+        url: "img/people6.jpg",
+        caption: "Protest at Standing Rock"
+    }];
+
+
+
     var options = {
         opacity: 0.8,
         radiusRange: [ 5, 10 ],
@@ -411,64 +415,24 @@
 
 
 
-//
-//    var photoLayer = L.photo.cluster().on('click', function(evt) {
-//        var photo = evt.layer.photo;
-//        var template = '<img src="{url}" /></a><p>{name}</p>';
-//
-////        evt.layer.bindPopup(L.Util.template(template, photo),{maxWidth: "auto"});
-////        evt.layer.on('mouseover', function ( e) {
-////            this.openPopup();
-////        });
-////        evt.layer.on('mouseout', function (e ) {
-////            this.closePopup();
-////            this.clear();
-////        });
-//
-//
-//
-//    });
 
+    function showPhoto (evt) {
 
-    var photoLayer = L.photo.cluster().on('click', function(evt) {
         var photo = evt.layer.photo;
-        var template = '<img src="{url}" /></a><p>{caption}</p>';
 
-        //evt.layer.bindPopup(L.Util.template(template, photo),{maxWidth: "auto"});
+        $(".embeded-photo").empty().append("<img src='" + photo.url +"' /> <br/> <p class='text-center'> " +  photo.caption +" <p>");
 
-        $(".embeded-photo").empty().append("<img src='" + photo.url +"' />");
-//        evt.layer.on('mouseover', function ( e) {
-//            this.openPopup();
-//        });
-//        evt.layer.on('mouseout', function (e ) {
-//            this.closePopup();
-//            this.clear();
-//        });
-    });
+    }
+
+
+    var photoLayer = L.photo.cluster().on('mouseover', showPhoto);
 
 
     photoLayer.add(photos);
 
     
-    var photos2 = [{
-        lat: 31,
-        lng: -85,
-        thumbnail: "img/facebook3_thumb.png",
-        url: "img/facebook3.png",
-        caption: "Protest at Standing Rock"
-    }];
-    var photoLayer2 = L.photo.cluster().on('mouseover', function(evt) {
-        var photo = evt.layer.photo;
-        var template = '<img src="{url}" /></a><p>{caption}</p>';
-        evt.layer.bindPopup(L.Util.template(template, photo),{maxWidth: "auto"});
-//        evt2.layer.on('mouseover', function (e2) {
-//            this.clear();
-//            this.openPopup();
-//        });
-//        evt2.layer.on('mouseout', function (e2) {
-//            this.closePopup();
-//        });
-    });
+
+    var photoLayer2 = L.photo.cluster().on('mouseover', showPhoto);
     
     photoLayer2.add(photos2);
 
@@ -555,8 +519,7 @@
         checkin: {lat: 46.45, lng:-100.71, zoom: 7,name: 'CheckIn',position: 'fullpage'},
         map_intro: {lat: 46.45, lng:-100.71, zoom: 10,name: 'Background', layers:[ 'standingrock','aquifer']},
         map_pipeline: {lat: 46.45, lng:-100.71, zoom: 11,name: 'Pipeline', layers:['aquifer', 'standingrock',  'pipeline']},
-        map_camp: {lat: 46.45, lng:-100.71,  zoom: 12,name: 'Camp', layers:['aquifer', 'camp_symbol', 'countyND', 'standingrock','pipeline']},
-        photo: {lat: 46.44, lng:-100.66,  zoom: 13, maxZoom: 20,name: 'Photo', layers:['camp_symbol','pipeline','PhotoLayers']},
+        map_camp: {lat: 46.45, lng:-100.71,  zoom: 12,name: 'Camp', layers:['aquifer', 'camp_symbol','standingrock','pipeline', 'PhotoLayers']},
         support: {lat: 40, lng:-100.55, zoom: 4.5, maxZoom: 20,name: 'Support', layers:['camp_symbol','PhotoLayers2']},
         map_hex: {lat: 40, lng:-100.55, zoom: 4.5,name: 'Facebook', layers:['hex']},
         map_hex_case1: {lat: 40, lng:-100.55, zoom: 4.5,name: 'Facebook', layers:[ 'hex']},
@@ -580,7 +543,7 @@
 
             // create a mini globe as the overview map control.
             var miniMap = new L.Control.GlobeMiniMap({
-                marker:'orange',
+                marker:'orangered',
                 position: 'bottomright'
             }).addTo(map);
 

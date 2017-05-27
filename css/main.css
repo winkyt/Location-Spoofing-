@@ -178,9 +178,17 @@ p{
     stroke-width: .5px;
 }
 
+
 .embeded-photo {
+    margin-top:20px;
 
-    max-width: 600px;
-    max-height:400px;
+}
 
+.embeded-photo img {
+    max-width: 500px;
+
+}
+
+.embeded-photo p {
+    font-size: 15px
 }
