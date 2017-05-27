@@ -4,7 +4,6 @@
 
 
 .social {
-
     padding-left:0px; padding-right:0px !important;
 }
 
@@ -25,25 +24,31 @@
     align-content: right
 }
 
+
+.back-trans{
+    background: rgba(25, 25, 25, .5);
+
+
+}
+
 body {
-    font-family: "Inconsolata", serif;
+    font-family: 'Droid Serif', serif;
     background-color:#545966;
     color: #000000;
 
 }
 
 h1{
-    font-size: 35px;
+    font-size: 80px;
     font-weight:bold;
     color: rgba(255, 255, 255, 0.95);
-    padding-top: 250px;
-    text-shadow: 0 0 2px rgba(0,0,0,.95);
+    padding-top: 50px;
+    text-shadow: 0 0 2px rgba(0, 0, 0,.5);
 }
 
 h2{
-
     font-size:25px;
-    padding-top: 50px;
+    padding-top: 1px;
     padding-left: 17%;
     padding-right: 17%;
     color: rgba(255, 255, 255, 0.95);
@@ -52,26 +57,22 @@ h2{
 
 
 h3{
-
     font-size: 50px;
     font-weight:bold;
-    color:black;
+    color: rgba(0, 0, 0, 0.95);
 }
 h4{
-
     font-weight:bold;
-    color:black;
-    font-size:120px;
     color:white;
-    text-shadow: #5E5E5E 0.1em 0.1em 0.2em;
+    font-size:30px;
+    color: rgba(0, 0, 0, 0.95);
 }
 
 h5{
-
     font-weight:bold;
     text-align: justify;
     font-size: 20px;
-    color: #bf4040;
+    color: rgba(0, 0, 0, 0.95);
 }
 
 p{
