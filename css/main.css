@@ -157,12 +157,14 @@ p{
 }
 
 
-.my_polyline {
-    stroke: #B51E1E;
-    fill: none;
-    stroke-dasharray: 10,10;
-    stroke-width: 5;
-}
+/*.pipeline_pattern {*/
+    /*stroke: #B51E1E;*/
+    /*fill: none;*/
+    /*stroke-opacity: 0.8;*/
+    /*stroke-dasharray: 15,15;*/
+    /*stroke-width: 10;*/
+
+/*}*/
 
 .point-legend {
 
@@ -189,3 +191,30 @@ p{
 .embeded-photo p {
     font-size: 15px
 }
+
+.linechart {
+
+    margin-top: 30px
+}
+.text-primary {
+    color: #B51E1E;
+}
+
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: #B51E1E;
+    stroke-width: 5px;
+}
+

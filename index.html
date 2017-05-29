@@ -6,8 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="StandingRock" />
 	<meta property="og:url" content="http://winkyt.github.io/LocationSpoofing/index.html" />
-	<meta property="og:description" content="Using Facebook posts about Standing Rock to study the location spoofing issue." />
-
+	<meta property="og:description" content="The Dakota Access Pipeline Protest(#NoDAPL) began in early 2016 in reaction to the approved construction of Energy Transfer Partners' Dakota Access Pipeline in the northern United States. The pipeline pass through the Lake Oahe near the Standing Rock Indian Reservation. Early in October 31 2016, a Facebook post said that the Morton County sheriff’s department was using Facebook check-ins to target people at the protest camp. People answered the call on Facebook to ‘overwhelm and confuse’ law enforcement officials, although police denied tracking activists on social media." />
 	<!--stylesheets-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
@@ -18,7 +17,6 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="https://jakobzhao.github.io/storymap/dist/storymap.css">
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/graphic.css" />
 
 
 
@@ -148,14 +146,14 @@
 									<h4>
 										Location
 									</h4>
-									<p>Standing Rock, Nd</p>
+									<p>Standing Rock</p>
 								</div>
 								<div class="col-md-3 col-sm-3">
 									<span class="fa-stack fa-4x">
 										<i class="fa fa-user fa-stack-2x text-primary"></i>
 									</span>
 									<h4>
-										<strong>Total Population</strong>
+										<strong>Pop.</strong>
 									</h4>
 										<p>8,217</p>
 								</div>
@@ -164,7 +162,7 @@
 									<i class="fa fa-male fa-stack-2x text-primary"></i>
 									</span>
 									<h4>
-										Native American Population
+										Native Pop.
 									</h4>
 									<p>6,414</p>
 								</div>
@@ -173,22 +171,15 @@
 										<i class="fa fa-facebook fa-stack-2x text-primary"></i>
 									</span>
 									<h4>
-										<strong>Facebook Check-in</strong>
+										<strong>Check-in</strong>
 									</h4>
 										<p>337,589</p>
 									</div>
 								</div>
-
-						<div class="row">
-						<div class="linechart"></div>
-							<p>Numbers represent search interest relative to the highest point on the chart for the given region and time.<br/>A value of 100 is the peak popularity for the term. （Data from Google Search Trend）</p>
-
+						<div class="text-center linechart"></div>
 						</div>
+                    <h4 class="text-center">Numbers represent search interest relative to the highest point on the chart for the given region and time.<br/>A value of 100 is the peak popularity for the term. (Data from <a href="#">Google Trends</a>）</h4>
 					</div>
-				</div>
-					<!-- /.container -->
-				<!--</section>-->
-
 
 			</section>
 
@@ -627,23 +618,26 @@
             color: '#aed7e0',
             weight: 0,
 			fillOpacity: 1,
-            opacity: 1}),
+            opacity: 1})
         ],
         'camp': [ L.geoJson.ajax('assets/camp.geojson',  {
             color: '#006080',
             weight: 3000,
-            opacity: 1,}),
+            opacity: 1,})
         ],
 
         'counties': [ L.geoJson.ajax('assets/countries.geo.json',  {
             color: '#006080',
             weight: 3000,
-            opacity: 1,}),
+            opacity: 1,})
         ],
         'pipeline': [ L.geoJson.ajax('assets/pipeline.geojson',  {
-            weight: 3,
-            opacity: 1,
-            className: 'my_polyline',
+            lineCap: "butt",
+            color: "red",
+            weight: 25,
+            opacity: 0.6,
+            dashArray: "50 25",
+            className: 'pipeline_pattern'
         }),
         ],
         'standingrock': [ L.geoJson.ajax('assets/StandingRock_outline.geojson',  {
@@ -652,7 +646,7 @@
             fillPattern: stripes,
             stroke: false,
             opacity: 1,
-            fillOpacity: 0.6}),
+            fillOpacity: 0.6})
         ],
         //mapbox basemap
         'basemapmapbox' :[ L.mapboxGL({
@@ -660,7 +654,7 @@
             style: 'assets/basemap/style.json',
             subdomains: 'abcd',
             maxZoom: 9,
-            minZoom: 4,
+            minZoom: 4
         })],
 
         //leaflet basemap
@@ -677,16 +671,8 @@
             attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
             maxZoom: 16
         })],
-        'CartoDB_Positron' : [ L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-            subdomains: 'abcd',
-            maxZoom: 19
-        })],
-        'CartoDB_DarkMatter' : [L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-            subdomains: 'abcd',
-            maxZoom: 19
-        })],
+        'CartoDB_Positron' : [ L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}@2x.png')],
+        'CartoDB_DarkMatter' : [L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}@2x.png')],
         'PhotoLayers1': [photoLayer1],
         'PhotoLayers2': [photoLayer2],
         'PhotoLayers3': [photoLayer3],
