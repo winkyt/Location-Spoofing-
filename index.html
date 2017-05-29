@@ -182,7 +182,7 @@
 						<div class="row">
 						<div class="linechart"></div>
 							<p>Numbers represent search interest relative to the highest point on the chart for the given region and time.<br/>A value of 100 is the peak popularity for the term. （Data from Google Search Trend）</p>
-						<script src="js/graphic.js"></script>
+
 						</div>
 					</div>
 				</div>
@@ -331,6 +331,76 @@
 
 
 <script type="text/javascript">
+
+    var margin = {top: 20, right: 20, bottom: 30, left: 50},
+        width = 900 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom;
+
+    //parse data from file
+    var parseDate = d3.time.format("%m/%d/%y").parse;
+
+    //set scales
+    var x = d3.time.scale()
+        .range([0, width]);
+
+    var y = d3.scale.linear()
+        .range([height, 0]);
+
+    //create axes
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom");
+
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left");
+
+    //construct the line using points from data
+    var line = d3.svg.line()
+        .x(function(d) { return x(d.date); })
+        .y(function(d) { return y(d.users); });
+
+    var svg = d3.select(".linechart").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    d3.csv("assets/trend.csv", function(error, data) {
+        if (error) throw error;
+//traverse through the data
+        data.forEach(function(d) {
+            d.date = parseDate(d.date);
+            d.users = +d.users;
+        });
+//establish the domain for x and y axes
+        x.domain(d3.extent(data, function(d) { return d.date; }));
+        y.domain(d3.extent(data, function(d) { return d.users; }));
+
+//add "groups"
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis);
+
+        svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6)
+            .attr("dy", ".71em")
+            .style("text-anchor", "end")
+            .text("Users (unique)");
+
+        svg.append("path")
+            .datum(data)
+            .attr("class", "line")
+            .attr("d", line);
+    });
+
+
+
 
     $('html > head').append($("<style> .marker-icon { color: orangered; font-size: 30px; text-shadow: 0 0 3px #ffffff;} </style>"));
     // $('html > head').append($("<style> .marker-icon { color: #0000ff; font-size: 15px; text-shadow:1px 1px 2px #ffffff, 0 0 25px rgba(0,0,255,0.75), 0 0 5px rgba(0,0,139,0.78);} </style>")); // glow effect: https://adventuresinmapping.com/2016/10/17/firefly-cartography/
