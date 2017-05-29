@@ -157,11 +157,13 @@ p{
 }
 
 
-.my_polyline {
+.pipeline_pattern {
     stroke: #B51E1E;
     fill: none;
-    stroke-dasharray: 10,10;
-    stroke-width: 5;
+    stroke-opacity: 0.8;
+    stroke-dasharray: 15,15;
+    stroke-width: 10;
+    stroke-linecap: "square"
 }
 
 .point-legend {
@@ -197,3 +199,22 @@ p{
 .text-primary {
     color: #B51E1E;
 }
+
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: #B51E1E;
+    stroke-width: 5px;
+}
+
