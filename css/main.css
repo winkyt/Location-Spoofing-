@@ -157,14 +157,14 @@ p{
 }
 
 
-.pipeline_pattern {
-    stroke: #B51E1E;
-    fill: none;
-    stroke-opacity: 0.8;
-    stroke-dasharray: 15,15;
-    stroke-width: 10;
-    stroke-linecap: "square"
-}
+/*.pipeline_pattern {*/
+    /*stroke: #B51E1E;*/
+    /*fill: none;*/
+    /*stroke-opacity: 0.8;*/
+    /*stroke-dasharray: 15,15;*/
+    /*stroke-width: 10;*/
+
+/*}*/
 
 .point-legend {
 

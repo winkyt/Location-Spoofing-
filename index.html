@@ -6,8 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="StandingRock" />
 	<meta property="og:url" content="http://winkyt.github.io/LocationSpoofing/index.html" />
-	<meta property="og:description" content="Using Facebook posts about Standing Rock to study the location spoofing issue." />
-
+	<meta property="og:description" content="The Dakota Access Pipeline Protest(#NoDAPL) began in early 2016 in reaction to the approved construction of Energy Transfer Partners' Dakota Access Pipeline in the northern United States. The pipeline pass through the Lake Oahe near the Standing Rock Indian Reservation. Early in October 31 2016, a Facebook post said that the Morton County sheriff’s department was using Facebook check-ins to target people at the protest camp. People answered the call on Facebook to ‘overwhelm and confuse’ law enforcement officials, although police denied tracking activists on social media." />
 	<!--stylesheets-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
@@ -619,23 +618,26 @@
             color: '#aed7e0',
             weight: 0,
 			fillOpacity: 1,
-            opacity: 1}),
+            opacity: 1})
         ],
         'camp': [ L.geoJson.ajax('assets/camp.geojson',  {
             color: '#006080',
             weight: 3000,
-            opacity: 1,}),
+            opacity: 1,})
         ],
 
         'counties': [ L.geoJson.ajax('assets/countries.geo.json',  {
             color: '#006080',
             weight: 3000,
-            opacity: 1,}),
+            opacity: 1,})
         ],
         'pipeline': [ L.geoJson.ajax('assets/pipeline.geojson',  {
-            weight: 3,
-            opacity: 1,
-            className: 'pipeline_pattern',
+            lineCap: "butt",
+            color: "red",
+            weight: 25,
+            opacity: 0.6,
+            dashArray: "50 25",
+            className: 'pipeline_pattern'
         }),
         ],
         'standingrock': [ L.geoJson.ajax('assets/StandingRock_outline.geojson',  {
@@ -644,7 +646,7 @@
             fillPattern: stripes,
             stroke: false,
             opacity: 1,
-            fillOpacity: 0.6}),
+            fillOpacity: 0.6})
         ],
         //mapbox basemap
         'basemapmapbox' :[ L.mapboxGL({
@@ -652,7 +654,7 @@
             style: 'assets/basemap/style.json',
             subdomains: 'abcd',
             maxZoom: 9,
-            minZoom: 4,
+            minZoom: 4
         })],
 
         //leaflet basemap
