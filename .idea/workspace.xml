@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9680569c-4b5a-4a17-a752-ab6df2c1b317" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/trend.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/graphic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/graphic.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/symbol2.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/graphic.css" afterPath="$PROJECT_DIR$/css/graphic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,18 +27,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="999">
-              <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graphic.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/graphic.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="447">
+              <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -47,8 +37,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="130" column="54" lean-forward="true" selection-start-line="130" selection-start-column="54" selection-end-line="130" selection-end-column="54" />
+            <state relative-caret-position="216">
+              <caret line="571" column="24" lean-forward="true" selection-start-line="571" selection-start-column="24" selection-end-line="571" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -63,14 +53,28 @@
                 <element signature="n#style#0;n#i#2;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#3;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#4;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#section#10;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1496033764356" expanded="true" signature="26214:26220" ph="©" />
-                <marker date="1496033764356" expanded="true" signature="26289:26295" ph="©" />
-                <marker date="1496033764356" expanded="true" signature="26554:26560" ph="©" />
-                <marker date="1496033764356" expanded="true" signature="26628:26634" ph="©" />
+                <element signature="e#20868#21030#0" expanded="false" />
+                <element signature="e#21032#21192#0" expanded="false" />
+                <element signature="e#21356#21518#0" expanded="false" />
+                <element signature="e#21520#21682#0" expanded="false" />
+                <marker date="1496083681125" expanded="true" signature="25552:25558" ph="©" />
+                <marker date="1496083681125" expanded="true" signature="25627:25633" ph="©" />
+                <marker date="1496083681125" expanded="true" signature="25892:25898" ph="©" />
+                <marker date="1496083681125" expanded="true" signature="25966:25972" ph="©" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geofbposts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/geofbposts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,16 +84,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="543">
               <caret line="91" column="28" lean-forward="false" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trend.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/trend.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -106,17 +100,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main</find>
-      <find>fb</find>
-      <find>d3.js</find>
-      <find>photos</find>
-      <find>maxZo</find>
-      <find>var m</find>
-      <find>stripes</find>
-      <find>font</find>
       <find>hover</find>
       <find>evt</find>
-      <find>support</find>
       <find>map_curve</find>
       <find>leaflet-d3</find>
       <find>mini</find>
@@ -135,7 +120,16 @@
       <find>alias:</find>
       <find>learn more</find>
       <find>d3.min.js</find>
+      <find>photos</find>
       <find>linechart</find>
+      <find>p</find>
+      <find>h2</find>
+      <find>margin</find>
+      <find>icon</find>
+      <find>symbol2</find>
+      <find>confusing</find>
+      <find>support</find>
+      <find>confus</find>
     </findStrings>
     <replaceStrings>
       <replace>assets</replace>
@@ -158,9 +152,9 @@
         <option value="$PROJECT_DIR$/LocationSpoofing_index.html" />
         <option value="$PROJECT_DIR$/css/fish_style.css" />
         <option value="$PROJECT_DIR$/css/storymap.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/css/graphic.css" />
         <option value="$PROJECT_DIR$/js/graphic.js" />
+        <option value="$PROJECT_DIR$/css/graphic.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -418,7 +412,7 @@
       <workItem from="1495963648334" duration="299000" />
       <workItem from="1495999764757" duration="244000" />
       <workItem from="1496000272945" duration="875000" />
-      <workItem from="1496025670374" duration="7368000" />
+      <workItem from="1496025670374" duration="11969000" />
     </task>
     <task id="LOCAL-00001" summary="0.0.2">
       <created>1495833358708</created>
@@ -518,11 +512,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495963870106</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="0.0.4 fonts">
+      <created>1496033823616</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1496033823616</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133088000" />
+    <option name="totallyTimeSpent" value="137689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -569,18 +570,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/index.html</url>
-          <line>396</line>
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/storymap_fixed.js" />
     <entry file="file://$PROJECT_DIR$/testTYY.html" />
     <entry file="file://$PROJECT_DIR$/css/storymap.css" />
     <entry file="file://$PROJECT_DIR$/js/storymap.js" />
@@ -643,14 +637,6 @@
     <entry file="file://$PROJECT_DIR$/assets/StandingRock_outline.geojson" />
     <entry file="file://$PROJECT_DIR$/assets/countries.geo.json" />
     <entry file="file://$PROJECT_DIR$/img/favicon.ico" />
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/fish_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-49">
@@ -667,14 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/graphic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/graphic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
@@ -683,10 +661,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/graphic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/geofbposts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="130" column="54" lean-forward="true" selection-start-line="130" selection-start-column="54" selection-end-line="130" selection-end-column="54" />
+        <state relative-caret-position="216">
+          <caret line="571" column="24" lean-forward="true" selection-start-line="571" selection-start-column="24" selection-end-line="571" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -701,13 +703,17 @@
             <element signature="n#style#0;n#i#2;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#3;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#4;n#div#0;n#section#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#section#10;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1496033764356" expanded="true" signature="26214:26220" ph="©" />
-            <marker date="1496033764356" expanded="true" signature="26289:26295" ph="©" />
-            <marker date="1496033764356" expanded="true" signature="26554:26560" ph="©" />
-            <marker date="1496033764356" expanded="true" signature="26628:26634" ph="©" />
+            <element signature="e#20868#21030#0" expanded="false" />
+            <element signature="e#21032#21192#0" expanded="false" />
+            <element signature="e#21356#21518#0" expanded="false" />
+            <element signature="e#21520#21682#0" expanded="false" />
+            <marker date="1496083681125" expanded="true" signature="25552:25558" ph="©" />
+            <marker date="1496083681125" expanded="true" signature="25627:25633" ph="©" />
+            <marker date="1496083681125" expanded="true" signature="25892:25898" ph="©" />
+            <marker date="1496083681125" expanded="true" signature="25966:25972" ph="©" />
           </folding>
         </state>
       </provider>
