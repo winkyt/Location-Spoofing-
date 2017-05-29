@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9680569c-4b5a-4a17-a752-ab6df2c1b317" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/symbol2.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/geofbposts_confusing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/geofbposts_support.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/graphic.css" afterPath="$PROJECT_DIR$/css/graphic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="571" column="24" lean-forward="true" selection-start-line="571" selection-start-column="24" selection-end-line="571" selection-end-column="24" />
+            <state relative-caret-position="27">
+              <caret line="464" column="0" lean-forward="true" selection-start-line="464" selection-start-column="0" selection-end-line="464" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -56,14 +55,12 @@
                 <element signature="n#style#0;n#p#0;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#20868#21030#0" expanded="false" />
-                <element signature="e#21032#21192#0" expanded="false" />
-                <element signature="e#21356#21518#0" expanded="false" />
-                <element signature="e#21520#21682#0" expanded="false" />
-                <marker date="1496083681125" expanded="true" signature="25552:25558" ph="©" />
-                <marker date="1496083681125" expanded="true" signature="25627:25633" ph="©" />
-                <marker date="1496083681125" expanded="true" signature="25892:25898" ph="©" />
-                <marker date="1496083681125" expanded="true" signature="25966:25972" ph="©" />
+                <element signature="e#22019#22180#0" expanded="false" />
+                <element signature="e#23350#23513#0" expanded="false" />
+                <marker date="1496089294608" expanded="true" signature="27922:27928" ph="©" />
+                <marker date="1496089294608" expanded="true" signature="27997:28003" ph="©" />
+                <marker date="1496089294608" expanded="true" signature="28262:28268" ph="©" />
+                <marker date="1496089294608" expanded="true" signature="28336:28342" ph="©" />
               </folding>
             </state>
           </provider>
@@ -72,18 +69,28 @@
       <file leaf-file-name="geofbposts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/geofbposts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="-39166">
+              <caret line="23" column="368" lean-forward="false" selection-start-line="23" selection-start-column="368" selection-end-line="23" selection-end-column="368" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphic.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/graphic.js">
+      <file leaf-file-name="geofbposts_confusing.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/geofbposts_confusing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="91" column="28" lean-forward="false" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+            <state relative-caret-position="108">
+              <caret line="4" column="345" lean-forward="false" selection-start-line="4" selection-start-column="345" selection-end-line="4" selection-end-column="345" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geofbposts_support.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/geofbposts_support.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -100,17 +107,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hover</find>
-      <find>evt</find>
-      <find>map_curve</find>
-      <find>leaflet-d3</find>
       <find>mini</find>
       <find>social</find>
       <find>asset</find>
       <find>end</find>
       <find>end_</find>
       <find>drone</find>
-      <find>geof</find>
       <find>label_tooltip2</find>
       <find>my_polyline</find>
       <find>viewing</find>
@@ -124,11 +126,16 @@
       <find>linechart</find>
       <find>p</find>
       <find>h2</find>
-      <find>margin</find>
       <find>icon</find>
-      <find>symbol2</find>
       <find>confusing</find>
+      <find>symbol2</find>
+      <find>margin</find>
+      <find>geof</find>
+      <find>hex</find>
+      <find>fb</find>
       <find>support</find>
+      <find>case2</find>
+      <find>confuse</find>
       <find>confus</find>
     </findStrings>
     <replaceStrings>
@@ -155,6 +162,7 @@
         <option value="$PROJECT_DIR$/js/graphic.js" />
         <option value="$PROJECT_DIR$/css/graphic.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/assets/geofbposts_support.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -268,7 +276,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IntroToD3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hex" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/LocationSpoofing_index.html" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -276,19 +284,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\OSU-VR\Documents\workspace\LocationSpoofing\assets" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="C:\Users\OSU-VR\Documents\workspace\LocationSpoofing\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backup" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="C:\Users\OSU-VR\Documents\workspace\LocationSpoofing\asset" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="C:\Users\OSU-VR\Documents\workspace\LocationSpoofing\css" />
-      <recent name="C:\Users\OSU-VR\Documents\workspace\LocationSpoofing\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,7 +420,7 @@
       <workItem from="1495963648334" duration="299000" />
       <workItem from="1495999764757" duration="244000" />
       <workItem from="1496000272945" duration="875000" />
-      <workItem from="1496025670374" duration="11969000" />
+      <workItem from="1496025670374" duration="16915000" />
     </task>
     <task id="LOCAL-00001" summary="0.0.2">
       <created>1495833358708</created>
@@ -519,11 +527,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496033823616</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="0.0.5 周一">
+      <created>1496084372651</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1496084372651</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137689000" />
+    <option name="totallyTimeSpent" value="142635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -566,17 +581,16 @@
     <MESSAGE value="0.0.2" />
     <MESSAGE value="0.0.3" />
     <MESSAGE value="0.0.4 fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.4 fonts" />
+    <MESSAGE value="0.0.5 周一" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.5 周一" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testTYY.html" />
-    <entry file="file://$PROJECT_DIR$/css/storymap.css" />
     <entry file="file://$PROJECT_DIR$/js/storymap.js" />
     <entry file="file://$PROJECT_DIR$/css/fish_style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -677,18 +691,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/geofbposts.js">
+    <entry file="file://$PROJECT_DIR$/assets/geofbposts_support.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/geofbposts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39166">
+          <caret line="23" column="368" lean-forward="false" selection-start-line="23" selection-start-column="368" selection-end-line="23" selection-end-column="368" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/geofbposts_confusing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="345" lean-forward="false" selection-start-line="4" selection-start-column="345" selection-end-line="4" selection-end-column="345" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="571" column="24" lean-forward="true" selection-start-line="571" selection-start-column="24" selection-end-line="571" selection-end-column="24" />
+        <state relative-caret-position="27">
+          <caret line="464" column="0" lean-forward="true" selection-start-line="464" selection-start-column="0" selection-end-line="464" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -706,14 +736,12 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#section#8;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#20868#21030#0" expanded="false" />
-            <element signature="e#21032#21192#0" expanded="false" />
-            <element signature="e#21356#21518#0" expanded="false" />
-            <element signature="e#21520#21682#0" expanded="false" />
-            <marker date="1496083681125" expanded="true" signature="25552:25558" ph="©" />
-            <marker date="1496083681125" expanded="true" signature="25627:25633" ph="©" />
-            <marker date="1496083681125" expanded="true" signature="25892:25898" ph="©" />
-            <marker date="1496083681125" expanded="true" signature="25966:25972" ph="©" />
+            <element signature="e#22019#22180#0" expanded="false" />
+            <element signature="e#23350#23513#0" expanded="false" />
+            <marker date="1496089294608" expanded="true" signature="27922:27928" ph="©" />
+            <marker date="1496089294608" expanded="true" signature="27997:28003" ph="©" />
+            <marker date="1496089294608" expanded="true" signature="28262:28268" ph="©" />
+            <marker date="1496089294608" expanded="true" signature="28336:28342" ph="©" />
           </folding>
         </state>
       </provider>

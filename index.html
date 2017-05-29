@@ -52,6 +52,8 @@
 
 	<script src="https://jakobzhao.github.io/storymap/dist/storymap.js"></script>
 	<script src="assets/geofbposts.js"></script>
+	<script src="assets/geofbposts_support.js"></script>
+
 
 
 </head>
@@ -280,7 +282,7 @@
 				<br/><br/>
 			</section>
 			<section data-scene="map_hex_case1">
-				<h3>Case 1</h3>
+				<h3>U.S. Spoofing Check-in:<br/>Talking about 'Confusing'</h3>
 				<p>When people check-in at #Standing rock,ND,<br/>are they really standing THERE?</p>
 				<br/><br/>
 				<!--<div class="leg"><p style ="font-weight: bold;">Habitat Extent</p>
@@ -290,7 +292,7 @@
                 </div>-->
 			</section>
 			<section data-scene="map_hex_case2">
-				<h3>Case 2</h3>
+				<h3>U.S. Spoofing Check-in:<br/>Talking about 'Support'</h3>
 				<p>When people check-in at #Standing rock,ND,<br/>are they really standing THERE?</p>
 				<br/><br/>
 				<!--<div class="leg"><p style ="font-weight: bold;">Habitat Extent</p>
@@ -392,43 +394,25 @@
         url: "img/people6.jpg",
        caption: "Protest at Standing Rock"
     }, {
-        lat: 46.44,
-        lng: -100.66,
-        thumbnail: "img/people6.jpg",
-        url: "img/people1.jpg",
-       caption: "Protest at Standing Rock"
-    }, {
-        lat: 46.43,
-        lng: -100.65,
+        lat: 46.3,
+        lng: -100.7,
         thumbnail: "img/people5.jpg",
         url: "img/people5.jpg",
        caption: "Protest at Standing Rock"
     }, {
-        lat: 46.42,
-        lng: -100.64,
-        thumbnail: "img/people9.jpg",
-        url: "img/people9.jpg",
+        lat: 46.5,
+        lng: -100.8,
+        thumbnail: "img/people5.jpg",
+        url: "img/people5.jpg",
        caption: "Protest at Standing Rock"
     }, {
-        lat: 46.45,
-        lng: -100.67,
-        thumbnail: "img/people6.jpg",
-        url: "img/camp1.jpg",
-       caption: "Protest at Standing Rock"
-    }, {
-        lat: 46.44,
-        lng: -100.67,
-        thumbnail: "img/people6.jpg",
-        url: "img/camp5.jpg",
-       caption: "Protest at Standing Rock"
-    }, {
-        lat: 46.42,
-        lng: -100.66,
+        lat: 46.521,
+        lng: -100.45,
         thumbnail: "img/people6.jpg",
         url: "img/people6.jpg",
        caption: "Protest at Standing Rock"
     }, {
-        lat: 46.42,
+        lat: 46.15,
         lng: -100.66,
         thumbnail: "img/people6.jpg",
         url: "img/people6.jpg",
@@ -436,12 +420,87 @@
     }];
 
     var photos2 = [{
-        lat: 31,
-        lng: -85,
-        thumbnail: "img/facebook3_thumb.png",
+        lat: 46.4,
+        lng: -100.8,
+        thumbnail: "img/people6.jpg",
+        url: "img/people6.jpg",
+        caption: "Protest at Standing Rock"
+    }, {
+        lat: 46.34,
+        lng: -100.4,
+        thumbnail: "img/people6.jpg",
+        url: "img/people1.jpg",
+        caption: "Protest at Standing Rock"
+    }, {
+        lat: 46.31,
+        lng: -100.56,
+        thumbnail: "img/people5.jpg",
+        url: "img/people5.jpg",
+        caption: "Protest at Standing Rock"
+    }, {
+        lat: 46.455,
+        lng: -100.58,
+        thumbnail: "img/people9.jpg",
+        url: "img/people9.jpg",
+        caption: "Protest at Standing Rock"
+    }, {
+        lat: 46.45,
+        lng: -100.67,
+        thumbnail: "img/people6.jpg",
+        url: "img/camp1.jpg",
+        caption: "Protest at Standing Rock"
+    }, {
+        lat: 46.5,
+        lng: -100.68,
+        thumbnail: "img/people6.jpg",
+        url: "img/camp5.jpg",
+        caption: "Protest at Standing Rock"
+    }, {
+        lat: 46.42,
+        lng: -100.66,
+        thumbnail: "img/people6.jpg",
         url: "img/people6.jpg",
         caption: "Protest at Standing Rock"
     }];
+
+    var photos3 = [{
+        lat: 46.4,
+        lng: -100.65,
+        thumbnail: "img/people5.jpg",
+        url: "img/people5.jpg",
+        caption: "Protest at Standing Rock"
+    }, {
+        lat: 46.42,
+        lng: -100.64,
+        thumbnail: "img/people9.jpg",
+        url: "img/people9.jpg",
+        caption: "Protest at Standing Rock"
+    }, {
+        lat: 46.45,
+        lng: -100.67,
+        thumbnail: "img/people6.jpg",
+        url: "img/camp1.jpg",
+        caption: "Protest at Standing Rock"
+    }, {
+        lat: 46.44,
+        lng: -100.67,
+        thumbnail: "img/people6.jpg",
+        url: "img/camp5.jpg",
+        caption: "Protest at Standing Rock"
+    }, {
+        lat: 46.42,
+        lng: -100.66,
+        thumbnail: "img/people6.jpg",
+        url: "img/people6.jpg",
+        caption: "Protest at Standing Rock"
+    }, {
+        lat: 46.42,
+        lng: -100.66,
+        thumbnail: "img/people6.jpg",
+        url: "img/people6.jpg",
+        caption: "Protest at Standing Rock"
+    }];
+
 
 
 
@@ -460,7 +519,7 @@
 //        .on('mouseout', function(d, i) { console.log("ttt"); })
 //        .on('click', function(d, i) { console.log("ttt"); });
 
-    function generateData() {
+    function generateData1() {
         var data = [];
         for(var i = 0; i < fb.features.length; i++) {
             lng = fb.features[i].geometry.coordinates[1];
@@ -469,10 +528,29 @@
         }
         hexLayer.data(data);
     }
-    generateData();
+    generateData1();
 
 
+    var options = {
+        opacity: 0.8,
+        radiusRange: [ 5, 10 ],
+        duration: 500,
+        colorScaleExtent: [ 1, undefined ],
+        colorRange: colorbrewer["YlOrRd"][5],
+        pointerEvents: 'auto'
+    };
+    var hexLayer_support = L.hexbinLayer(options);
 
+    function generateData2() {
+        var data = [];
+        for(var i = 0; i < fb_support.features.length; i++) {
+            lng = fb_support.features[i].geometry.coordinates[1];
+            lat = fb_support.features[i].geometry.coordinates[0];
+            data.push([ lat, lng ]);
+        }
+        hexLayer_support.data(data);
+    }
+    generateData2();
 
     function showPhoto (evt) {
 
@@ -484,16 +562,13 @@
 
 
     var photoLayer1 = L.photo.cluster().on('mouseover', showPhoto);
-
-
     photoLayer1.add(photos1);
 
-
-
     var photoLayer2 = L.photo.cluster().on('mouseover', showPhoto);
-    
     photoLayer2.add(photos2);
 
+    var photoLayer3 = L.photo.cluster().on('mouseover', showPhoto);
+    photoLayer3.add(photos2);
 
 
     //
@@ -569,18 +644,20 @@
         })],
         'PhotoLayers1': [photoLayer1],
         'PhotoLayers2': [photoLayer2],
-		'hex':[hexLayer]
+        'PhotoLayers3': [photoLayer3],
+		'hex':[hexLayer],
+		'hex_support':[hexLayer_support]
     };
 
     var scenes = {
         overview: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Home',position: 'fullpage'},
         checkin: {lat: 46.45, lng:-100.71, zoom: 7,name: 'Info',position: 'fullpage'},
-        map_intro: {lat: 46.45, lng:-100.71, zoom: 10,name: 'StandingRock', layers:[ 'standingrock','aquifer', 'PhotoLayers1']},
-        map_pipeline: {lat: 46.45, lng:-100.71, zoom: 11,name: 'Pipeline', layers:['standingrock', 'aquifer',  'pipeline', 'PhotoLayers1']},
-        map_camp: {lat: 46.45, lng:-100.71,  zoom: 12,name: 'Protest', layers:['standingrock','aquifer', 'pipeline', 'camp_symbol', 'PhotoLayers1']},
-        map_hex: {lat: 40, lng:-100.55, zoom: 4.5,name: 'Facebook', layers:['CartoDB_Positron','hex']},
-        map_hex_case1: {lat: 40, lng:-100.55, zoom: 4.5,name: 'Facebook', layers:[ 'CartoDB_Positron','hex']},
-        map_hex_case2: {lat: 40, lng:-100.55, zoom: 4.5,name: 'Facebook', layers:[ 'CartoDB_Positron','hex']},
+        map_intro: {lat: 46.45, lng:-100.95, zoom: 10,name: 'StandingRock', layers:[ 'standingrock','aquifer', 'PhotoLayers1']},
+        map_pipeline: {lat: 46.45, lng:-100.82, zoom: 11,name: 'Pipeline', layers:['standingrock', 'aquifer',  'pipeline', 'PhotoLayers2']},
+        map_camp: {lat: 46.45, lng:-100.71,  zoom: 12,name: 'Protest', layers:['standingrock','aquifer', 'pipeline', 'camp_symbol', 'PhotoLayers3']},
+        map_hex: {lat: 30, lng:-80, zoom: 2,name: 'Facebook', layers:['CartoDB_Positron','hex']},
+        map_hex_case1: {lat: 40, lng:-100.55, zoom: 5,name: 'Facebook', layers:[ 'CartoDB_Positron','hex']},
+        map_hex_case2: {lat: 40, lng:-100.55, zoom: 5,name: 'Facebook', layers:[ 'CartoDB_Positron','hex_support']},
         end: {lat: 46.45, lng:-100.71, zoom: 7,name: 'End', position:'fullpage'}
     };
 
