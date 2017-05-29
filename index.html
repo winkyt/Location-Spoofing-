@@ -18,6 +18,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="https://jakobzhao.github.io/storymap/dist/storymap.css">
 	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/graphic.css" />
+
 
 
 	<link rel="shortcut icon" href="img/favicon.ico" type="images/x-icon">
@@ -50,6 +52,11 @@
 
 	<script src="https://jakobzhao.github.io/storymap/dist/storymap.js"></script>
 	<script src="assets/geofbposts.js"></script>
+
+	<!--google trens-->
+	<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1015_RC10/embed_loader.js"></script>
+
+
 </head>
 <body>
 
@@ -127,17 +134,86 @@
 			</section>
 
 			<section data-scene="checkin">
-				<div class= "checkin-background-img background-fullscreen-setting text-responsive">
-					<h2 class="text-center">TFrom xxxx-xxxx, over xxxx(A million) people 'check in' at Standing Rock on Facebook.</h2>
-					<!--<h3 class ="text-left" style="font-size:30px; color: white; text-align:justify; margin-top: 1%;position:absolute; left: 10px; top: 20px; " >-->
-						<!--<i class="fa fa-map-marker" aria-hidden="true"></i>Standing Rock, ND-->
-						<!--<i class="fa fa-users" aria-hidden="true"></i>33,000-->
-						<!--<i class="fa fa-facebook-square" aria-hidden="true"></i>-->
-						<!--<i class="fa fa-check-square-o" aria-hidden="true"></i>Check-in-->
-					<!--</h3>-->
+				<div class= " background-fullscreen-setting text-responsive">
+					<!--<div class= "checkin-background-img background-fullscreen-setting text-responsive">-->
 					<br><br><br><br><br><br><br><br><br><br><br>
-
 				</div>
+				<!-- Services -->
+				<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+				<!--<section id="resources" class="resources bg-primary">-->
+					<div class="container text-center">
+						<div class="row">
+							<div class="col-md-12 col-md-offset-1">
+								<h2>INFO</h2>
+								<hr class="small">
+								<div class="row">
+									<div class="col-md-3 col-sm-6">
+										<div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-map-marker fa-stack-1x text-primary"></i>
+                            </span>
+											<h4>
+												<strong>Location</strong>
+											</h4>
+											<p>Standing Rock, Nd</p>
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6">
+										<div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-users fa-stack-1x text-primary"></i>
+                            </span>
+											<h4>
+												<strong>Total Population</strong>
+											</h4>
+											<p>8,217</p>
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6">
+										<div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-male fa-stack-1x text-primary"></i>
+                            </span>
+											<h4>
+												<strong>Native American Population</strong>
+											</h4>
+											<p>6,414</p>
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-6">
+										<div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-check-square-o fa-stack-1x text-primary"></i>
+                            </span>
+											<h4>
+												<strong>Facebook Check-in</strong>
+											</h4>
+											<p>337,589</p>
+										</div>
+									</div>
+								</div>
+								<!-- /.row (nested) -->
+							</div>
+							<!-- /.col-lg-10 -->
+						</div>
+						<!-- /.row -->
+						<!--<div>
+							<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1015_RC10/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"standing rock","geo":"","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"q=standing%20rock","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+						</div>-->
+						<h2>Google Search Trend</h2><br>
+						<div class="linechart"></div>
+						<p>Numbers represent search interest relative to the highest point on the chart for the given region and time.<br/>A value of 100 is the peak popularity for the term.</p>
+						<!--graphic-->
+						<script src="js/graphic.js"></script>
+					</div>
+					<!-- /.container -->
+				<!--</section>-->
+
+
 			</section>
 
 			<section data-scene="map_intro" >
@@ -169,6 +245,7 @@
 					<i style="background: #606020;"></i><p>Sacred Site</p><br/><br/>
 					<i style="background: #B51E1E;"></i><p>Pipeline</p><br/>
 				</div>
+
 			</section>
 
 			<section data-scene="map_camp">
