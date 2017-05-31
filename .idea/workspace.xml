@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9680569c-4b5a-4a17-a752-ab6df2c1b317" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fish_style.css" afterPath="$PROJECT_DIR$/css/fish_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fish_style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fish_style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/fish_style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
@@ -41,13 +41,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="261" column="24" lean-forward="true" selection-start-line="261" selection-start-column="24" selection-end-line="261" selection-end-column="24" />
+            <state relative-caret-position="405">
+              <caret line="45" column="53" lean-forward="false" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
               <folding>
-                <element signature="e#3895#3901#0" expanded="true" />
+                <element signature="e#3943#3949#0" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,26 +60,38 @@
                 <element signature="n#style#0;n#i#0;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#1;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#2;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#16522#16529#1" expanded="true" />
+                <element signature="e#16570#16577#1" expanded="true" />
                 <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#22589#22759#0" expanded="false" />
-                <element signature="e#22761#22921#0" expanded="false" />
-                <element signature="e#22923#23083#0" expanded="false" />
-                <element signature="e#23085#23248#0" expanded="false" />
-                <element signature="e#23250#23412#0" expanded="false" />
-                <element signature="e#23435#23596#0" expanded="false" />
-                <element signature="e#23598#23760#0" expanded="false" />
-                <element signature="e#23762#23925#0" expanded="false" />
-                <element signature="e#23927#24091#0" expanded="false" />
-                <element signature="e#24093#24254#0" expanded="false" />
-                <element signature="e#24256#24416#0" expanded="false" />
-                <element signature="e#24418#24581#0" expanded="false" />
-                <element signature="e#24604#24766#0" expanded="false" />
-                <element signature="e#24768#24931#0" expanded="false" />
-                <element signature="e#24933#25094#0" expanded="false" />
-                <element signature="e#25096#25257#0" expanded="false" />
-                <element signature="e#25424#25587#0" expanded="false" />
+                <element signature="e#22637#22807#0" expanded="false" />
+                <element signature="e#22809#22969#0" expanded="false" />
+                <element signature="e#22971#23131#0" expanded="false" />
+                <element signature="e#23133#23296#0" expanded="false" />
+                <element signature="e#23298#23460#0" expanded="false" />
+                <element signature="e#23483#23644#0" expanded="false" />
+                <element signature="e#23646#23808#0" expanded="false" />
+                <element signature="e#23810#23973#0" expanded="false" />
+                <element signature="e#23975#24139#0" expanded="false" />
+                <element signature="e#24141#24302#0" expanded="false" />
+                <element signature="e#24304#24464#0" expanded="false" />
+                <element signature="e#24466#24629#0" expanded="false" />
+                <element signature="e#24652#24814#0" expanded="false" />
+                <element signature="e#24816#24979#0" expanded="false" />
+                <element signature="e#24981#25142#0" expanded="false" />
+                <element signature="e#25144#25305#0" expanded="false" />
+                <element signature="e#25472#25635#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="storymap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/storymap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1495865339603" expanded="true" signature="12026:12040" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,7 +118,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>h2</find>
       <find>hex</find>
       <find>h1</find>
       <find>h2_overview</find>
@@ -130,12 +141,13 @@
       <find>p_end</find>
       <find>created</find>
       <find>checkin_marker</find>
-      <find>backgroun</find>
       <find>fav</find>
       <find>credit</find>
       <find>cre</find>
       <find>YlOrRd</find>
       <find>options</find>
+      <find>backgroun</find>
+      <find>http</find>
     </findStrings>
     <replaceStrings>
       <replace>assets</replace>
@@ -165,8 +177,8 @@
         <option value="$PROJECT_DIR$/assets/geofbposts_interest.geojson" />
         <option value="$PROJECT_DIR$/assets/geofbposts.geojson" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/fish_style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -241,6 +253,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JVimage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationSpoofing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationSpoofing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -577,7 +603,7 @@
       <workItem from="1495999764757" duration="244000" />
       <workItem from="1496000272945" duration="875000" />
       <workItem from="1496025670374" duration="16915000" />
-      <workItem from="1496184606132" duration="5678000" />
+      <workItem from="1496184606132" duration="6019000" />
     </task>
     <task id="LOCAL-00001" summary="0.0.2">
       <created>1495833358708</created>
@@ -754,11 +780,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496190256379</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="0.0.5">
+      <created>1496190306548</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1496190306548</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184329000" />
+    <option name="totallyTimeSpent" value="184670000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -859,7 +892,6 @@
     <entry file="file://$PROJECT_DIR$/img/camp1.png" />
     <entry file="file://$PROJECT_DIR$/img/camp5.jpg" />
     <entry file="file://$PROJECT_DIR$/img/grouplogo.png" />
-    <entry file="file://$PROJECT_DIR$/js/storymap.js" />
     <entry file="file://$PROJECT_DIR$/backup/MarkerCluster.css" />
     <entry file="file://$PROJECT_DIR$/js/leaflet.markercluster-src.js" />
     <entry file="file://$PROJECT_DIR$/css/storymap.css" />
@@ -970,12 +1002,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/fish_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="195" column="51" lean-forward="true" selection-start-line="195" selection-start-column="51" selection-end-line="195" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/storymap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1495865339603" expanded="true" signature="12026:12040" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="261" column="24" lean-forward="true" selection-start-line="261" selection-start-column="24" selection-end-line="261" selection-end-column="24" />
+        <state relative-caret-position="405">
+          <caret line="45" column="53" lean-forward="false" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
           <folding>
-            <element signature="e#3895#3901#0" expanded="true" />
+            <element signature="e#3943#3949#0" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -988,35 +1038,27 @@
             <element signature="n#style#0;n#i#0;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#1;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#2;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#16522#16529#1" expanded="true" />
+            <element signature="e#16570#16577#1" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#22589#22759#0" expanded="false" />
-            <element signature="e#22761#22921#0" expanded="false" />
-            <element signature="e#22923#23083#0" expanded="false" />
-            <element signature="e#23085#23248#0" expanded="false" />
-            <element signature="e#23250#23412#0" expanded="false" />
-            <element signature="e#23435#23596#0" expanded="false" />
-            <element signature="e#23598#23760#0" expanded="false" />
-            <element signature="e#23762#23925#0" expanded="false" />
-            <element signature="e#23927#24091#0" expanded="false" />
-            <element signature="e#24093#24254#0" expanded="false" />
-            <element signature="e#24256#24416#0" expanded="false" />
-            <element signature="e#24418#24581#0" expanded="false" />
-            <element signature="e#24604#24766#0" expanded="false" />
-            <element signature="e#24768#24931#0" expanded="false" />
-            <element signature="e#24933#25094#0" expanded="false" />
-            <element signature="e#25096#25257#0" expanded="false" />
-            <element signature="e#25424#25587#0" expanded="false" />
+            <element signature="e#22637#22807#0" expanded="false" />
+            <element signature="e#22809#22969#0" expanded="false" />
+            <element signature="e#22971#23131#0" expanded="false" />
+            <element signature="e#23133#23296#0" expanded="false" />
+            <element signature="e#23298#23460#0" expanded="false" />
+            <element signature="e#23483#23644#0" expanded="false" />
+            <element signature="e#23646#23808#0" expanded="false" />
+            <element signature="e#23810#23973#0" expanded="false" />
+            <element signature="e#23975#24139#0" expanded="false" />
+            <element signature="e#24141#24302#0" expanded="false" />
+            <element signature="e#24304#24464#0" expanded="false" />
+            <element signature="e#24466#24629#0" expanded="false" />
+            <element signature="e#24652#24814#0" expanded="false" />
+            <element signature="e#24816#24979#0" expanded="false" />
+            <element signature="e#24981#25142#0" expanded="false" />
+            <element signature="e#25144#25305#0" expanded="false" />
+            <element signature="e#25472#25635#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fish_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="195" column="51" lean-forward="true" selection-start-line="195" selection-start-column="51" selection-end-line="195" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
