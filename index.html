@@ -642,20 +642,22 @@
         'aquifer': [ L.geoJson.ajax('assets/aquifer.geojson',  {
             color: '#67B8E0',
             weight: 0,
-			fillOpacity: 0.3,
-            opacity: 1})
+			fillOpacity: 0.5
+            //opacity: 0.9
+			 })
         ],
         'rivermain': [ L.geoJson.ajax('assets/rivermain.geojson',  {
             color: '#006080',
             weight: 5,
-            fillOpacity: 0.1,
-            opacity: 1})
+            fillOpacity: 0.5
+            //opacity: 1
+        })
         ],
         'riverwhole': [ L.geoJson.ajax('assets/riverwhole.geojson',  {
-            color: '#00576b',
+            color: '#006080',
             weight: 5,
-            fillOpacity: 0.1,
-            opacity: 0.5})
+            //fillOpacity: 0.8,
+            opacity: 0.8})
         ],
         'camp': [ L.geoJson.ajax('assets/camp.geojson',  {
             color: '#006080',
