@@ -429,6 +429,16 @@
 
     checkin_marker.bindTooltip("@Standing Rock",{sticky: false, className: "feature-label boucingmarker",permanent: true});
 
+    var SR_marker = L.marker([46.2, -100.64],
+        { opacity: 0 }); //opacity may be set to zero
+    SR_marker.bindTooltip("Standing Rock<br/> Indian Reservation", {
+        permanent: true,
+        className: "SR-label text-center",
+        offset: [0, 0]
+    });
+
+
+
 
     $('html > head').append($("<style> .marker-icon { color: green; font-size: 45px; text-shadow: 0 0 4px #ffffff;} </style>"));
 
@@ -452,7 +462,6 @@
             layer.bindTooltip('<div class="TooltipDiv">' + '<img src="' + feature.properties.headshot + '"/>' + "   " +'<a>'+ feature.properties.user_name + '</a>' + "   " + '<br/>'+ feature.properties.time2 + '<br/>'+ " <br/>" + feature.properties.content + '</div>', {sticky: false, className: "feature-label",permanent: false});
         }
     });
-
 
     var shape = new L.PatternCircle({ x: 12, y: 12, radius: 10, fill: true, color:'red',opacity:'0.5'});
     var pattern = new L.Pattern({stroke:true});
@@ -656,6 +665,8 @@
     var layers = {
 		'checkin_marker' : [checkin_marker],
 
+        'SR_marker' : [SR_marker],
+
         'fb_symbol' : [fb_symbol],
 
         'camp_symbol' : [camp_symbol],
@@ -690,7 +701,8 @@
         'counties': [ L.geoJson.ajax('assets/countries.geo.json',  {
             color: '#006080',
             weight: 3000,
-            opacity: 1,})
+            opacity: 1
+        })
         ],
         'pipeline': [ L.geoJson.ajax('assets/pipeline.geojson',  {
             lineCap: "butt",
@@ -701,15 +713,17 @@
 			opacity: 0.7
         })
         ],
-        'standingrock': [ L.geoJson.ajax('assets/StandingRock_outline.geojson',  {
-			/*color: '#606020',
-			 weight: 3,*/
-            fillPattern: stripes,
-            stroke: false,
+
+        'standingrock' :  [L.geoJson.ajax('assets/StandingRock_outline.geojson',  {
+            color: "orange",
+            /*fillPattern: stripes,
+             stroke: false,*/
             opacity: 1,
-            fillOpacity: 0.5})
-        ],
-        'basemapmapbox' :[ L.mapboxGL({
+            fillOpacity: 0.5
+        })
+            ],
+
+		'basemapmapbox' :[ L.mapboxGL({
             accessToken: 'pk.eyJ1IjoidGlhbnkiLCJhIjoiY2oyOGFyemhzMDBlZjJ3cWtydjBpMHZzdSJ9.KB4Qs2my3g97OeJSPLIHOw',
 			style: 'assets/basemap/style.json',
             subdomains: 'abcd',
@@ -743,7 +757,7 @@
     var scenes = {
         overview: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Home',position: 'fullpage'},
         checkin: {lat: 46.45, lng:-100.71, zoom: 7,name: 'Info',position: 'fullpage'},
-        map_intro: {lat: 46.45, lng:-100.95, zoom: 10,name: 'StandingRock', layers:[ 'basemapmapbox', 'standingrock','aquifer', 'riverwhole', 'PhotoLayers1']},
+        map_intro: {lat: 46.45, lng:-100.95, zoom: 10,name: 'StandingRock', layers:[ 'basemapmapbox', 'standingrock','aquifer', 'riverwhole','SR_marker', 'PhotoLayers1']},
         map_pipeline: {lat: 46.45, lng:-100.82, zoom: 11,name: 'Pipeline', layers:['basemapmapbox','standingrock', 'aquifer',  'rivermain','riverwhole', 'pipeline', 'PhotoLayers2']},
         map_camp: {lat: 46.45, lng:-100.71,  zoom: 12,name: 'Protest', layers:['basemapmapbox','standingrock','aquifer', 'rivermain','riverwhole', 'pipeline', 'camp_symbol', 'PhotoLayers3']},
         map_hex: {lat: 47, lng:-102, zoom: 7,name: 'Facebook', layers:['CartoDB_Positron','checkin_marker']},

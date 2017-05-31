@@ -183,7 +183,7 @@ p{
 }
 
 .end-background-img {
-    background: url(../img/people8.jpg) no-repeat center center fixed;
+    background: url("../img/people8.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -192,7 +192,7 @@ p{
 
 
 .overview-background-img {
-    background: url(../img/frontpage.jpg) no-repeat center center fixed;
+    background: url("../img/frontpage.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -201,7 +201,7 @@ p{
 
 
 .checkin-background-img {
-    background: url(../img/camp5.jpg) no-repeat center center fixed;
+    background: url("../img/camp5.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -298,4 +298,11 @@ p{
 
 .boucingmarker{
     font-size: 25px;
+}
+
+.SR-label{
+    position: relative;
+    width:200px;
+    font-size:20px;
+    background-color: transparent;
 }
