@@ -32,3 +32,6 @@ please view the /video
 
 ## ABOUT PAGE 
 The context of this web was collected from Argus Leader, CNN, Democracy Now, The Washington Post, The Guardian, Stand with Standing Rock, and Wikipedia!
+
+## end page 
+Because the government expelled the protesters, the local camp has been forcibly displaced. Although the local Native Americans and other environmentalists cannot express their opinion at the location of Standing Rock, this has not ended support. Through social media, such as Facebook, people check-in to #StandingRock from around the world to show their support.
