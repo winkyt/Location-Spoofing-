@@ -48,8 +48,8 @@
 	<script src="https://jakobzhao.github.io/storymap/js/globeminimap.js"></script>
 
 
-	<!--<script src="https://jakobzhao.github.io/storymap/dist/storymap.js"></script>-->
-	<script src="js/storymap.js"></script>
+	<script src="https://jakobzhao.github.io/storymap/dist/storymap.js"></script>
+	<!--<script src="js/storymap.js"></script>-->
 
 	<script src="assets/geofbposts.js"></script>
 	<script src="assets/geofbposts_support.js"></script>
@@ -642,13 +642,25 @@
         'aquifer': [ L.geoJson.ajax('assets/aquifer.geojson',  {
             color: '#67B8E0',
             weight: 0,
-			fillOpacity: 0.5,
+			fillOpacity: 0.3,
             opacity: 1})
+        ],
+        'rivermain': [ L.geoJson.ajax('assets/rivermain.geojson',  {
+            color: '#006080',
+            weight: 5,
+            fillOpacity: 0.1,
+            opacity: 1})
+        ],
+        'riverwhole': [ L.geoJson.ajax('assets/riverwhole.geojson',  {
+            color: '#00576b',
+            weight: 5,
+            fillOpacity: 0.1,
+            opacity: 0.5})
         ],
         'camp': [ L.geoJson.ajax('assets/camp.geojson',  {
             color: '#006080',
             weight: 3000,
-            opacity: 1,})
+            opacity: 0.5,})
         ],
 
         'counties': [ L.geoJson.ajax('assets/countries.geo.json',  {
@@ -674,7 +686,7 @@
         ],
         'basemapmapbox' :[ L.mapboxGL({
             accessToken: 'pk.eyJ1IjoidGlhbnkiLCJhIjoiY2oyOGFyemhzMDBlZjJ3cWtydjBpMHZzdSJ9.KB4Qs2my3g97OeJSPLIHOw',
-            style: 'assets/basemap/style.json',
+			style: 'assets/basemap/style.json',
             subdomains: 'abcd',
             maxZoom: 9,
             minZoom: 4
@@ -706,9 +718,9 @@
     var scenes = {
         overview: {lat: 46.45, lng:-100.71, zoom: 7, name: 'Home',position: 'fullpage'},
         checkin: {lat: 46.45, lng:-100.71, zoom: 7,name: 'Info',position: 'fullpage'},
-        map_intro: {lat: 46.45, lng:-100.95, zoom: 10,name: 'StandingRock', layers:[ 'standingrock','aquifer', 'PhotoLayers1']},
-        map_pipeline: {lat: 46.45, lng:-100.82, zoom: 11,name: 'Pipeline', layers:['standingrock', 'aquifer',  'pipeline', 'PhotoLayers2']},
-        map_camp: {lat: 46.45, lng:-100.71,  zoom: 12,name: 'Protest', layers:['standingrock','aquifer', 'pipeline', 'camp_symbol', 'PhotoLayers3']},
+        map_intro: {lat: 46.45, lng:-100.95, zoom: 10,name: 'StandingRock', layers:[ 'basemapmapbox', 'standingrock','aquifer', 'riverwhole', 'PhotoLayers1']},
+        map_pipeline: {lat: 46.45, lng:-100.82, zoom: 11,name: 'Pipeline', layers:['standingrock', 'aquifer',  'rivermain','riverwhole', 'pipeline', 'PhotoLayers2']},
+        map_camp: {lat: 46.45, lng:-100.71,  zoom: 12,name: 'Protest', layers:['standingrock','aquifer', 'rivermain','riverwhole', 'pipeline', 'camp_symbol', 'PhotoLayers3']},
         map_hex: {lat: 47, lng:-102, zoom: 7,name: 'Facebook', layers:['CartoDB_Positron','checkin_marker']},
         map_hex_case1: {lat: 40, lng:-100.55, zoom: 5,name: 'Facebook', layers:[ 'CartoDB_Positron','fb_symbol']},
         map_hex_case2: {lat: 40, lng:-100.55, zoom: 5,name: 'Facebook', layers:[ 'CartoDB_Positron','hex']},
