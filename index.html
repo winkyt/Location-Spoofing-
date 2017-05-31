@@ -305,7 +305,8 @@
 					<h2 class="modal-title">About</h2>
 				</div>
 				<div class="modal-body">
-					<p>Dr.Jennifer Veilleux | Florida International University |</p><a href="https://www.jenniferveilleux.com/">webpage</a>
+					<p>Dr.Jennifer Veilleux | Florida International University |</p><a href="https://www.jenniferveilleux.com/">webpage</a><br/>
+					<p>The context of this web was collected from Argus Leader, CNN, Democracy Now, The Washington Post, The Guardian, Stand with Standing Rock, and Wikipedia!</p>
 					<p>Cover photo by Sam Beebe/Ecotrust - retrieved from Wikimedia Commons</p><br>
 					<p>End photo retrieved from Wikimedia Commons</p><br>
 					<p style="font-size:20px">Geographic Data</p><br>
@@ -640,7 +641,7 @@
         'camp_symbol' : [camp_symbol],
 
         'aquifer': [ L.geoJson.ajax('assets/aquifer.geojson',  {
-            color: '#67B8E0',
+            color: '#ABD1E8',
             weight: 0,
 			fillOpacity: 0.5
             //opacity: 0.9
@@ -654,10 +655,10 @@
         })
         ],
         'riverwhole': [ L.geoJson.ajax('assets/riverwhole.geojson',  {
-            color: '#006080',
+            color: '#ABD1E8',
             weight: 5,
             //fillOpacity: 0.8,
-            opacity: 0.4
+            opacity: 0.9
         })
         ],
         'camp': [ L.geoJson.ajax('assets/camp.geojson',  {
@@ -676,7 +677,8 @@
             color: "#B51E1E",
             weight: 25,
             dashArray: "50 25",
-            className: 'pipeline_pattern'
+            className: 'pipeline_pattern',
+			opacity: 0.7
         }),
         ],
         'standingrock': [ L.geoJson.ajax('assets/StandingRock_outline.geojson',  {
@@ -685,7 +687,7 @@
             fillPattern: stripes,
             stroke: false,
             opacity: 1,
-            fillOpacity: 0.6})
+            fillOpacity: 0.5})
         ],
         'basemapmapbox' :[ L.mapboxGL({
             accessToken: 'pk.eyJ1IjoidGlhbnkiLCJhIjoiY2oyOGFyemhzMDBlZjJ3cWtydjBpMHZzdSJ9.KB4Qs2my3g97OeJSPLIHOw',
