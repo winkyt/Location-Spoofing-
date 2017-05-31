@@ -29,7 +29,7 @@
 	<!--leaflet-->
 	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
-	<script src="https://cdn.rawgit.com/teastman/Leaflet.pattern/44c56780/dist/leaflet.pattern-src.js"></script>
+	<!--<script src="https://cdn.rawgit.com/teastman/Leaflet.pattern/44c56780/dist/leaflet.pattern-src.js"></script>-->
 	<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.js"></script>
 	<script src="https://rawgit.com/mapbox/mapbox-gl-leaflet/master/leaflet-mapbox-gl.js"></script>
 	<script src="js/leaflet.markercluster-src.js"></script>
@@ -455,24 +455,25 @@
         }
     });
 
-    var shape = new L.PatternCircle({ x: 12, y: 12, radius: 10, fill: true, color:'red',opacity:'0.5'});
-    var pattern = new L.Pattern({stroke:true});
-    var stripes = new L.StripePattern({
-        patternContentUnits: 'objectBoundingBox',
-        patternUnits: 'objectBoundingBox',
-        weight: 0.5,
-        spaceWeight: 0.5,
-        height: 0.03,
-        angle: -45,
-        color:'orange',
-    });
+
+//    var shape = new L.PatternCircle({ x: 12, y: 12, radius: 10, fill: true, color:'red',opacity:'0.5'});
+//    var pattern = new L.Pattern({stroke:true});
+//    var stripes = new L.StripePattern({
+//        patternContentUnits: 'objectBoundingBox',
+//        patternUnits: 'objectBoundingBox',
+//        weight: 0.5,
+//        spaceWeight: 0.5,
+//        height: 0.03,
+//        angle: -45,
+//        color:'orange',
+//    });
 
 
 
 
     var options = {
         opacity: 0.9,
-        radiusRange: [ 5, 10 ],
+        radiusRange: [ 1, 10 ],
         duration: 200,
         colorScaleExtent: [ 1, undefined ],
         colorRange: colorbrewer["YlOrRd"][5],
@@ -486,7 +487,7 @@
 //        .on('mouseout', function(d, i) { console.log("ttt"); })
 //        .on('click', function(d, i) { console.log("ttt"); });
 
-    function generateData1() {
+    function generateData() {
         var data = [];
         for(var i = 0; i < fb.features.length; i++) {
             lng = fb.features[i].geometry.coordinates[1];
@@ -495,7 +496,7 @@
         }
         hexLayer.data(data);
     }
-    generateData1();
+    generateData();
 
 
 
@@ -635,7 +636,7 @@
 
 //            close zomm
 //            L.control.zoom({ position: 'bottomright'}).addTo(map);
-            stripes.addTo(map);
+//            stripes.addTo(map);
 
             // create a mini globe as the overview map control.
             var miniMap = new L.Control.GlobeMiniMap({

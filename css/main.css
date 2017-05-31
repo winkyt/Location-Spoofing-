@@ -292,7 +292,6 @@ p{
 }
 
 
-
 .sr-label{
     font-weight: bold;
     font-style: italic;
@@ -311,7 +310,9 @@ p{
 
 .marker-icon {
 
-    color: green; font-size: 45px; text-shadow: 0 0 4px #ffffff;
+    color: green;
+    font-size: 45px;
+    text-shadow: 0 0 2px #ffffff;
 }
 
 .checkin-label {
@@ -323,4 +324,8 @@ p{
     width:200px;
     font-size:20px;
     background-color: transparent;
+}
+
+.checkin-label:before{
+    border-left-color: rgba(0,0,0, 0);
 }
