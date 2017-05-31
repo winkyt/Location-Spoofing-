@@ -29,3 +29,6 @@ please view the /video
 2017.05.16 initial storymap
 
 2017.05.17 Add more. Still keep the map tile added to every page(should change it once the data geojsons are ready)
+
+## ABOUT PAGE 
+The context about Standing Rock was collected from Wikipedia, CNN, The Washington Post, The Guardian, Stand with Standing Rock, Democracy Now!
