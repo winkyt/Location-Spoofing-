@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9680569c-4b5a-4a17-a752-ab6df2c1b317" name="Default" comment="">
+    <list default="true" id="9680569c-4b5a-4a17-a752-ab6df2c1b317" name="Default" comment="0.0.5">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JVimage/people .jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JVimage/people7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JVimage/protest.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JVimage/speech .jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JVimage/camp2.jpg" afterPath="$PROJECT_DIR$/JVimage/camp2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fish_style.css" afterPath="$PROJECT_DIR$/css/fish_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,28 +31,28 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="412">
+              <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fish_style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fish_style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/fish_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5265">
-              <caret line="195" column="51" lean-forward="false" selection-start-line="195" selection-start-column="51" selection-end-line="195" selection-end-column="51" />
+            <state relative-caret-position="250">
+              <caret line="191" column="20" lean-forward="false" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="727" column="95" lean-forward="false" selection-start-line="727" selection-start-column="95" selection-end-line="727" selection-end-column="95" />
+            <state relative-caret-position="331">
+              <caret line="277" column="48" lean-forward="false" selection-start-line="277" selection-start-column="43" selection-end-line="277" selection-end-column="48" />
               <folding>
                 <element signature="e#3943#3949#0" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,26 +67,9 @@
                 <element signature="n#style#0;n#i#0;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#1;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#2;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#16570#16577#1" expanded="true" />
-                <element signature="n#style#0;n#p#4;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#8;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#22932#23102#0" expanded="false" />
-                <element signature="e#23104#23264#0" expanded="false" />
-                <element signature="e#23266#23426#0" expanded="false" />
-                <element signature="e#23428#23591#0" expanded="false" />
-                <element signature="e#23593#23755#0" expanded="false" />
-                <element signature="e#23778#23939#0" expanded="false" />
-                <element signature="e#23941#24103#0" expanded="false" />
-                <element signature="e#24105#24268#0" expanded="false" />
-                <element signature="e#24270#24434#0" expanded="false" />
-                <element signature="e#24436#24597#0" expanded="false" />
-                <element signature="e#24599#24759#0" expanded="false" />
-                <element signature="e#24761#24924#0" expanded="false" />
-                <element signature="e#24947#25109#0" expanded="false" />
-                <element signature="e#25111#25274#0" expanded="false" />
-                <element signature="e#25276#25437#0" expanded="false" />
-                <element signature="e#25439#25600#0" expanded="false" />
-                <element signature="e#25767#25930#0" expanded="false" />
+                <element signature="n#style#0;n#i#3;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#4;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#16798#16805#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,8 +110,8 @@
       <file leaf-file-name="colorbrewer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/colorbrewer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" column="144" lean-forward="false" selection-start-line="15" selection-start-column="142" selection-end-line="15" selection-end-column="144" />
+            <state relative-caret-position="234">
+              <caret line="15" column="233" lean-forward="false" selection-start-line="15" selection-start-column="144" selection-end-line="15" selection-end-column="233" />
               <folding />
             </state>
           </provider>
@@ -138,17 +128,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>h2_overview</find>
-      <find>logo</find>
-      <find>where are</find>
-      <find>logp</find>
-      <find>img-responsive</find>
-      <find>img</find>
-      <find>standing on</find>
-      <find>embeded-photo</find>
-      <find>marker</find>
-      <find>h3_info</find>
-      <find>text-center</find>
       <find>INFO</find>
       <find>camp_symbol</find>
       <find>background-fullscreen-setting</find>
@@ -168,6 +147,17 @@
       <find>http</find>
       <find>Cover photo by Sam Beebe/Ecotrust</find>
       <find>aquifer</find>
+      <find>hexla</find>
+      <find>nav</find>
+      <find>h3_info</find>
+      <find>#sta</find>
+      <find>navwidget</find>
+      <find>About</find>
+      <find>Google Trends</find>
+      <find>icon</find>
+      <find>p</find>
+      <find>favi</find>
+      <find>end</find>
     </findStrings>
     <replaceStrings>
       <replace>assets</replace>
@@ -196,9 +186,9 @@
         <option value="$PROJECT_DIR$/assets/SRlabel.geojson" />
         <option value="$PROJECT_DIR$/assets/geofbposts_interest.geojson" />
         <option value="$PROJECT_DIR$/assets/geofbposts.geojson" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/fish_style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -276,14 +266,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backup/LocationSpoofing20170528" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/LocationSpoofing_index.html" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -429,7 +419,8 @@
       <workItem from="1496000272945" duration="875000" />
       <workItem from="1496025670374" duration="16915000" />
       <workItem from="1496184606132" duration="7667000" />
-      <workItem from="1496203261617" duration="2961000" />
+      <workItem from="1496203261617" duration="5718000" />
+      <workItem from="1496209130246" duration="8921000" />
     </task>
     <task id="LOCAL-00001" summary="0.0.2">
       <created>1495833358708</created>
@@ -676,11 +667,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496206182027</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="0.0.5">
+      <created>1496206246259</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1496206246259</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189279000" />
+    <option name="totallyTimeSpent" value="200957000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,12 +696,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19090429" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.028312571" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31545237" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31545237" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298639" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -749,7 +747,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -868,30 +866,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/colorbrewer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="144" lean-forward="false" selection-start-line="15" selection-start-column="142" selection-end-line="15" selection-end-column="144" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fish_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5265">
-          <caret line="195" column="51" lean-forward="false" selection-start-line="195" selection-start-column="51" selection-end-line="195" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/storymap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -918,10 +892,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/colorbrewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="233" lean-forward="false" selection-start-line="15" selection-start-column="144" selection-end-line="15" selection-end-column="233" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="727" column="95" lean-forward="false" selection-start-line="727" selection-start-column="95" selection-end-line="727" selection-end-column="95" />
+        <state relative-caret-position="331">
+          <caret line="277" column="48" lean-forward="false" selection-start-line="277" selection-start-column="43" selection-end-line="277" selection-end-column="48" />
           <folding>
             <element signature="e#3943#3949#0" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -936,27 +918,26 @@
             <element signature="n#style#0;n#i#0;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#1;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#2;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#16570#16577#1" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#8;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#22932#23102#0" expanded="false" />
-            <element signature="e#23104#23264#0" expanded="false" />
-            <element signature="e#23266#23426#0" expanded="false" />
-            <element signature="e#23428#23591#0" expanded="false" />
-            <element signature="e#23593#23755#0" expanded="false" />
-            <element signature="e#23778#23939#0" expanded="false" />
-            <element signature="e#23941#24103#0" expanded="false" />
-            <element signature="e#24105#24268#0" expanded="false" />
-            <element signature="e#24270#24434#0" expanded="false" />
-            <element signature="e#24436#24597#0" expanded="false" />
-            <element signature="e#24599#24759#0" expanded="false" />
-            <element signature="e#24761#24924#0" expanded="false" />
-            <element signature="e#24947#25109#0" expanded="false" />
-            <element signature="e#25111#25274#0" expanded="false" />
-            <element signature="e#25276#25437#0" expanded="false" />
-            <element signature="e#25439#25600#0" expanded="false" />
-            <element signature="e#25767#25930#0" expanded="false" />
+            <element signature="n#style#0;n#i#3;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#4;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#16798#16805#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fish_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="191" column="20" lean-forward="false" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

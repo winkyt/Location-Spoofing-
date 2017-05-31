@@ -4,7 +4,16 @@
 
 
 .social {
-    padding-left:0px; padding-right:-4px !important;
+    position:fixed;
+    padding-left: 0px;
+    padding-right: 0px !important;
+    cursor: pointer;
+}
+.social2 {
+    position:fixed;
+    padding-left: 1px;
+    padding-right:18px !important;
+    cursor: pointer;
 }
 
 .social:hover {
@@ -23,6 +32,18 @@
     right: 1%;
     bottom: 3%;
     align-content: right
+}
+
+.quote{
+    font-size:35px;
+    color: white;
+    text-shadow: 0 0 4px black;
+    margin-left: 35%;
+    margin-right: 6%;
+    text-align:justify;
+    position:absolute;
+    top: 10%;
+
 }
 
 .arrow-down-custom{
@@ -82,7 +103,7 @@ h1{
     font-weight:bold;
     color: rgba(0, 0, 0, 0.9);
     margin-top: 5%;
-    margin-left: 6%;
+    margin-left: 4%;
     /*text-shadow: 0 0 3px rgba(255, 255, 255, 1);*/
     font-family: 'Fira Sans Condensed', serif;
 }
@@ -100,8 +121,8 @@ h2{
 .h2_overview{
     font-size:25px;
     /*margin-top: 20px;*/
-    padding-left: 7%;
-    padding-right: 27%;
+    padding-left: 5%;
+    padding-right: 28%;
     padding-bottom: 2%;
     color: whitesmoke;
     text-shadow: 0 0 1px black;
@@ -117,13 +138,15 @@ h3{
     color: #000000;
     font-family: 'Titillium Web', serif;
     font-size:30px;
-    margin-bottom: 0px;
+    margin-top: -23%;
+    margin-bottom: 2.5%;
     color: rgba(0, 0, 0, 0.95);
     text-shadow: 0 0 1px rgba(255, 255, 255, 1);
 }
 
 .h3_info{
     font-size:50px;
+    margin-top: -5%;
 }
 
 h4{
@@ -151,7 +174,7 @@ p{
     margin-right: 6%;
     text-align:justify;
     position:absolute;
-    top: 30%;
+    top: 40%;
 }
 
 .description{
@@ -184,7 +207,6 @@ p{
     -o-background-size: cover;
     background-size: cover;
 }
-
 
 .circle {
     -webkit-border-radius: 25px;
