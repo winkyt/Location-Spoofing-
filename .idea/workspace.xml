@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9680569c-4b5a-4a17-a752-ab6df2c1b317" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/data.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fish_style.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/geofbposts_confusing.js" afterPath="$PROJECT_DIR$/backup/geofbposts_confusing.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/geofbposts_interest.js" afterPath="$PROJECT_DIR$/backup/geofbposts_interest.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/geofbposts_support.js" afterPath="$PROJECT_DIR$/backup/geofbposts_support.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -25,8 +30,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
-              <caret line="306" column="34" lean-forward="false" selection-start-line="306" selection-start-column="34" selection-end-line="306" selection-end-column="34" />
+            <state relative-caret-position="371">
+              <caret line="286" column="20" lean-forward="true" selection-start-line="286" selection-start-column="20" selection-end-line="286" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -35,10 +40,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="432" column="20" lean-forward="false" selection-start-line="432" selection-start-column="20" selection-end-line="432" selection-end-column="20" />
+            <state relative-caret-position="99">
+              <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="53" />
               <folding>
-                <element signature="e#3943#3949#0" expanded="true" />
+                <element signature="e#3883#3889#0" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -53,59 +58,17 @@
                 <element signature="n#style#0;n#i#2;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#3;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#4;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#16798#16805#1" expanded="true" />
+                <element signature="e#16738#16745#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StandingRock_outline.geojson" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/StandingRock_outline.geojson">
+      <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="4" column="339" lean-forward="false" selection-start-line="4" selection-start-column="332" selection-end-line="4" selection-end-column="339" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rivermain.geojson" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/rivermain.geojson">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="riverwhole.geojson" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/riverwhole.geojson">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="storymap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/storymap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1495865339603" expanded="true" signature="12026:12040" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colorbrewer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/colorbrewer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" column="233" lean-forward="false" selection-start-line="15" selection-start-column="144" selection-end-line="15" selection-end-column="233" />
+            <state relative-caret-position="1141">
+              <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,20 +80,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>overview-background-img</find>
-      <find>people8</find>
-      <find>back</find>
-      <find>p_end</find>
-      <find>created</find>
-      <find>fav</find>
-      <find>credit</find>
-      <find>cre</find>
-      <find>YlOrRd</find>
       <find>options</find>
       <find>backgroun</find>
       <find>http</find>
@@ -148,10 +103,19 @@
       <find>end</find>
       <find>navwidget</find>
       <find>Label</find>
-      <find>checkin_marker</find>
       <find>StandingRock_outline.geojson</find>
       <find>marker</find>
       <find>SR_marker</find>
+      <find>embeded-photo</find>
+      <find>sr-label</find>
+      <find>mainmapmoved</find>
+      <find>blinking</find>
+      <find>checkin_marker</find>
+      <find>feature-label</find>
+      <find>animated</find>
+      <find>fb</find>
+      <find>layers</find>
+      <find>check-in</find>
     </findStrings>
     <replaceStrings>
       <replace>assets</replace>
@@ -182,6 +146,7 @@
         <option value="$PROJECT_DIR$/assets/geofbposts.geojson" />
         <option value="$PROJECT_DIR$/css/fish_style.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/assets/data.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -193,10 +158,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="y" value="22" />
+    <option name="width" value="1190" />
+    <option name="height" value="1366" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -232,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,12 +218,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationSpoofing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationSpoofing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationSpoofing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationSpoofing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationSpoofing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationSpoofing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationSpoofing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationSpoofing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -275,19 +295,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backup" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\OSU-VR\Documents\workspace\LocationSpoofing\assets" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/backup" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,23 +329,11 @@
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LocationSpoofing/index.html">
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
       <node-interpreter value="project" />
       <working-dir value="" />
       <envs />
       <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -338,12 +346,6 @@
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -416,6 +418,7 @@
       <workItem from="1496203261617" duration="5718000" />
       <workItem from="1496209130246" duration="9101000" />
       <workItem from="1496248061567" duration="3272000" />
+      <workItem from="1496253039587" duration="3421000" />
     </task>
     <task id="LOCAL-00001" summary="0.0.2">
       <created>1495833358708</created>
@@ -680,7 +683,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204409000" />
+    <option name="totallyTimeSpent" value="209216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,18 +695,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="0" y="22" width="1190" height="1366" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19090429" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3336185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.028312571" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.028044872" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31545237" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298639" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -754,8 +757,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backup/Leaflet.Photo.css" />
-    <entry file="file://$PROJECT_DIR$/css/map.css" />
     <entry file="file://$PROJECT_DIR$/js/Leaflet.Photo.js" />
     <entry file="file://$PROJECT_DIR$/lib/leaflet/leaflet.js" />
     <entry file="file://$PROJECT_DIR$/tyy.html" />
@@ -784,21 +785,6 @@
     <entry file="file://$PROJECT_DIR$/css/storymap.css" />
     <entry file="file://$PROJECT_DIR$/assets/countries.geo.json" />
     <entry file="file://$PROJECT_DIR$/img/favicon.ico" />
-    <entry file="file://$PROJECT_DIR$/assets/geofbposts_support.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/geofbposts_confusing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="345" lean-forward="false" selection-start-line="4" selection-start-column="345" selection-end-line="4" selection-end-column="345" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/trend.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-140">
@@ -808,17 +794,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/graphic.js" />
     <entry file="file://$PROJECT_DIR$/css/graphic.css" />
-    <entry file="file://$PROJECT_DIR$/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1132">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <marker date="1496091747331" expanded="true" signature="25679:25685" ph="©" />
-            <marker date="1496091747331" expanded="true" signature="25753:25759" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/camp.geojson">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -830,28 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/geofbposts_interest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/geofbposts_interest.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/geofbposts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,9 +824,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1495865339603" expanded="true" signature="12026:12040" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -881,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,48 +839,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fish_style.css" />
+    <entry file="file://$PROJECT_DIR$/assets/StandingRock_outline.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="4" column="339" lean-forward="false" selection-start-line="4" selection-start-column="332" selection-end-line="4" selection-end-column="339" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/colorbrewer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="233" lean-forward="false" selection-start-line="15" selection-start-column="144" selection-end-line="15" selection-end-column="233" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/fish_style.css">
+    <entry file="file://$PROJECT_DIR$/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="188" column="51" lean-forward="false" selection-start-line="188" selection-start-column="51" selection-end-line="188" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/StandingRock_outline.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="4" column="339" lean-forward="false" selection-start-line="4" selection-start-column="332" selection-end-line="4" selection-end-column="339" />
-          <folding />
+        <state relative-caret-position="969">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <marker date="1496089819000" expanded="true" signature="25679:25685" ph="©" />
+            <marker date="1496089819000" expanded="true" signature="25753:25759" ph="©" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="306" column="34" lean-forward="false" selection-start-line="306" selection-start-column="34" selection-end-line="306" selection-end-column="34" />
+        <state relative-caret-position="371">
+          <caret line="286" column="20" lean-forward="true" selection-start-line="286" selection-start-column="20" selection-end-line="286" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/geofbposts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="5" column="645" lean-forward="true" selection-start-line="5" selection-start-column="645" selection-end-line="5" selection-end-column="645" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/geofbposts_support.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="4" column="839" lean-forward="true" selection-start-line="4" selection-start-column="839" selection-end-line="4" selection-end-column="839" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/geofbposts_interest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/geofbposts_confusing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="4" column="1155" lean-forward="false" selection-start-line="4" selection-start-column="1155" selection-end-line="4" selection-end-column="1155" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/geofbposts_interest.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="4" column="765" lean-forward="false" selection-start-line="4" selection-start-column="765" selection-end-line="4" selection-end-column="765" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/geoviz-logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1141">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="432" column="20" lean-forward="false" selection-start-line="432" selection-start-column="20" selection-end-line="432" selection-end-column="20" />
+        <state relative-caret-position="99">
+          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="53" />
           <folding>
-            <element signature="e#3943#3949#0" expanded="true" />
+            <element signature="e#3883#3889#0" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#1;n#div#0;n#section#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -945,7 +952,7 @@
             <element signature="n#style#0;n#i#2;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#3;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#4;n#div#0;n#section#7;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#16798#16805#1" expanded="true" />
+            <element signature="e#16738#16745#1" expanded="true" />
           </folding>
         </state>
       </provider>

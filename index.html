@@ -51,8 +51,7 @@
 	<script src="https://jakobzhao.github.io/storymap/dist/storymap.js"></script>
 	<!--<script src="js/storymap.js"></script>-->
 
-	<script src="assets/geofbposts.js"></script>
-	<script src="assets/geofbposts_support.js"></script>
+	<script src="assets/data.js"></script>
 
 </head>
 <body>
@@ -349,6 +348,9 @@
 
 <script type="text/javascript">
 
+
+
+
     var margin = {top: 20, right: 20, bottom: 30, left: 50},
         width = 900 - margin.left - margin.right,
         height = 400 - margin.top - margin.bottom;
@@ -416,31 +418,21 @@
             .attr("d", line);
     });
 
-    var checkin_marker = L.marker([46.414719, -100.615682], {
-        icon: L.icon({
-            iconUrl: 'img/marker.png',
-            iconSize:     [40, 70], // size of the icon
-            shadowSize:   [50, 64], // size of the shadow
-            iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-            popupAnchor:  [-3, -76], // point from which the popup should open relative to the iconAnchor
-            className: 'blinking',
-        })
-	});
 
-    checkin_marker.bindTooltip("@Standing Rock",{sticky: false, className: "feature-label boucingmarker",permanent: true});
+
+    var checkin_marker = L.marker([46.414719, -100.615682],  { icon: L.divIcon({className: 'animated fadeIn infinite fa fa-facebook marker-icon'})});
+
+    checkin_marker.bindTooltip("@Standing Rock",{sticky: false, className: "checkin-label",permanent: true});
 
     var SR_marker = L.marker([46.2, -100.64],
         { opacity: 0 }); //opacity may be set to zero
     SR_marker.bindTooltip("Standing Rock<br/> Indian Reservation", {
         permanent: true,
-        className: "SR-label text-center",
+        className: "sr-label text-center",
         offset: [0, 0]
     });
 
 
-
-
-    $('html > head').append($("<style> .marker-icon { color: green; font-size: 45px; text-shadow: 0 0 4px #ffffff;} </style>"));
 
     var camp_symbol = L.geoJson.ajax('assets/camp.geojson', {
         pointToLayer: function (feature, latlng) {
@@ -476,119 +468,7 @@
     });
 
 
-    var photos1 = [{
-        lat: 46.414719,
-        lng: -100.615682,
-        thumbnail: "JVimage/people1.jpg",
-        url: "JVimage/people1.jpg",
-       caption: "Native American at Standing Rock"
-    }, {
-        lat: 46.3,
-        lng: -100.7,
-        thumbnail: "JVimage/people2.jpg",
-        url: "JVimage/people2.jpg",
-       caption: "Native American at Standing Rock"
-    }, {
-        lat: 46.5,
-        lng: -100.8,
-        thumbnail: "JVimage/people3.jpg",
-        url: "JVimage/people3.jpg",
-       caption: "Native American at Standing Rock"
-    }, {
-        lat: 46.521,
-        lng: -100.45,
-        thumbnail: "JVimage/people4.jpg",
-        url: "JVimage/people4.jpg",
-       caption: "Native American at Standing Rock"
-    }, {
-        lat: 46.15,
-        lng: -100.66,
-        thumbnail: "JVimage/people5.jpg",
-        url: "JVimage/people5.jpg",
-       caption: "Native American at Standing Rock"
-    }];
 
-    var photos2 = [{
-        lat: 46.4,
-        lng: -100.8,
-        thumbnail: "JVimage/speech1.jpg",
-        url: "JVimage/speech1.jpg",
-        caption: "protest: speech"
-    }, {
-        lat: 46.34,
-        lng: -100.4,
-        thumbnail: "JVimage/speech2.jpg",
-        url: "JVimage/speech2.jpg",
-        caption: "protest: speech"
-    }, {
-        lat: 46.31,
-        lng: -100.56,
-        thumbnail: "JVimage/water.jpg",
-        url: "JVimage/water.jpg",
-        caption: "protest: water"
-    }, {
-        lat: 46.455,
-        lng: -100.58,
-        thumbnail: "JVimage/kid.jpg",
-        url: "JVimage/kid.jpg",
-        caption: "protest: kid"
-    }, {
-        lat: 46.45,
-        lng: -100.67,
-        thumbnail: "JVimage/kid.jpg",
-        url: "JVimage/kid.jpg",
-        caption: "protest: kid"
-    }, {
-        lat: 46.5,
-        lng: -100.68,
-        thumbnail: "JVimage/kid.jpg",
-        url: "JVimage/kid.jpg",
-        caption: "protest: kid"
-    }, {
-        lat: 46.42,
-        lng: -100.66,
-        thumbnail: "img/people6.jpg",
-        url: "img/people6.jpg",
-        caption: "protest at Standing Rock"
-    }];
-
-    var photos3 = [{
-        lat: 46.4,
-        lng: -100.65,
-        thumbnail: "JVimage/camp1.jpg",
-        url: "JVimage/camp1.jpg",
-        caption: "protest camp"
-    }, {
-        lat: 46.42,
-        lng: -100.64,
-        thumbnail: "JVimage/camp2.jpg",
-        url: "JVimage/camp2.jpg",
-        caption: "protest camp"
-    }, {
-        lat: 46.45,
-        lng: -100.67,
-        thumbnail: "JVimage/protest1.jpg",
-        url: "JVimage/protest1.jpg",
-        caption: "Protest at Standing Rock"
-    }, {
-        lat: 46.44,
-        lng: -100.67,
-        thumbnail: "JVimage/protest2.jpg",
-        url: "JVimage/protest2.jpg",
-        caption: "Protest at Standing Rock"
-    }, {
-        lat: 46.42,
-        lng: -100.66,
-        thumbnail: "JVimage/flag.jpg",
-        url: "JVimage/flag.jpg",
-        caption: "Protest flag"
-    }, {
-        lat: 46.42,
-        lng: -100.66,
-        thumbnail: "JVimage/kid.jpg",
-        url: "iJVimage/kid.jpg",
-        caption: "kid"
-    }];
 
     var options = {
         opacity: 0.9,
@@ -618,31 +498,10 @@
     generateData1();
 
 
-    var options2 = {
-        opacity: 0.8,
-        radiusRange: [ 5, 10 ],
-        duration: 500,
-        colorScaleExtent: [ 1, undefined ],
-        colorRange: colorbrewer["YlOrRd"][5],
-        pointerEvents: 'auto'
-    };
-    var hexLayer_support = L.hexbinLayer(options2);
-
-    function generateData2() {
-        var data = [];
-        for(var i = 0; i < fb_support.features.length; i++) {
-            lng = fb_support.features[i].geometry.coordinates[1];
-            lat = fb_support.features[i].geometry.coordinates[0];
-            data.push([ lat, lng ]);
-        }
-        hexLayer_support.data(data);
-    }
-    generateData2();
 
     function showPhoto (evt) {
 
         var photo = evt.layer.photo;
-
         $(".embeded-photo").empty().append("<img src='" + photo.url +"' /> <br/> <p class='text-center'> " +  photo.caption +" <p>");
 
     }
@@ -716,8 +575,7 @@
 
         'standingrock' :  [L.geoJson.ajax('assets/StandingRock_outline.geojson',  {
             color: "orange",
-            /*fillPattern: stripes,
-             stroke: false,*/
+            weight: 0,
             opacity: 1,
             fillOpacity: 0.5
         })
@@ -750,8 +608,7 @@
         'PhotoLayers1': [photoLayer1],
         'PhotoLayers2': [photoLayer2],
         'PhotoLayers3': [photoLayer3],
-		'hex':[hexLayer],
-		'hex_support':[hexLayer_support]
+		'hex':[hexLayer]
     };
 
     var scenes = {

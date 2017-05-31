@@ -104,7 +104,7 @@ h1{
     color: rgba(0, 0, 0, 0.9);
     margin-top: 5%;
     margin-left: 4%;
-    /*text-shadow: 0 0 3px rgba(255, 255, 255, 1);*/
+    text-shadow: 0 0 3px rgba(255, 255, 255, 1);
     font-family: 'Fira Sans Condensed', serif;
 }
 
@@ -237,22 +237,21 @@ p{
 }
 
 
-.embeded-photo {
+.embeded-photo img {
     /*margin-top:20px;*/
     margin: 4px 4px 4px 4px;
     box-shadow: 0 0 0 4px #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    /*border: 1px solid #ddd;*/
+    border-radius: 1px;
     padding: 5px;
     background-color: white;
-}
-
-.embeded-photo img {
     max-width: 480px;
 }
 
+
 .embeded-photo p {
-    font-size: 15px
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .linechart {
@@ -292,16 +291,35 @@ p{
     from { opacity: 0.3; }
 }
 
-.blinking {
-    animation: fade 0.4s infinite alternate;
-}
 
-.boucingmarker{
-    font-size: 25px;
-}
 
-.SR-label{
+.sr-label{
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 1);
     position: relative;
+    border: 0px !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0)  !important;
+    width:200px;
+    font-size:20px;
+    background-color: transparent;
+}
+
+.sr-label:before{
+    border-left-color: rgba(0,0,0, 0);
+}
+
+.marker-icon {
+
+    color: green; font-size: 45px; text-shadow: 0 0 4px #ffffff;
+}
+
+.checkin-label {
+
+    text-shadow: 0 0 2px rgba(255, 255, 255, 1);
+    position: relative;
+    border: 0px !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0)  !important;
     width:200px;
     font-size:20px;
     background-color: transparent;
