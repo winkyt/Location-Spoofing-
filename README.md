@@ -34,7 +34,8 @@ please view the /video
 The context of this web was collected from Argus Leader, CNN, Democracy Now, The Washington Post, The Guardian, Stand with Standing Rock, and Wikipedia!
 
 ## end page 
-Because the government expelled the protesters, the local camp has been forcibly displaced. Although the local Native Americans and other environmentalists cannot express their opinion at the location of Standing Rock, this has not ended support. Through social media, such as Facebook, people check-in to #StandingRock from around the world to show their suppor
+
+Due to the fierce local conflict triggered by the proposed pipeline, environmental protestors were forced to leave their camping area at the Standing Rock. Today, it has become nearly impssible for people to access the former camping area. Even though, an increasing number of social media users still stand with #StandingRock via spoofing their check-ins on Facebook.
 
 ## word cloud color 
 0: ["#800026", "#bd0026", "#e31a1c", "#fc4e2a", "#fd8d3c", "#feb24c", "#fed976", "#ffeda0", "#ffffcc"]
