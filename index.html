@@ -496,8 +496,8 @@
 
     var fb_symbol = L.geoJson.ajax('assets/geofbposts_interest.geojson', {
         pointToLayer: function (feature, latlng) {
-            delay = Math.floor((126 + latlng.lng) / 10 * 2000);
-            return L.marker(latlng, {bounceOnAdd: true,  bounceOnAddOptions: {duration: 200, height: window.innerHeight, delay:delay}, icon: L.divIcon({className: 'fa fa-facebook fa-stack-2x text-primary'})});
+            //delay = Math.floor((126 + latlng.lng) / 10 * 2000);
+            return L.marker(latlng, {bounceOnAdd: true,  bounceOnAddOptions: {duration: 2000, height: window.innerHeight, delay:2000}, icon: L.divIcon({className: 'fa fa-facebook fa-stack-2x text-primary'})});
         },
         onEachFeature: function (feature, layer) {
             layer.bindTooltip('<div class="TooltipDiv">' + '<img src="' + feature.properties.headshot + '"/>' + "   " +'<a>'+ feature.properties.user_name + '</a>' + "   " + '<br/>'+ feature.properties.time2 + '<br/>'+ " <br/>" + feature.properties.content + '</div>', {sticky: false, className: "feature-label",permanent: false});
